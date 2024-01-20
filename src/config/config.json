@@ -1,0 +1,26 @@
+{
+  "site": {
+    "title": "Usach Premium ",
+    "base_url": "https://usachpremium.cl",
+    "base_path": "/",
+    "favicon": "/favicon.png",
+    "logoLight": "/logoLight.png",
+    "logoDark": "/logoDark.png",
+    "lang": "en",
+    "description": "Usach Premium es una organización creada por estudiantes de Ingeniería para ayudar a nuevos estudiantes mediante ayudantías de diferentes ramos.",
+    "pageSize": 6
+  },
+  "features": {
+    "youtube": true,
+    "dark_mode": true
+  },
+  "metadata": {
+    "meta_author": "Reinaldo Pacheco Parra @reii23",
+    "meta_description": "Usach Premium es una organización creada por estudiantes de Ingeniería para ayudar a nuevos estudiantes mediante ayudantías de diferentes ramos."
+  },
+  "author": {
+    "name": "Usach Premium",
+    "avatar": "https://cdn.allmylinks.com/prod/User/photo/n/I/X/Wew5x5yN1SOULjAweUcAk4d-6e9fhAly.jpg",
+    "bio":  "Usach Premium es una organización creada por estudiantes de Ingeniería para ayudar a nuevos estudiantes mediante ayudantías de diferentes ramos."
+  }
+}

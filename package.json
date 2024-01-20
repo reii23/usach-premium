@@ -1,0 +1,69 @@
+{
+  "name": "ev0-astro-theme",
+  "version": "1.1.5",
+  "description": "Usach Premium with Astro by reii23",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "reii23"
+  },
+  "homepage": "",
+  "contributors": [
+    {
+      "name": "Reinaldo Pacheco Parra @reii23",
+      "email": "reinaldo.pacheco@usach.cl"  
+    }
+  ],
+  "keywords": [
+    "JavaScript",
+    "Astro",
+    "react",
+    "tailwindcss",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reii23/UsachPremium"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "youtube": "node scripts/youtube.cjs",
+    "newpost": "astro-md-generator",
+    "format": "prettier -w .",
+    "lint:eslint": "eslint . --ext .js,.ts,.astro"
+  },
+  "devDependencies": {
+    "@astrojs/mdx": "2.0.2",
+    "@astrojs/rss": "4.0.1",
+    "@astrojs/sitemap": "3.0.3",
+    "@astrojs/tailwind": "5.0.4",
+    "@tailwindcss/aspect-ratio": "0.4.2",
+    "@tailwindcss/typography": "0.5.10",
+    "@typescript-eslint/eslint-plugin": "6.15.0",
+    "@typescript-eslint/parser": "6.15.0",
+    "astro": "4.0.7",
+    "astro-md-generator": "1.0.0",
+    "astro-robots-txt": "1.0.0",
+    "dotenv": "16.3.1",
+    "eslint": "8.56.0",
+    "eslint-plugin-astro": "0.31.0",
+    "eslint-plugin-jsx-a11y": "6.8.0",
+    "googleapis": "129.0.0",
+    "prettier": "3.1.1",
+    "prettier-plugin-astro": "0.12.2",
+    "prettier-plugin-tailwindcss": "0.5.9",
+    "tailwindcss": "3.4.0",
+    "vite-plugin-pwa": "0.17.4"
+  },
+  "resolutions": {
+    "astro/sharp": "0.33.1",
+    "astro-compress/sharp": "0.33.1"
+  },
+  "dependencies": {
+    "astro-compressor": "^0.4.1"
+  }
+}
