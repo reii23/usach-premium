@@ -5,15 +5,15 @@
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "Sobre Nosotros",
       "url": "/about"
     },
     {
-      "name": "Tags",
+      "name": "Etiquetas",
       "url": "/tags"
     },
     {
-      "name": "Categories",
+      "name": "Categorías",
       "url": "/categories"
     }
   ]

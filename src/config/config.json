@@ -3,7 +3,7 @@
     "title": "Usach Premium ",
     "base_url": "https://usachpremium.cl",
     "base_path": "/",
-    "favicon": "/favicon.png",
+    "favicon": "/favicon",
     "logoLight": "/logoLight.png",
     "logoDark": "/logoDark.png",
     "lang": "en",
