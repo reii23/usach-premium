@@ -19,7 +19,7 @@ const { title, description, pubDate, heroImage, categories, tags } =
     <div class="rounded-lg block overflow-hidden mb-8">
       {
         heroImage && (
-          <figure class="w-auto h-auto md:h-[480px] object-cover">
+          <figure class="w-auto h-auto md:h-[250px] object-cover">
             <Image
               class="transition duration-300 ease-in-out hover:scale-110"
               src={heroImage}
@@ -77,7 +77,7 @@ const { title, description, pubDate, heroImage, categories, tags } =
         tags?.map((tag) => (
           <a
             href={`/tags/${slugify(tag)}`}
-            class="capitalize inline-block bg-zinc-200 rounded-full px-3 py-1 text-sm font-semibold text-zinc-700 mr-2 mb-2 dark:bg-zinc-900 dark:text-zinc-400"
+            class="capitalize inline-block bg-zinc-200 rounded-full px-3 py-1 text-sm font-semibold text-zinc-700 mr-2 mb-2 dark:bg-zinc-900 dark:text-400"
           >
             #{tag}
           </a>

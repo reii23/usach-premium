@@ -24,15 +24,40 @@ FING: Corresponde a las siglas de "Facultad de Ingeniería" la cual es compuesta
 
 ED: El Edificio Salas de Innovación Docente o más conocido por "ED" corresponde a un edificio de 8 pisos de la FING, en donde los estudiantes de Ingeniería tienen la mayoría de las clases del MBI. En el horario el primer número de la sala corresponde al piso del edificio. Por ejemplo, si tienes clases en la sala "ED 801" debes dirigirte al octavo piso, en cambio, si tienes clases en la sala "ED 304" tienes que ir al cuarto piso (Este edificio tiene 3 ascensores así que no te preocupes)
 
+<figure>
+  <img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Vista-aerea-Edifico-nuevo-de-Innovacion-Docente.png" alt="ed" width="600">
+  <figcaption>Edificio "ED"</figcaption>
+</figure>
+
 EAO: La Escuela de Artes y Oficios (EAO) es uno de los sectores más antiguos de la universidad. En ella se encuentran algunas salas de clases, el Aula Magna, el Casino Central, entre otros lugares.
+
+<figure>
+<img src="https://dimec.usach.cl/wp-content/uploads/2022/10/dimec-historia-4.jpg" alt="eao" width="600">
+<figcaption>Escuela de Artes y Oficios (EAO)</figcaption>
+</figure>
 
 EPF: Por sus siglas "Edificio Pabellón Forma" o también conocido como "Mall" o "Mayorista 10" es el edificio que está en la entrada a la Universidad por Estación Central. Principalmente, aquí tendrán ramos en donde ocuparán computadores ya que en las salas de clases están equipados con ellos.
 
 Aula Magna: El Aula Magna es una sala de conciertos ubicada en la EAO, generalmente se realizan conciertos, titulaciones y otras actividades.
 
+<figure>
+<img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Aula-Magna-EAO.png" alt="Aula Magna" width="450">
+<figcaption>Aula Magna</figcaption>
+</figure>
+
 Casino Central: Es el Casino Oficial de la EAO. Puedes comprar almuerzo a $1800 con Junaeb y $2500 con efectivo. En el Instagram @usacasinocentral se publican todos los lunes la minuta semanal de almuerzos que se darán durante la semana.
 
-Foro: Uno de los sectores más icónicos de la universidad, en años anteriores se realizaban carretes pero debido a las reparaciones del edificio FAHU, fue cerrado momentáneamente.
+<figure>
+<img src="https://images.mnstatic.com/86/70/867040e7639220dc5391858fee9fb745.jpg" alt="casinoeao" width="450">
+<figcaption>Casino Central</figcaption>
+</figure>
+
+Foro Griego: Uno de los sectores más icónicos de la universidad, en años anteriores se realizaban carretes pero debido a las reparaciones del edificio FAHU, fue cerrado momentáneamente.
+
+<figure>
+<img src="https://fastly.4sqi.net/img/general/600x600/39451191_z72lYV2Vg3Ao4D9FSH-U-Q892cX6yDEf0wqkqvTyZzA.jpg" alt="foro" width="450">
+<figcaption>Foro Griego</figcaption>
+</figure>
 
 Cenicero: Es un sector de la Universidad donde se realizan carretes los días viernes.
 
@@ -44,8 +69,29 @@ PAS / PS: Por sus siglas "Prueba Acumulativa Semestral" o "Prueba de Suficiencia
 
 LOA / SAI: Es la intranet oficial de los estudiantes FING, en el puedes ver información de tu malla, horario, profes, documentos, entre otros. También es importante saber que algunos profes mandan mensajes por la intranet, por lo que debes estar atento.
 
+<figure>
+<img src="https://i.ibb.co/6Z5qzKG/imagen-2024-01-22-001624661.png" alt="Loa" width="300">
+<figcaption>Logo SAI<figcaption>
+</figure>
+
 Uvirtual: Es la plataforma oficial de los estudiantes, en el puedes ver el material y contenido de cada uno de los ramos que estés cursando. Generalmente se suben las clases, guías, fechas de prueba e información.
+
+<figure>
+<img src="https://chilestudia.com/wp-content/uploads/2023/01/USACH-Virtual.png" alt="uvirtual" width="300">
+<figcaption>Logo Uvirtual<figcaption>
+</figure>
 
 Patio de los Naranjos: Es uno de los sectores de la universidad, como su nombre lo dice es un patio que tiene Naranjos, se ubica en la EAO y aquí se ubican los edificios de Feusach, trámites para la TNE, etc.
 
+<figure>
+<img src="https://scontent.fscl36-1.fna.fbcdn.net/v/t1.6435-9/40662290_1192977290856469_4166316137673392128_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=dd63ad&_nc_eui2=AeEVOXGZ_2BMGBWWcWbSx13jM4ttNuNcjiQzi20241yOJNKrC0notc3X4CbOIBMhdsDWIkgYdR4pIGrU9gtcKsNX&_nc_ohc=fWG9TJNWNfEAX9bC3pu&_nc_ht=scontent.fscl36-1.fna&oh=00_AfA4xLhZFkzVykRdELRdVfqN3ejg-9mWP0EkCRmz9xPdNg&oe=65D558DE" alt="Patio de los Naranjos" width="200">
+
+<figcaption>Patio de los Naranjos<figcaption>
+</figure>
+
 Patio de los Perros: Es la entrada principal de la EAO, podrás identificarlo fácilmente por las estatuas de los perritos, al entrar a este patio, evita pisar el escudo ya que según la antigua tradición, si lo pisas, te echas un ramo y/o no te titulas de la u.
+
+<figure>
+<img src="https://pbs.twimg.com/media/EdoZejvWsAA-hTt?format=jpg&name=large" alt="Patio de los Perros" width="500">
+<figcaption>Patio de Los Perros<figcaption>
+</figure>
