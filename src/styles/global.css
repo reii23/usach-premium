@@ -138,3 +138,7 @@ input#nav-toggle:checked ~ #nav-menu {
 .dark #themeToggle:hover .moon {
   @apply stroke-green-200; 
 }
+
+.calculadora-proh {
+  color: #ff0000;
+}
