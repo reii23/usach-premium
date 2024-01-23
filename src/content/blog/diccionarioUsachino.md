@@ -74,7 +74,7 @@ author: '["reii23"]'
 
 ### Foro Griego
 <figure>
-  <img src="https://fastly.4sqi.net/img/general/600x600/39451191_z72lYV2Vg3Ao4D9FSH-U-Q892cX6yDEf0wqkqvTyZzA.jpg" alt="foro" width="450">
+  <img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Foro-Griego-Usach.png" alt="foro" width="450">
   <figcaption>El Foro Griego es uno de los sectores más icónicos de la universidad. En años anteriores se realizaban carretes pero fue cerrado momentáneamente debido a reparaciones del edificio FAHU.</figcaption>
 </figure>
 
