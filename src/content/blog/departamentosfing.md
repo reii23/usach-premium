@@ -1,9 +1,9 @@
 ---
 title: 'Departamentos FING'
 description: 'Departamentos asociados a la Facultad de Ingeniería de la USACH'
-pubDate: '2024-01-22T01:20:12.616Z'
+pubDate: '2024-01-23T01:20:12.616Z'
 heroImage: '/ingenieria.jpg'
-categories: ['cachorros']
+categories: ['bienvenida']
 tags: ['Ingeniería']
 author: '["reii23"]'
 ---
@@ -16,7 +16,7 @@ Fundado en 1982, el Departamento de Ingeniería Informática se encarga de forma
 - Ingeniería Civil Informática
 - Ingeniería de Ejecución en Computación e Informática.
 
-Su sitio web es: https://informatica.usach.cl
+<a href="https://informatica.usach.cl" target="_blank">Visitar el sitio web de DIINF USACH</a>
 
 <figure>
 <img src="https://informatica.usach.cl/wp-content/uploads/2021/06/diinf-scaled.jpg" alt="Entrada DIINF" width="500">
@@ -36,7 +36,7 @@ Fundado en 1972, el Departamento de Ingeniería Química y Bioprocesos se encarg
 - Ingeniería Civil en Química
 - Ingeniería de Ejecución en Química
 
-Su sitio web es: https://diqb.usach.cl
+<a href="https://diqb.usach.cl" target="_blank">Visitar el sitio web de DIQB USACH</a>
 
 <figure>
 <img src="https://lh5.googleusercontent.com/p/AF1QipPtM_nCrq68gv0aGffyvrbYRiC-CpaMLvt01TvR=w408-h271-k-no" alt="Departamento de Química" width="400">
@@ -49,7 +49,7 @@ El Departamento de Ingeniería en Obras Civiles, establecido en 1985 y ubicado e
 
 - Ingeniería Civil en Obras Civiles
 
-Puedes visitar su sitio web en: https://obrasciviles.usach.cl
+<a href="https://obrasciviles.usach.cl" target="_blank">Visitar el sitio web de Obras Civiles USACH</a>
 
 <figure>
 <img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Patio-de-los-perros-Ingenieria-en-Obras-Civiles-scaled.jpg" alt="Patio de los Perros" width="500">
@@ -63,7 +63,7 @@ Fundado en 1968, el Departamento de Ingeniería en Minas se especializa en la fo
 - Ingeniería Civil en Minas
 - Ingeniería Ejecución en Minas
 
-Su sitio web es: https://dim.usach.cl
+<a href="https://dim.usach.cl" target="_blank">Visitar el sitio web de DIM USACH</a>
 
 <figure>
 <img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Departamento-de-Ingenieria-en-Minas-DIMIN.jpg" alt="Departamento de Ingeniería en Minas" width="500">
@@ -77,14 +77,12 @@ El Departamento de Ingeniería Metalúrgica, activo desde 1965, se centra en la 
 - Ingeniería Civil Metalúrgica
 - Ingeniería de Ejecución en Metalurgia
 
-Su sitio web es: https://www.metalurgia.usach.cl
+<a href="https://www.metalurgia.usach.cl" target="_blank">Visitar el sitio web de Metalurgia USACH</a>
 
 <figure>
 <img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Ingreso-Departamento-de-Ingenieria-Metalurgica.png" alt="Entrada Departamento de Ingeniería Metalúrgica" width="500">
 <figcaption>Entrada Depto Ingeniería Metalurgica</figcaption>
 </figure>
-
-
 
 ### Departamento de Ingeniería Mecánica
 
@@ -96,7 +94,7 @@ Ofrece las siguientes carreras:
 - Ingeniería de Ejecución en Mecánica
 - Ingeniería de Ejecución en Climatización
 
-Encuentra más información en: https://dimec.usach.cl
+<a href="https://dimec.usach.cl" target="_blank">Visitar el sitio web de DIMEC USACH</a>
 
 <figure>
 <img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Departamento-de-Ingenieria-Mecanica-DIMEC.jpg" alt="Departamento de Ingeniería Mecánica" width="600">
@@ -108,14 +106,13 @@ Encuentra más información en: https://dimec.usach.cl
 <figcaption>Edificio Ing. Mecánica en la EAO</figcaption>
 </figure>
 
-
 ### Departamento de Ingeniería Industrial
 Desde 1961, el Departamento de Ingeniería Industrial forma profesionales en la gestión y optimización de procesos industriales y empresariales. Las carreras que ofrece son:
 
 - Ingeniería Civil Industrial
 - Ingeniería de Ejecución Industrial
 
-En su sitio web puedes encontrar más información: https://www.ingenieriaindustrial-usach.cl
+<a href="ingenieriaindustrial-usach.cl" target="_blank">Visitar el sitio web de Ingeniería Industrial USACH</a>
 
 <figure>
 <img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Edificio-Departamento-de-Ingenieria-Industrial.jpg" alt="Departamento de Ingeniería Industrial" width="500">
@@ -130,7 +127,7 @@ El Departamento de Ingeniería Geoespacial y Ambiental se enfoca en la ingenier�
 - Ingeniería Civil en Ambiente
 - Ingeniería Civil en Geografía
 
-Su sitio web es: https://www.digea.usach.cl
+<a href="https://www.digea.usach.cl" target="_blank">Visitar el sitio web de DIGEA USACH</a>
 
 <figure>
 <img src="https://lh3.googleusercontent.com/p/AF1QipMvB5Gq1dFt1RqSnf-_4CH60uXN7BV0sXtyU7Q=s1360-w1360-h1020" alt=DIGEA width="600">
@@ -145,7 +142,8 @@ Fundado en 1967, el Departamento de Ingeniería Eléctrica ofrece formación en 
 - Ingeniería en Ejecución en Electricidad
 - Ingeniería Civil en Telemática
 
-Su sitio web es: https://die.usach.cl
+<a href="https://die.usach.cl" target="_blank">Visitar el sitio web de DIE USACH</a>
+
 
 <figure>
 <img src="https://die.usach.cl/wp-content/uploads/2023/03/DSC06287.jpg" alt="Entrada DIE" width="500">
@@ -153,4 +151,5 @@ Su sitio web es: https://die.usach.cl
 </figure> 
 
 #### Créditos
-Algunas de las imágenes utilizadas en este post fueron extraídas desde https://admisioningenieriausach.cl/conoce-nuestras-instalaciones/
+Algunas de las imágenes utilizadas en este post fueron extraídas desde la página <a href="https://admisioningenieriausach.cl/conoce-nuestras-instalaciones/" target="_blank">Admisión Usach</a>
+

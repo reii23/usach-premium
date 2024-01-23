@@ -1,9 +1,9 @@
 ---
 title: 'Diccionario Usachino'
 description: 'Términos palabras y frases que debes conocer'
-pubDate: '2024-01-19T01:20:12.616Z'
+pubDate: '2024-01-21T01:20:12.616Z'
 heroImage: '/diccionarioUsachino.png'
-categories: ['cachorros']
+categories: ['bienvenida']
 tags: ['diccionario']
 author: '["reii23"]'
 ---
@@ -13,8 +13,19 @@ author: '["reii23"]'
 
 ## Términos Generales
 - **Cachorro**: Estudiante de 1er año de la Usach (NUNCA DIGAS MECH*N)
-- **Feusach**: Corresponde a la Federación de Estudiantes de la Usach, su Instagram es [@feusach](https://www.instagram.com/feusach). Es una organización que representa a las y los estudiantes de la Universidad y se encarga de difundir información importante y de la votación de los paros.
+- **Usachin**: Es la mascota de la USACH, probablemente lo veas paseandose durante diversas actividad de la universidad
 
+<figure>
+<img src="https://postulaciones.usach.cl/build/assets/usachin-qp2XJr3J.webp" alt="Usachin" width="300">
+<figcaption>Imagen de Usachin</figcaption>
+</figure>
+
+- **Feusach**: Corresponde a la Federación de Estudiantes de la Usach, su Instagram es <a href="https://www.instagram.com/feusach" target="_blank">@feusach</a>. Es una organización que representa a las y los estudiantes de la Universidad y se encarga de difundir información importante y de la votación de los paros.
+
+<figure>
+<img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Sala-Federacion-de-Estudiantes-FEUSACH-scaled.jpg" alt="Sala Feusach" width="400">
+<figcaption>Sala Feusach</figcaption>
+</figure>
 
 ## Siglas Importantes
 - **MBI**: Corresponde a las siglas de "Módulo Básico de Ingeniería" el cual es un conjunto de ramos que tienen todos los estudiantes de la Facultad de Ingeniería. Algunos de estos ramos son: Cálculo I y II, Álgebra I y II, Física I, Física II, Electricidad y Magnetismo, Fundamentos de Economía, Taller de Diseño, entre otros. En estos ramos es normal que tengas compañeros de otras carreras.
@@ -45,7 +56,7 @@ author: '["reii23"]'
 ### Edificio "ED" (Edificio Salas de Innovación Docente)
 <figure>
   <img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Vista-aerea-Edifico-nuevo-de-Innovacion-Docente.png" alt="ed" width="600">
-  <figcaption>El Edificio Salas de Innovación Docente o más conocido por "ED" corresponde a un edificio de 8 pisos de la FING, en donde los estudiantes de Ingeniería tienen la mayoría de las clases del MBI. En el horario el primer número de la sala corresponde al piso del edificio. Por ejemplo, si tienes clases en la sala "ED 801" debes dirigirte al octavo piso, en cambio, si tienes clases en la sala "ED 304" tienes que ir al cuarto piso (Este edificio tiene 3 ascensores así que no te preocupes).</figcaption>
+  <figcaption>El Edificio Salas de Innovación Docente o más conocido por "ED" corresponde a un edificio de 8 pisos de la FING, en donde los estudiantes de Ingeniería tienen la mayoría de las clases del MBI. El primer número de la sala corresponde al piso del edificio. Por ejemplo, si tienes clases en la sala "ED 801" debes dirigirte al octavo piso, en cambio, si tienes clases en la sala "ED 304" tienes que ir al cuarto piso (Este edificio tiene 3 ascensores así que no te preocupes).</figcaption>
 </figure>
 
 ### Edificio "EPF" (Edificio Pabellón Forma)
@@ -69,7 +80,7 @@ author: '["reii23"]'
 ### Casino Central
 <figure>
   <img src="https://images.mnstatic.com/86/70/867040e7639220dc5391858fee9fb745.jpg" alt="casinoeao" width="450">
-  <figcaption>Es el Casino Oficial de la EAO. Puedes comprar almuerzo a $1800 con Junaeb y $2500 con efectivo. En el Instagram <a href="https://www.instagram.com/usacasinocentral_usach/">@usacasinocentral</a> se publican todos los lunes la minuta semanal de almuerzos que se darán durante la semana.</figcaption>
+  <figcaption>Es el Casino Oficial de la EAO. Puedes comprar almuerzo a $1800 con Junaeb y $2500 con efectivo. En el Instagram <a href="https://www.instagram.com/usacasinocentral_usach/" target="_blank">@usacasinocentral</a> se publican todos los lunes la minuta semanal de almuerzos que se darán durante la semana.</figcaption>
 </figure>
 
 ### Foro Griego
@@ -80,14 +91,14 @@ author: '["reii23"]'
 
 ### LOA / SAI (Intranet de estudiantes FING)
 <figure>
-  <img src="https://i.ibb.co/6Z5qzKG/imagen-2024-01-22-001624661.png" alt="Loa" width="300">
-  <figcaption><a href = "https://loa.usach.cl/registro/es/">LOA / SAI </a>: Es la intranet oficial de los estudiantes FING, en el puedes ver información de tu malla, horario, profes, documentos, entre otros. También es importante saber que algunos profes mandan mensajes por la intranet, por lo que debes estar atento.</figcaption>
+  <img src="https://i.ibb.co/6Z5qzKG/imagen-2024-01-22-001624661.png " alt="Loa" width="300">
+  <figcaption><a href="https://loa.usach.cl/registro/es/" target="_blank">LOA / SAI </a>: Es la intranet oficial de los estudiantes FING, en el puedes ver información de tu malla, horario, profes, documentos, entre otros. También es importante saber que algunos profes mandan mensajes por la intranet, por lo que debes estar atento.</figcaption>
 </figure>
 
 ### Uvirtual
 <figure>
   <img src="https://chilestudia.com/wp-content/uploads/2023/01/USACH-Virtual.png" alt="uvirtual" width="300">
-  <figcaption><a href = "https://uvirtual.usach.cl/moodle/"> Uvirtual </a>: Es la plataforma oficial de los estudiantes, en el puedes ver el material y contenido de cada uno de los ramos que estés cursando. Generalmente se suben las clases, guías, fechas de prueba e información.</figcaption>
+  <figcaption><a href = "https://uvirtual.usach.cl/moodle/" target="_blank"> Uvirtual </a>: Es la plataforma oficial de los estudiantes, en el puedes ver el material y contenido de cada uno de los ramos que estés cursando. Generalmente se suben las clases, guías, fechas de prueba e información.</figcaption>
 </figure>
 
 ### Patio de los Naranjos
@@ -99,5 +110,10 @@ author: '["reii23"]'
 ### Patio de los Perros
 <figure>
   <img src="https://pbs.twimg.com/media/EdoZejvWsAA-hTt?format=jpg&name=large" alt="Patio de los Perros" width="500">
-  <figcaption>Patio de los Perros: Es la entrada principal de la EAO, podrás identificarlo fácilmente por las estatuas de los perritos, al entrar a este patio, evita pisar el escudo ya que según la antigua tradición, si lo pisas, te echas un ramo y/o no te titulas de la u.</figcaption>
+  <figcaption>El Patio de los Naranjos es la entrada principal de la EAO, podrás identificarlo fácilmente por las estatuas de los perritos, al entrar a este patio, evita pisar el escudo ya que según la antigua tradición, si lo pisas, te echas un ramo y/o no te titulas de la u.</figcaption>
+</figure>
+
+<figure>
+<img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Escudo-Usach-entrada-calle-Av.-Ecuador.png" alt="Escudo Entrada EAO" width="500">
+<figcaption>Escudo Entrada EAO (no lo pises)<figcaption>
 </figure>
