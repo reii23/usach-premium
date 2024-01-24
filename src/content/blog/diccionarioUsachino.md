@@ -45,9 +45,9 @@ author: '["reii23"]'
 - **Patio de los Perros**: Entrada principal de la EAO.
 
 ## Evaluaciones y Herramientas Académicas
-- **PEP**: Prueba Especial Programada.
-- **POR / PAR / EAO**: Pruebas recuperativas.
-- **PAS / PS**: Prueba Acumulativa Semestral o Prueba de Suficiencia.
+- **PEP**: Por sus siglas "Prueba Especial Programada" es el tipo de evaluación más común en los ramos de la FING.
+- **POR / PAR / EAO**: Por sus siglas "Prueba Optativa de Reemplazo" o "Prueba Acumulativa de Reemplazo" o "Evaluación Acumulativa Optativa" es una prueba recuperativa la cual reemplaza la peor nota de un ramo.
+- **PAS / PS**: Por sus siglas "Prueba Acumulativa Semestral" o "Prueba de Suficiencia" es una prueba optativa para alumnos que hayan reprobado algún ramo. Si apruebas la prueba, apruebas el ramo. (Generalmente se pide un 75% de asistencia y un 3.0 como promedio de presentación mínima para poder darla)
 - **LOA / SAI**: Intranet oficial de los estudiantes FING.
 - **Uvirtual**: Plataforma oficial de los estudiantes.
 
@@ -56,7 +56,7 @@ author: '["reii23"]'
 ### Edificio "ED" (Edificio Salas de Innovación Docente)
 <figure>
   <img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Vista-aerea-Edifico-nuevo-de-Innovacion-Docente.png" alt="ed" width="600">
-  <figcaption>El Edificio Salas de Innovación Docente o más conocido por "ED" corresponde a un edificio de 8 pisos de la FING, en donde los estudiantes de Ingeniería tienen la mayoría de las clases del MBI. El primer número de la sala corresponde al piso del edificio. Por ejemplo, si tienes clases en la sala "ED 801" debes dirigirte al octavo piso, en cambio, si tienes clases en la sala "ED 304" tienes que ir al cuarto piso (Este edificio tiene 3 ascensores así que no te preocupes).</figcaption>
+  <figcaption>El Edificio Salas de Innovación Docente o más conocido por "ED" corresponde a un edificio de 8 pisos de la FING, en donde los estudiantes de Ingeniería tienen la mayoría de las clases del MBI. El primer número de la sala corresponde al piso del edificio. Por ejemplo, si tienes clases en la sala "ED 801" debes dirigirte al octavo piso, en cambio, si tienes clases en la sala "ED 304" tienes que ir al tercer piso (Este edificio tiene 3 ascensores así que no te preocupes).</figcaption>
 </figure>
 
 ### Edificio "EPF" (Edificio Pabellón Forma)

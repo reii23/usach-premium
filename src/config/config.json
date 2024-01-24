@@ -3,7 +3,7 @@
     "title": "Usach Premium ",
     "base_url": "https://usachpremium.cl",
     "base_path": "/",
-    "favicon": "/favicon.png",
+    "favicon": "/faviconn.png",
     "logoLight": "/logoLight.png",
     "logoDark": "/logoDark.png",
     "lang": "en",
@@ -20,7 +20,7 @@
   },
   "author": {
     "name": "Usach Premium",
-    "avatar": "https://cdn.allmylinks.com/prod/User/photo/n/I/X/Wew5x5yN1SOULjAweUcAk4d-6e9fhAly.jpg",
+    "avatar": "https://i.ibb.co/pRVGs6V/faviconn.png",
     "bio":  "Usach Premium es una organización creada por estudiantes de Ingeniería para ayudar a nuevos estudiantes mediante ayudantías de diferentes ramos."
   }
 }

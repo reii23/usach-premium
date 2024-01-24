@@ -1,7 +1,7 @@
 ---
 title: 'Material y Grabaciones'
 description: 'Estos son los enlaces que debes tener a mano en todo momento ya que te ayudarán en los ramos'
-pubDate: '2024-01-23T01:20:12.616Z'
+pubDate: '2024-01-24T01:20:12.616Z'
 heroImage: '/material.png'
 categories: ['bienvenida']
 tags: ['material']
@@ -64,7 +64,8 @@ En este Drive se encuentra material de estudio para los estudiantes
 - Ecuaciones Diferenciales y Métodos Númericos
 - Arquitectura de Computadores (Ing. Civil Informática)
 
-### <a href="https://drive.google.com/drive/folders/1atABBF2BTW71iRs2agN4L28Ef4Gq8GnW" target="_blank">Accede al Drive (solo correo @usach.cl)</a>
+<a href="https://drive.google.com/drive/folders/1atABBF2BTW71iRs2agN4L28Ef4Gq8GnW" target="_blank"><button style="color: white; background-color: #007bff; border-color: #007bff; padding: 10px 20px; border-radius: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Accede al Drive (solo correo @usach.cl)</button></a>
+
 
 Nota: El drive se irá actualizando constantemente agregando otros ramos, en caso de que quieras agregar material que tengas disponible para compartir contactanos a nuestro Instagram <a href="https://www.instagram.com/usach.premium/" target="_blank">@usachpremium
 

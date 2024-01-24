@@ -16,7 +16,7 @@ Fundado en 1982, el Departamento de Ingeniería Informática se encarga de forma
 - Ingeniería Civil Informática
 - Ingeniería de Ejecución en Computación e Informática.
 
-<a href="https://informatica.usach.cl" target="_blank">Visitar el sitio web de DIINF USACH</a>
+<a href="https://informatica.usach.cl" target="_blank"><button style="color: white; background-color: #007bff; border-color: #007bff; padding: 10px 20px; border-radius: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Visitar el sitio web de DIINF USACH</button></a>
 
 <figure>
 <img src="https://informatica.usach.cl/wp-content/uploads/2021/06/diinf-scaled.jpg" alt="Entrada DIINF" width="500">
@@ -36,7 +36,7 @@ Fundado en 1972, el Departamento de Ingeniería Química y Bioprocesos se encarg
 - Ingeniería Civil en Química
 - Ingeniería de Ejecución en Química
 
-<a href="https://diqb.usach.cl" target="_blank">Visitar el sitio web de DIQB USACH</a>
+<a href="https://diqb.usach.cl" target="_blank"><button style="color: white; background-color: #007bff; border-color: #007bff; padding: 10px 20px; border-radius: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Visitar el sitio web de DIQB USACH</button></a>
 
 <figure>
 <img src="https://lh5.googleusercontent.com/p/AF1QipPtM_nCrq68gv0aGffyvrbYRiC-CpaMLvt01TvR=w408-h271-k-no" alt="Departamento de Química" width="400">
@@ -49,7 +49,7 @@ El Departamento de Ingeniería en Obras Civiles, establecido en 1985 y ubicado e
 
 - Ingeniería Civil en Obras Civiles
 
-<a href="https://obrasciviles.usach.cl" target="_blank">Visitar el sitio web de Obras Civiles USACH</a>
+<a href="https://obrasciviles.usach.cl" target="_blank"><button style="color: white; background-color: #007bff; border-color: #007bff; padding: 10px 20px; border-radius: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Visitar el sitio web de Obras Civiles USACH</button></a>
 
 <figure>
 <img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Patio-de-los-perros-Ingenieria-en-Obras-Civiles-scaled.jpg" alt="Patio de los Perros" width="500">
@@ -63,7 +63,7 @@ Fundado en 1968, el Departamento de Ingeniería en Minas se especializa en la fo
 - Ingeniería Civil en Minas
 - Ingeniería Ejecución en Minas
 
-<a href="https://dim.usach.cl" target="_blank">Visitar el sitio web de DIM USACH</a>
+<a href="https://dim.usach.cl" target="_blank"><button style="color: white; background-color: #007bff; border-color: #007bff; padding: 10px 20px; border-radius: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Visitar el sitio web de DIM USACH</button></a>
 
 <figure>
 <img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Departamento-de-Ingenieria-en-Minas-DIMIN.jpg" alt="Departamento de Ingeniería en Minas" width="500">
@@ -77,7 +77,7 @@ El Departamento de Ingeniería Metalúrgica, activo desde 1965, se centra en la 
 - Ingeniería Civil Metalúrgica
 - Ingeniería de Ejecución en Metalurgia
 
-<a href="https://www.metalurgia.usach.cl" target="_blank">Visitar el sitio web de Metalurgia USACH</a>
+<a href="https://www.metalurgia.usach.cl" target="_blank"><button style="color: white; background-color: #007bff; border-color: #007bff; padding: 10px 20px; border-radius: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Visitar el sitio web de Metalurgia USACH</button></a>
 
 <figure>
 <img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Ingreso-Departamento-de-Ingenieria-Metalurgica.png" alt="Entrada Departamento de Ingeniería Metalúrgica" width="500">
@@ -94,7 +94,7 @@ Ofrece las siguientes carreras:
 - Ingeniería de Ejecución en Mecánica
 - Ingeniería de Ejecución en Climatización
 
-<a href="https://dimec.usach.cl" target="_blank">Visitar el sitio web de DIMEC USACH</a>
+<a href="https://dimec.usach.cl" target="_blank"><button style="color: white; background-color: #007bff; border-color: #007bff; padding: 10px 20px; border-radius: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Visitar el sitio web de DIMEC USACH</button></a>
 
 <figure>
 <img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Departamento-de-Ingenieria-Mecanica-DIMEC.jpg" alt="Departamento de Ingeniería Mecánica" width="600">
@@ -112,7 +112,7 @@ Desde 1961, el Departamento de Ingeniería Industrial forma profesionales en la 
 - Ingeniería Civil Industrial
 - Ingeniería de Ejecución Industrial
 
-<a href="ingenieriaindustrial-usach.cl" target="_blank">Visitar el sitio web de Ingeniería Industrial USACH</a>
+<a href="ingenieriaindustrial-usach.cl" target="_blank"><button style="color: white; background-color: #007bff; border-color: #007bff; padding: 10px 20px; border-radius: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Visitar el sitio web de Ingeniería Industrial USACH</button></a>
 
 <figure>
 <img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Edificio-Departamento-de-Ingenieria-Industrial.jpg" alt="Departamento de Ingeniería Industrial" width="500">
@@ -127,7 +127,7 @@ El Departamento de Ingeniería Geoespacial y Ambiental se enfoca en la ingenier�
 - Ingeniería Civil en Ambiente
 - Ingeniería Civil en Geografía
 
-<a href="https://www.digea.usach.cl" target="_blank">Visitar el sitio web de DIGEA USACH</a>
+<a href="https://www.digea.usach.cl" target="_blank"><button style="color: white; background-color: #007bff; border-color: #007bff; padding: 10px 20px; border-radius: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Visitar el sitio web de DIGEA USACH</button></a>
 
 <figure>
 <img src="https://lh3.googleusercontent.com/p/AF1QipMvB5Gq1dFt1RqSnf-_4CH60uXN7BV0sXtyU7Q=s1360-w1360-h1020" alt=DIGEA width="600">
@@ -142,8 +142,7 @@ Fundado en 1967, el Departamento de Ingeniería Eléctrica ofrece formación en 
 - Ingeniería en Ejecución en Electricidad
 - Ingeniería Civil en Telemática
 
-<a href="https://die.usach.cl" target="_blank">Visitar el sitio web de DIE USACH</a>
-
+<a href="https://die.usach.cl" target="_blank"><button style="color: white; background-color: #007bff; border-color: #007bff; padding: 10px 20px; border-radius: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Visitar el sitio web de DIE USACH</button></a>
 
 <figure>
 <img src="https://die.usach.cl/wp-content/uploads/2023/03/DSC06287.jpg" alt="Entrada DIE" width="500">
