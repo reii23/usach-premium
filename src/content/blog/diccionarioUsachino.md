@@ -104,16 +104,32 @@ author: '["reii23"]'
 ### Patio de los Naranjos
 <figure>
   <img src="https://scontent.fscl36-1.fna.fbcdn.net/v/t1.6435-9/40662290_1192977290856469_4166316137673392128_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=dd63ad&_nc_eui2=AeEVOXGZ_2BMGBWWcWbSx13jM4ttNuNcjiQzi20241yOJNKrC0notc3X4CbOIBMhdsDWIkgYdR4pIGrU9gtcKsNX&_nc_ohc=fWG9TJNWNfEAX9bC3pu&_nc_ht=scontent.fscl36-1.fna&oh=00_AfA4xLhZFkzVykRdELRdVfqN3ejg-9mWP0EkCRmz9xPdNg&oe=65D558DE" alt="Patio de los Naranjos" width="200">
-  <figcaption>Patio de los Naranjos: Es uno de los sectores de la universidad, como su nombre lo dice es un patio que tiene Naranjos, se ubica en la EAO y aquí se ubican los edificios de Feusach, trámites para la TNE, etc.</figcaption>
+  <figcaption>Patio de los Naranjos: Es uno de los sectores de la universidad, como su nombre lo dice es un patio que tiene Naranjos, se ubica en la EAO y aquí se ubican los edificios de Feusach y el Departamento de Beneficios Estudiantiles</figcaption>
+</figure>
+
+### Departamento de Beneficios Estudiantiles
+
+<figure>
+<img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Departamento-de-Beneficios-Estudiantiles-scaled.jpg" alt="Departamento de Beneficios Estudiantiles" width="400">
+<figcaption>El Departamento de Beneficios Estudiantiles se encarga de informar acerca de las becas y beneficios que tienes como estudiante. Entre ellos algunos temas como el FUAS, TNE, Creditos o Becas Internas.</figcaption>
 </figure>
 
 ### Patio de los Perros
 <figure>
   <img src="https://pbs.twimg.com/media/EdoZejvWsAA-hTt?format=jpg&name=large" alt="Patio de los Perros" width="500">
-  <figcaption>El Patio de los Naranjos es la entrada principal de la EAO, podrás identificarlo fácilmente por las estatuas de los perritos, al entrar a este patio, evita pisar el escudo ya que según la antigua tradición, si lo pisas, te echas un ramo y/o no te titulas de la u.</figcaption>
+  <figcaption>El Patio de los Perros es la entrada principal de la EAO, podrás identificarlo fácilmente por las estatuas de los perritos, al entrar a este patio, evita pisar el escudo ya que según la antigua tradición, si lo pisas, te echas un ramo y/o no te titulas de la u.</figcaption>
 </figure>
+
+<figure>
+<img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Ingreso-por-Av.-Ecuador-scaled.jpg" alt="Ingreso EAO" width="500">
+<figcaption>Este es el ingreso principal a la EAO y Patio de Los Perros. Está ubicado en la Av. Victor Jara </figcaption>
+</figure>
+
 
 <figure>
 <img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Escudo-Usach-entrada-calle-Av.-Ecuador.png" alt="Escudo Entrada EAO" width="500">
 <figcaption>Escudo Entrada EAO (no lo pises)<figcaption>
 </figure>
+
+#### Créditos
+Algunas de las imágenes utilizadas en este post fueron extraídas desde la página <a href="https://admisioningenieriausach.cl/conoce-nuestras-instalaciones/" target="_blank">Admisión Usach</a>
