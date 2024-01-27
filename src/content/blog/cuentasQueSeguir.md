@@ -75,7 +75,7 @@ Es la cuenta del Departamento de Beneficios Estudiantiles de la Universidad, se 
 <img src="https://i.ibb.co/xhtQ1cj/dbeusach.jpg" alt="Depto de Beneficios Estudiantiles en instagram" width="400">
 </figure>
 
-<a href="https://www.instagram.com/vraeusach/" target="_blank"><button style="color: white; background-color: #E1306C; border-color: #007bff; padding: 10px 20px; border-radius: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Seguir a @dbeusach</button></a>
+<a href="https://www.instagram.com/dbeusach" target="_blank"><button style="color: white; background-color: #E1306C; border-color: #007bff; padding: 10px 20px; border-radius: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Seguir a @dbeusach</button></a>
 
 ### @paiep_usantiago
 Es la cuenta del Departamento de Acceso Inclusivo, Equidad y Permanencia de la Universidad (PAIEP) se encarga de orientar e informar de los horarios de los talleres, ayudantías y asesorías realizadas por PAIEP. 
@@ -84,7 +84,7 @@ Es la cuenta del Departamento de Acceso Inclusivo, Equidad y Permanencia de la U
 <img src="https://i.ibb.co/kGxMCHV/paiep.jpg" alt="Paiep en instagram" width="400">
 </figure>
 
-<a href="https://www.instagram.com/paiep_usantiago/" target="_blank"><button style="color: white; background-color: #E1306C; border-color: #007bff; padding: 10px 20px; border-radius: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Seguir a @dbeusach</button></a>
+<a href="https://www.instagram.com/paiep_usantiago/" target="_blank"><button style="color: white; background-color: #E1306C; border-color: #007bff; padding: 10px 20px; border-radius: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Seguir a @paiep_usantiago</button></a>
 
 ### @usach.premium 
 Es la cuenta oficial de Usach Premium, en ella se publicarán los días y horarios de las ayudantías, además de avisar cuando se hayan subido las grabaciones al canal de Youtube.
