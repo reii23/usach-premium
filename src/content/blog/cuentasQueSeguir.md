@@ -1,7 +1,7 @@
 ---
 title: 'Cuentas que debes seguir en la Usach'
 description: 'Estas cuentas te serán de gran ayuda durante tus primeros años en la universidad'
-pubDate: '2024-01-27T01:20:12.616Z'
+pubDate: '2024-01-26T01:20:12.616Z'
 heroImage: '/cuentasQueSeguir.jpg'
 categories: ['bienvenida']
 tags: ['material']
