@@ -44,6 +44,18 @@ Al igual que en los servicios anteriores, puedes acceder a un descuento en Youtu
 <figcaption>Productos de Youtube</figcaption>
 </figure>
 
+### Plan PRO Obsidian
+Obsidian es una base de conocimiento y aplicación para tomar notas. Es muy útil, ya que, permite agregar formato Markdown, formato código, agregar imágenes, entre otras funcionalidades. Puedes acceder a un descuento estudiante para su versión PRO en su<a href="https://help.obsidian.md/Licenses+and+payment/Education+and+non-profit+discount" target="_blank">página web</a>
+
+<figure>
+<img src="https://desktopofsamuel.com/static/obsidian-screenshot.png" alt="Obsidian" width="400">
+<figcaption>Interfaz de Obsidian</figcaption>
+</figure>
+
+### Notion PRO
+
+### Adobe Students
+
 ## Programas Gratis
 
 ### Office 365
@@ -89,3 +101,8 @@ Si necesitas espacio adicional en la nube, con tu correo institucional en OneDri
 <figcaption>Logo Onedrive</figcaption>
 </figure>
 
+### AutoDesk
+
+### Altium
+
+### Multisim
