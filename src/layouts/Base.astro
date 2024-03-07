@@ -3,6 +3,7 @@ import Header from "@components/Header.astro";
 import Hero from "@components/Hero.astro";
 import FeaturedVideos from "@components/FeaturedVideos.astro";
 import Footer from "@components/Footer.astro";
+import SpeedInsights from "@vercel/speed-insights/astro"; 
 import config from "@config/config.json";
 import { createOgImage } from "@utils/createOgImage";
 
@@ -110,6 +111,10 @@ const ogImage = createOgImage({
     </main>
     {!blogpost && config.features.youtube && <FeaturedVideos />}
     <Footer />
+
+
+    <SpeedInsights />
+
     <script>
       // This is a hack to get vite-plugin-pwa to generate a sw.js file.
       // Do not remove this script tag.
