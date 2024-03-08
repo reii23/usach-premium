@@ -4,23 +4,44 @@ description: '¿Dónde están las salas "MEC", "IND", "INF", "EPF"? En este post
 pubDate: '2024-03-03T01:14:13.616Z'
 heroImage: '/salasDeClases.jpg'
 categories: ['bienvenida']
-tags: ['material']
+tags: ['salas','ed']
 author: '["reii23"]'
 ---
 
 En este post te explicaremos los términos que aparecen en tu horario, los cuales representan las salas de clases. 
 Para encontrar más información sobre las salas, puedes descargar la aplicación SoyUsach el cual tiene un buscador de salas de clases con una imágen de cada una lo cual te ayudará a encontrarla con mayor facilidad.
 
-<figure>
-<img src="https://play-lh.googleusercontent.com/CychwNfWedg4TNwH3DB3W4LD2nUQVIXcFHVxj86S9bdJth1qcYaawhlNBfng2N9636IT=w240-h480" alt="Logo App SoyUsach" width="200">
-<figcaption>LogoAPP SoyUsach</figcaption>
-</figure>
-
 <a href="https://www.youtube.com/watch?v=AE6pbVf4Leo" target="_blank"><button style="color: white; background-color: #E1306C; border-color: #007bff; padding: 10px 20px; border-radius: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Presentación de la aplicación "SoyUsach"</button></a>
 
 Además, si quieres mejorar este post, nos podrías ayudar con imágenes en mejor calidad de las distintas salas e instalaciones, para ello contáctanos a través de nuestro Instagram o envía un mensaje al correo marcado al final del post.
 
 <a href="https://www.instagram.com/usach.premium/" target="_blank"><button style="color: white; background-color: #E1306C; border-color: #007bff; padding: 10px 20px; border-radius: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Instagram @usach.premium</button></a>
+
+## SALAS FIN
+Las salas "FIN" se refieren a las salas pertenecientes al Departamento de Formación Integral e Inclusión, estas se encuentran detrás del edificio de PAIEP. En este edificio se encuentran las salas 670, 672, 673, 675 y 676 las que se usan principalmente para talleres, asignaturas de idiomas, entre otros. 
+Se debe entrar por la puerta indicada en las imágenes y las salas estarán distribuidas por el pasillo del edificio.
+
+### Imagenes Edificio Depto de Formación Integral e Inclusión
+
+<figure>
+<img src="https://i.ibb.co/zh5F9N8/fin1.jpg" alt="Edificio Formación Integral e Inclusión" width="500">
+<figcaption>Frontis Edificio Formación Integral e Inclusión</figcaption>
+</figure>
+
+<figure>
+<img src="https://i.ibb.co/3dmK3sg/fin2.jpg" alt="Edificio Formación Integral e Inclusión" width="500">
+<figcaption>Edificio Formación Integral e Inclusión</figcaption>
+</figure>
+
+<figure>
+<img src="https://i.ibb.co/1mfMZ0B/Whats-App-Image-2024-03-06-at-10-48-54-AM.jpg" alt="Salas FIN" width="250">
+<figcaption>Puerta Salas FIN</figcaption>
+</figure>
+
+<figure>
+<img src="https://i.ibb.co/0KnHYQ4/fin3.jpg" alt="Pasillo Salas FIN" width="250">
+<figcaption>Pasillo Salas FIN</figcaption>
+</figure>
 
 ## SALAS ED 
 El término "ED" hace referencia al Edificio de Salas de Innovación Docencia. En él, se ejercen la mayoría de clases de la Facultad de Ingeniería, por lo que lo más probable es que tengas clases en este edificio.

@@ -80,7 +80,7 @@ El Departamento de Ingeniería Metalúrgica, activo desde 1965, se centra en la 
 <a href="https://www.metalurgia.usach.cl" target="_blank"><button style="color: white; background-color: #007bff; border-color: #007bff; padding: 10px 20px; border-radius: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px;">Visitar el sitio web de Metalurgia USACH</button></a>
 
 <figure>
-<img src="https://admisioningenieriausach.cl/wp-content/uploads/2021/08/Ingreso-Departamento-de-Ingenieria-Metalurgica.png" alt="Entrada Departamento de Ingeniería Metalúrgica" width="500">
+<img src="https://i.ibb.co/yYMp5G6/metalurgica2.jpg" alt="Entrada Departamento de Ingeniería Metalúrgica" width="500">
 <figcaption>Entrada Depto Ingeniería Metalurgica</figcaption>
 </figure>
 
