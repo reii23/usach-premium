@@ -65,6 +65,8 @@
   },
   "dependencies": {
     "-": "^0.0.1",
+    "@jridgewell/sourcemap-codec": "^1.4.15",
+    "@rollup/plugin-terser": "^0.4.4",
     "@vercel/analytics": "^1.2.2",
     "@vercel/speed-insights": "^1.0.10",
     "astro-compressor": "^0.4.1"
