@@ -14,8 +14,8 @@ import Page from "@layouts/Page.astro";
         
         <div id="notas-container">
           <div class="mb-4 flex">
-            <input type="text" placeholder="Nota" class="nota bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded-l px-3 py-2 w-1/2" />
-            <input type="number" placeholder="Porcentaje % " class="porcentaje bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded-r px-3 py-2 w-1/2" />
+            <input type="text" placeholder="Nota, Ej: 3.2" class="nota bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded-l px-3 py-2 w-1/2" />
+            <input type="number" placeholder="Porcentaje, Ej: 20 " class="porcentaje bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded-r px-3 py-2 w-1/2" />
           </div>
         </div>
         
@@ -137,8 +137,8 @@ import Page from "@layouts/Page.astro";
       const nuevaNota = document.createElement('div');
       nuevaNota.className = 'mb-4 flex';
       nuevaNota.innerHTML = `
-        <input type="text" placeholder="Nota" class="nota bg-gray-700 text-white border border-gray-600 rounded-l px-3 py-2 w-1/2" />
-        <input type="number" placeholder="Porcentaje" class="porcentaje bg-gray-700 text-white border border-gray-600 px-3 py-2 w-1/2" />
+        <input type="text" placeholder="Nota Ej: 3.2" class="nota bg-gray-700 text-white border border-gray-600 rounded-l px-3 py-2 w-1/2" />
+        <input type="number" placeholder="Porcentaje Ej: 20" class="porcentaje bg-gray-700 text-white border border-gray-600 px-3 py-2 w-1/2" />
         <button class="eliminar-nota bg-red-500 hover:bg-red-600 text-white px-3 py-2 rounded-r">X</button>
       `;
       notasContainer?.appendChild(nuevaNota);
