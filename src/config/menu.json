@@ -5,6 +5,11 @@
       "url": "/"
     },
     {
+      "name": "Calculadora de Notas",
+      "url": "/CalculadoraNotas"
+    },
+
+    {
       "name": "Sobre Nosotros",
       "url": "/about"
     },
@@ -16,5 +21,6 @@
       "name": "Categorías",
       "url": "/categories"
     }
+    
   ]
 }

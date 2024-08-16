@@ -1,0 +1,232 @@
+---
+import Base from "@layouts/Base.astro";
+import Page from "@layouts/Page.astro";
+---
+
+<Base meta_title="Calculadora de Notas">
+    <Page title="Calculadora de Notas">
+      <p class="mb-8 text-gray-700 dark:text-gray-300">
+        En este apartado podrás calcular la nota que necesitas en una evaluación para alcanzar la nota final que deseas en un ramo.
+      </p>
+  
+      <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 max-w-md mx-auto">
+        <h3 class="text-xl font-semibold mb-4 text-gray-800 dark:text-white">Ingresa aquí tus notas actuales:</h3>
+        
+        <div id="notas-container">
+          <div class="mb-4 flex">
+            <input type="text" placeholder="Nota" class="nota bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded-l px-3 py-2 w-1/2" />
+            <input type="number" placeholder="Porcentaje % " class="porcentaje bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded-r px-3 py-2 w-1/2" />
+          </div>
+        </div>
+        
+        <button class="agregar-nota bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded w-full mb-4">
+          Agregar nota
+        </button>
+        
+        <button id="calcular" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded w-full mb-4">
+          Calcular Nota Faltante
+        </button>
+        
+        <p id="error-mensaje" class="text-red-500 mt-2"></p>
+        <p id="resultado" class="mt-4 text-lg font-semibold text-gray-800 dark:text-white"></p>
+        
+        <button id="configBtn" class="text-green-500 hover:text-green-400 mt-4">
+          Configuración
+        </button>
+      </div>
+
+       <!-- Added Instagram credit -->
+       <p class="text-center text-sm mt-4 text-gray-600 dark:text-gray-400">
+        Creado por 
+        <a href="https://www.instagram.com/jaim3.jpg/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-600">
+          <svg xmlns="http://www.w3.org/2000/svg" class="inline-block h-4 w-4 mr-1" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+          jaim3.jpg
+        </a>
+      </p>
+  
+      <!-- Modal de Configuración -->
+      <div id="configModal" class="fixed inset-0 bg-gray-500 bg-opacity-75 dark:bg-gray-900 dark:bg-opacity-75 hidden items-center justify-center z-50">
+        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg max-w-md w-full relative">
+          <h2 class="text-xl font-bold mb-4 text-gray-800 dark:text-green-500">Configuración</h2>
+          <div class="mb-4">
+            <label for="notaMinima" class="block text-gray-700 dark:text-gray-300 mb-2">Nota mínima:</label>
+            <input type="number" id="notaMinima" class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded px-3 py-2 w-full" step="0.1" min="0" max="10">
+          </div>
+          <div class="mb-4">
+            <label for="notaMaxima" class="block text-gray-700 dark:text-gray-300 mb-2">Nota máxima:</label>
+            <input type="number" id="notaMaxima" class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded px-3 py-2 w-full" step="0.1" min="0" max="10">
+          </div>
+          <div class="mb-4">
+            <label for="notaAprobacion" class="block text-gray-700 dark:text-gray-300 mb-2">Nota mínima para aprobar:</label>
+            <input type="number" id="notaAprobacion" class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded px-3 py-2 w-full" step="0.1" min="0" max="10">
+          </div>
+          <div class="mb-4">
+            <label for="notaDeseada" class="block text-gray-700 dark:text-gray-300 mb-2">Nota final que deseo:</label>
+            <input type="number" id="notaDeseada" class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded px-3 py-2 w-full" step="0.1" min="0" max="10">
+          </div>
+          <p id="configError" class="text-red-500 mb-4"></p>
+          <div class="flex justify-between">
+            <button id="cancelarConfig" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded">CANCELAR</button>
+            <button id="guardarConfig" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">GUARDAR</button>
+          </div>
+        </div>
+      </div>
+    </Page>
+</Base>
+
+<style>
+  #configModal {
+    z-index: 9999;
+  }
+</style>
+
+<script>
+  interface Config {
+    notaMinima: number;
+    notaMaxima: number;
+    notaAprobacion: number;
+    notaDeseada: number;
+  }
+
+  let CONFIG: Config = {
+    notaMinima: 1.0,
+    notaMaxima: 7.0,
+    notaAprobacion: 3.95,
+    notaDeseada: 3.95
+  };
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const notasContainer = document.getElementById('notas-container') as HTMLDivElement | null;
+    const agregarNotaBtn = document.querySelector('.agregar-nota') as HTMLButtonElement | null;
+    const calcularBtn = document.getElementById('calcular') as HTMLButtonElement | null;
+    const resultadoP = document.getElementById('resultado') as HTMLParagraphElement | null;
+    const errorMensaje = document.getElementById('error-mensaje') as HTMLParagraphElement | null;
+    const configBtn = document.getElementById('configBtn') as HTMLButtonElement | null;
+    const configModal = document.getElementById('configModal') as HTMLDivElement | null;
+    const cancelarConfigBtn = document.getElementById('cancelarConfig') as HTMLButtonElement | null;
+    const guardarConfigBtn = document.getElementById('guardarConfig') as HTMLButtonElement | null;
+    const configError = document.getElementById('configError') as HTMLParagraphElement | null;
+
+    function validarNota(valor: string): boolean {
+      const nota = parseFloat(valor);
+      return !isNaN(nota) && nota >= CONFIG.notaMinima && nota <= CONFIG.notaMaxima && /^\d+(\.\d)?$/.test(valor);
+    }
+
+    function mostrarError(mensaje: string): void {
+      if (errorMensaje) errorMensaje.textContent = mensaje;
+    }
+
+    function limpiarError(): void {
+      if (errorMensaje) errorMensaje.textContent = '';
+    }
+
+    notasContainer?.addEventListener('input', (e: Event) => {
+      const target = e.target as HTMLInputElement;
+      if (target.classList.contains('nota')) {
+        if (!validarNota(target.value)) {
+          mostrarError(`Formato de nota inválido. Use valores entre ${CONFIG.notaMinima.toFixed(1)} y ${CONFIG.notaMaxima.toFixed(1)} con un decimal.`);
+        } else {
+          limpiarError();
+        }
+      }
+    });
+
+    agregarNotaBtn?.addEventListener('click', () => {
+      const nuevaNota = document.createElement('div');
+      nuevaNota.className = 'mb-4 flex';
+      nuevaNota.innerHTML = `
+        <input type="text" placeholder="Nota" class="nota bg-gray-700 text-white border border-gray-600 rounded-l px-3 py-2 w-1/2" />
+        <input type="number" placeholder="Porcentaje" class="porcentaje bg-gray-700 text-white border border-gray-600 px-3 py-2 w-1/2" />
+        <button class="eliminar-nota bg-red-500 hover:bg-red-600 text-white px-3 py-2 rounded-r">X</button>
+      `;
+      notasContainer?.appendChild(nuevaNota);
+    });
+
+    notasContainer?.addEventListener('click', (e: Event) => {
+      const target = e.target as HTMLElement;
+      if (target.classList.contains('eliminar-nota')) {
+        target.parentElement?.remove();
+      }
+    });
+
+    calcularBtn?.addEventListener('click', () => {
+      const notas = Array.from(document.querySelectorAll('.nota')) as HTMLInputElement[];
+      const porcentajes = Array.from(document.querySelectorAll('.porcentaje')) as HTMLInputElement[];
+
+      let sumaPonderada = 0;
+      let sumaPorcentajes = 0;
+      let hayErrores = false;
+
+      for (let i = 0; i < notas.length; i++) {
+        const nota = parseFloat(notas[i].value);
+        const porcentaje = parseFloat(porcentajes[i].value) / 100;
+
+        if (!validarNota(notas[i].value) || isNaN(porcentaje) || porcentaje < 0 || porcentaje > 1) {
+          hayErrores = true;
+          break;
+        }
+
+        sumaPonderada += nota * porcentaje;
+        sumaPorcentajes += porcentaje;
+      }
+
+      if (hayErrores) {
+        mostrarError('Por favor, corrija los errores en las notas o porcentajes antes de calcular.');
+        return;
+      }
+
+      if (sumaPorcentajes >= 1) {
+        mostrarError('La suma de los porcentajes no puede ser mayor al 100%');
+        return;
+      }
+
+      const porcentajeFaltante = 1 - sumaPorcentajes;
+      const notaNecesaria = (CONFIG.notaDeseada - sumaPonderada) / porcentajeFaltante;
+
+      if (resultadoP) {
+        if (notaNecesaria <= CONFIG.notaMinima) {
+          resultadoP.textContent = 'No es necesario obtener nota adicional para alcanzar la nota deseada. (Pasaste el ramo :D)';
+        } else if (notaNecesaria <= CONFIG.notaMaxima) {
+          resultadoP.textContent = `Necesitas una nota de ${notaNecesaria.toFixed(1)} en el ${(porcentajeFaltante * 100).toFixed(1)}% restante para alcanzar la nota deseada.`;
+        } else {
+          resultadoP.textContent = 'Lo siento, ya no es posible alcanzar la nota deseada con las notas actuales. :(';
+        }
+      }
+      limpiarError();
+    });
+
+    // Configuración modal
+    configBtn?.addEventListener('click', () => {
+      configModal?.classList.remove('hidden');
+      configModal?.classList.add('flex');
+      (document.getElementById('notaMinima') as HTMLInputElement).value = CONFIG.notaMinima.toString();
+      (document.getElementById('notaMaxima') as HTMLInputElement).value = CONFIG.notaMaxima.toString();
+      (document.getElementById('notaAprobacion') as HTMLInputElement).value = CONFIG.notaAprobacion.toString();
+      (document.getElementById('notaDeseada') as HTMLInputElement).value = CONFIG.notaDeseada.toString();
+    });
+
+    cancelarConfigBtn?.addEventListener('click', () => {
+      configModal?.classList.add('hidden');
+      configModal?.classList.remove('flex');
+    });
+
+    guardarConfigBtn?.addEventListener('click', () => {
+      const notaMinima = parseFloat((document.getElementById('notaMinima') as HTMLInputElement).value);
+      const notaMaxima = parseFloat((document.getElementById('notaMaxima') as HTMLInputElement).value);
+      const notaAprobacion = parseFloat((document.getElementById('notaAprobacion') as HTMLInputElement).value);
+      const notaDeseada = parseFloat((document.getElementById('notaDeseada') as HTMLInputElement).value);
+
+      if (notaMinima >= notaMaxima || notaAprobacion < notaMinima || notaAprobacion > notaMaxima || notaDeseada < notaMinima || notaDeseada > notaMaxima) {
+        if (configError) configError.textContent = 'Configuración inválida. Por favor, revise los valores.';
+        return;
+      }
+
+      CONFIG = { notaMinima, notaMaxima, notaAprobacion, notaDeseada };
+      configModal?.classList.add('hidden');
+      configModal?.classList.remove('flex');
+      if (configError) configError.textContent = '';
+    });
+  });
+</script>
