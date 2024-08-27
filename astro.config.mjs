@@ -5,12 +5,17 @@ import compressor from "astro-compressor";
 import sitemap from '@astrojs/sitemap';
 import robotsTxt from 'astro-robots-txt';
 import { VitePWA } from 'vite-plugin-pwa';
+import vercel from '@astrojs/vercel/serverless'
 
 import { manifest } from './src/utils/manifest';
 
 // https://astro.build/config
 export default defineConfig({
   site: 'http://localhost:4322/',
+  output: 'server',
+  adapter: vercel({
+    webAnalytics: { enabled: true}
+  }),
   image: {
     remotePatterns: [{ protocol: 'https' }],
   },
