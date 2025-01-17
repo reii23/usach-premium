@@ -17,7 +17,7 @@ author: '["Byron Caices"]'
 📅 **Fecha:** Viernes 17 de enero  
 ⏰ **Hora:** 16:00 HRS  
 📍 **Plataforma:** Zoom  
-🔗 **[Inscríbete Aquí](#)**
+🔗 **[Inscríbete Aquí](https://forms.gle/7Y7mgzUAETVg2D6c8)**
 
 📌 **Si no puedes asistir, no te preocupes.** Escríbenos a los admins por WhatsApp y te enviaremos la grabación de la charla. 🎥
 
@@ -37,7 +37,7 @@ Ser ayudante es una excelente oportunidad para desarrollarte académica y profes
    - Ayudantías FING  
    - Tutorías de PAIEP  
 
-🔗 **[Regístrate ahora](#)** para no perderte esta oportunidad.
+🔗 **[Regístrate ahora](https://forms.gle/7Y7mgzUAETVg2D6c8)** para no perderte esta oportunidad.
 
 ---
 
@@ -57,7 +57,7 @@ Como parte del equipo, también participarás activamente en el **recibimiento d
 
 📅 **Fecha de la reunión informativa:** Viernes 17 de enero a las 17:00 HRS  
 📍 **Plataforma:** Zoom  
-🔗 **[Únete al equipo](#)**
+🔗 **[Únete al equipo](https://forms.gle/7Y7mgzUAETVg2D6c8)**
 
 ---
 
