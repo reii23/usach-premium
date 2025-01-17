@@ -65,5 +65,3 @@ Como parte del equipo, también participarás activamente en el **recibimiento d
 
 📲 Síguenos en Instagram: [@usach.premium](https://instagram.com/usach.premium)  
 📩 ¿Dudas? Escríbenos a nuestro correo: [usachpremium@gmail.com](mailto:usachpremium@gmail.com)
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeqgxzpJwNTU4XCP396HlxiDFd7T5koyTr5-RU3Jh038o09ag/viewform?embedded=true" width="1000" height="820" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
