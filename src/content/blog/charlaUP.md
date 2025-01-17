@@ -98,7 +98,8 @@ Dentro de **Usach Premium**, además de ser ayudante, existen otras formas de co
 
 1. 🎥 **Reel Maker de Usach Premium**  
    - Te encargas de crear cápsulas (ejercicios, tips, etc.) en formato corto para Reels, TikTok o YouTube Shorts.  
-   - Ideal si aún no quieres hacer ayudantías pero buscas ayudar a otros de forma creativa.
+   - Ideal si aún no quieres hacer ayudantías pero buscas ayudar a otros de forma creativa.\
+   - Puedes optar a editar tu mismo tus cápsulas para subirlas a redes sociales
 
 2. 💻 **Editores**  
    - Se dedican a la edición de las cápsulas grabadas por los Reel Makers.  
