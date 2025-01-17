@@ -15,7 +15,7 @@ author: '["Byron Caices"]'
 ## 📢 **Inscríbete a la Charla para Ser Parte Del Equipo**
 
 📅 **Fecha:** Viernes 17 de enero  
-⏰ **Hora:** 17:00 HRS  
+⏰ **Hora:** 17:30 HRS  
 📍 **Plataforma:** Zoom  
 
 <div style="display: flex; justify-content: center;">
