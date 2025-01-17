@@ -17,7 +17,14 @@ author: '["Byron Caices"]'
 📅 **Fecha:** Viernes 17 de enero  
 ⏰ **Hora:** 17:00 HRS  
 📍 **Plataforma:** Zoom  
-🔗 **[Inscríbete Aquí](https://forms.gle/7Y7mgzUAETVg2D6c8)**
+
+<div style="display: flex; justify-content: center;">
+    <a href="https://forms.gle/7Y7mgzUAETVg2D6c8" target="_blank">
+        <button style="color: white; background-color: #22c55e; border-color: #007bff; padding: 10px 20px; border-radius: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; transition: all 0.3s ease-in-out; cursor: pointer; border: none;">
+            🔗 Inscríbete Aquí
+        </button>
+    </a>
+</div>
 
 📌 **Si no puedes asistir, no te preocupes.** Escríbenos a los admins por WhatsApp y te enviaremos la grabación de la charla. 🎥
 
@@ -57,7 +64,15 @@ Como parte del equipo, también participarás activamente en el **recibimiento d
 
 📅 **Fecha de la reunión informativa:** Viernes 17 de enero a las 17:00 HRS  
 📍 **Plataforma:** Zoom  
-🔗 **[Únete al equipo](https://forms.gle/7Y7mgzUAETVg2D6c8)**
+
+<div style="display: flex; justify-content: center;">
+    <a href="https://forms.gle/7Y7mgzUAETVg2D6c8" target="_blank">
+        <button style="color: white; background-color: #22c55e; border-color: #007bff; padding: 10px 20px; border-radius: 5px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; transition: all 0.3s ease-in-out; cursor: pointer; border: none;">
+            🔗 Inscríbete Aquí
+        </button>
+    </a>
+</div>
+
 
 ---
 
@@ -65,3 +80,11 @@ Como parte del equipo, también participarás activamente en el **recibimiento d
 
 📲 Síguenos en Instagram: [@usach.premium](https://instagram.com/usach.premium)  
 📩 ¿Dudas? Escríbenos a nuestro correo: [usachpremium@gmail.com](mailto:usachpremium@gmail.com)
+
+<style>
+    button:hover {
+        transform: scale(1.07);
+        background-color: #16a34a; /* Verde más oscuro */
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+</style>
