@@ -43,7 +43,7 @@ Ser ayudante es una excelente oportunidad para desarrollarte académica y profes
 
 ## 🎯 **¡Buscamos Estudiantes para Nuestro Equipo!**
 
-Usach Premium está en constante crecimiento y necesitamos más personas en nuestro equipo. ¡No te quedes fuera! 
+Usach Premium está en constante crecimiento y necesitamos más personas en nuestro equipo. ¡No te necesitas experiencia! 
 
 ### 💼 Oportunidades disponibles:
 
