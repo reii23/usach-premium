@@ -103,7 +103,7 @@ author: '["reii23"]'
 
 ### Patio de los Naranjos
 <figure>
-  <img src="https://scontent.fscl36-1.fna.fbcdn.net/v/t1.6435-9/40662290_1192977290856469_4166316137673392128_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=dd63ad&_nc_eui2=AeEVOXGZ_2BMGBWWcWbSx13jM4ttNuNcjiQzi20241yOJNKrC0notc3X4CbOIBMhdsDWIkgYdR4pIGrU9gtcKsNX&_nc_ohc=fWG9TJNWNfEAX9bC3pu&_nc_ht=scontent.fscl36-1.fna&oh=00_AfA4xLhZFkzVykRdELRdVfqN3ejg-9mWP0EkCRmz9xPdNg&oe=65D558DE" alt="Patio de los Naranjos" width="200">
+  <img src="https://fastly.4sqi.net/img/general/600x600/1415789_J3d95zUYRrcrIscRPkHzjcwLkJDNxR-GL32XT752XMo.jpg" alt="Patio de los Naranjos" width="200">
   <figcaption>Patio de los Naranjos: Es uno de los sectores de la universidad, como su nombre lo dice es un patio que tiene Naranjos, se ubica en la EAO y aquí se ubican los edificios de Feusach y el Departamento de Beneficios Estudiantiles</figcaption>
 </figure>
 
