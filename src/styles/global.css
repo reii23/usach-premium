@@ -12,7 +12,7 @@
   h4,
   h5,
   h6 {
-    @apply text-black dark:text-green-500 !important;
+    @apply text-black dark:text-orange-500 !important;
   }
   
   p,
@@ -26,7 +26,7 @@
     @apply text-black dark:text-blue-500;
   }
   kbd {
-    @apply bg-white text-green-700;
+    @apply bg-white text-orange-700;
   }
   mark {
     @apply bg-yellow-400;
@@ -67,7 +67,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .sun {
-  @apply stroke-green-500 transition-all;
+  @apply stroke-orange-500 transition-all;
 }
 .moon {
   @apply stroke-transparent transition-all;
@@ -76,11 +76,11 @@ input#nav-toggle:checked ~ #nav-menu {
   @apply stroke-transparent;
 }
 .dark .moon {
-  @apply stroke-green-400; 
+  @apply stroke-orange-400; 
 }
 
 #themeToggle:hover .sun {
-  @apply stroke-green-800;
+  @apply stroke-orange-800;
 }
 #themeToggle:hover .moon {
   @apply stroke-transparent;
@@ -89,7 +89,7 @@ input#nav-toggle:checked ~ #nav-menu {
   @apply stroke-transparent;
 }
 .dark #themeToggle:hover .moon {
-  @apply stroke-green-200; 
+  @apply stroke-orange-200; 
 }
 
 .calculadora-proh {
