@@ -67,7 +67,7 @@ author: '["reii23"]'
 
 ### Escuela de Artes y Oficios (EAO)
 <figure>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Escuela_de_Artes_y_Oficios_%28EAO%29%2C_de_la_Universidad_de_Santiago_de_Chile.jpg" alt="eao" width="600">
+  <img src="https://fae.usach.cl/fae/images/stories/noticias/novedades/2021/news_113_01.jpg" alt="eao" width="600">
   <figcaption>La Escuela de Artes y Oficios (EAO) es uno de los sectores más antiguos de la universidad. Aquí se encuentran algunas salas de clases, el Aula Magna, el Casino Central, entre otros lugares.</figcaption>
 </figure>
 
