@@ -16,7 +16,7 @@ author: '["reii23"]'
 - **Usachin**: Es la mascota de la USACH, probablemente lo veas paseandose durante diversas actividad de la universidad
 
 <figure>
-<img src="https://postulaciones.usach.cl/build/assets/usachin-qp2XJr3J.webp" alt="Usachin" width="300">
+<img src="https://vrifyl.usach.cl/wp-content/uploads/2024/04/USACHIN.png" alt="Usachin" width="300">
 <figcaption>Imagen de Usachin</figcaption>
 </figure>
 
@@ -67,7 +67,7 @@ author: '["reii23"]'
 
 ### Escuela de Artes y Oficios (EAO)
 <figure>
-  <img src="https://dimec.usach.cl/wp-content/uploads/2022/10/dimec-historia-4.jpg" alt="eao" width="600">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Escuela_de_Artes_y_Oficios_%28EAO%29%2C_de_la_Universidad_de_Santiago_de_Chile.jpg" alt="eao" width="600">
   <figcaption>La Escuela de Artes y Oficios (EAO) es uno de los sectores más antiguos de la universidad. Aquí se encuentran algunas salas de clases, el Aula Magna, el Casino Central, entre otros lugares.</figcaption>
 </figure>
 
