@@ -5,6 +5,7 @@ import compressor from "astro-compressor";
 import sitemap from '@astrojs/sitemap';
 import robotsTxt from 'astro-robots-txt';
 import { VitePWA } from 'vite-plugin-pwa';
+import react from '@astrojs/react'; // Añade esta línea
 
 import { manifest } from './src/utils/manifest';
 
@@ -30,6 +31,7 @@ export default defineConfig({
       },
       drafts: true,
     }),
+    react(), // Añade esta línea
     compressor({ gzip: true, brotli: true }),
     sitemap(),
     tailwind(),

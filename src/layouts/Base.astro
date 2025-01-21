@@ -4,6 +4,7 @@ import Hero from "@components/Hero.astro";
 import FeaturedVideos from "@components/FeaturedVideos.astro";
 import Footer from "@components/Footer.astro";
 import SpeedInsights from "@vercel/speed-insights/astro"; 
+import { Analytics } from '@vercel/analytics/react'; // Nueva importación
 import config from "@config/config.json";
 import { createOgImage } from "@utils/createOgImage";
 
@@ -112,8 +113,8 @@ const ogImage = createOgImage({
     {!blogpost && config.features.youtube && <FeaturedVideos />}
     <Footer />
 
-
     <SpeedInsights />
+    <Analytics client:load /> {/* Nuevo componente añadido */}
 
     <script>
       // This is a hack to get vite-plugin-pwa to generate a sw.js file.
