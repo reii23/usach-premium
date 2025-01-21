@@ -1,6 +1,7 @@
 {
   "name": "usach-premium-page",
   "version": "1.0",
+  "type": "module",
   "description": "Usach Premium with Astro by reii23",
   "license": "MIT",
   "private": true,
@@ -80,6 +81,8 @@
     "astro-compressor": "^0.4.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "rss-parser": "^3.13.0"
+    "rss-parser": "^3.13.0",
+    "node-fetch": "^3.3.0",
+    "xml2js": "^0.5.0"
   }
 }

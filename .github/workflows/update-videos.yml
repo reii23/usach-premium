@@ -1,0 +1,34 @@
+name: Update YouTube Videos
+
+on:
+  schedule:
+    - cron: '0 */12 * * *' 
+  workflow_dispatch:  
+
+jobs:
+  update-videos:
+    runs-on: ubuntu-latest
+    
+    env:
+      YOUTUBE_CHANNEL_ID: ${{ secrets.YOUTUBE_CHANNEL_ID }}
+      
+    steps:
+      - uses: actions/checkout@v3
+      
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: Install dependencies
+        run: npm install node-fetch xml2js
+        
+      - name: Update videos
+        run: node scripts/updateVideos.js
+        
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add src/data/videos.json
+          git commit -m "chore: update YouTube videos data" || exit 0
+          git push
