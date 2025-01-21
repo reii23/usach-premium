@@ -10,28 +10,58 @@ permissions:
 
 jobs:
   update-videos:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     
     env:
       YOUTUBE_CHANNEL_ID: ${{ secrets.YOUTUBE_CHANNEL_ID }}
       
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
       
-      - uses: actions/setup-node@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
+          cache: 'npm'
           
       - name: Install dependencies
-        run: npm install
+        run: |
+          echo "Installing dependencies..."
+          npm ci
         
+      - name: Create data directory
+        run: |
+          mkdir -p src/data
+          
       - name: Update videos
-        run: node scripts/updateVideos.js
+        id: update_videos
+        run: |
+          echo "Running video update script..."
+          node scripts/updateVideos.js
+        
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if [[ -f src/data/videos.json ]]; then
+            echo "videos.json exists"
+            if git diff --quiet src/data/videos.json; then
+              echo "No changes to videos.json"
+              echo "has_changes=false" >> $GITHUB_OUTPUT
+            else
+              echo "Changes detected in videos.json"
+              echo "has_changes=true" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "Error: videos.json does not exist"
+            exit 1
+          fi
         
       - name: Commit changes
+        if: steps.check_changes.outputs.has_changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add src/data/videos.json
-          git diff --staged --quiet || git commit -m "chore: update YouTube videos data"
+          git commit -m "chore: update YouTube videos data [skip ci]"
           git push
