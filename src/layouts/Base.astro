@@ -4,12 +4,11 @@ import Hero from "@components/Hero.astro";
 import FeaturedVideos from "@components/FeaturedVideos.astro";
 import Footer from "@components/Footer.astro";
 import SpeedInsights from "@vercel/speed-insights/astro"; 
-import { Analytics } from '@vercel/analytics/react'; // Nueva importación
+import Analytics from "@components/react/Analytics";
 import config from "@config/config.json";
 import { createOgImage } from "@utils/createOgImage";
 
 import "@styles/global.css";
-
 import { ViewTransitions } from "astro:transitions";
 
 export interface Props {
@@ -35,6 +34,7 @@ const ogImage = createOgImage({
   <head>
     <!-- favicon -->
     <link rel="shortcut icon" href={config.site.favicon} />
+    
     <!-- theme meta -->
     <meta name="theme-name" content="bookworm-light-astro" />
     <meta name="msapplication-TileColor" content="#000000" />
@@ -45,6 +45,7 @@ const ogImage = createOgImage({
     />
     <meta name="generator" content={Astro.generator} />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
     <!-- responsive meta -->
     <meta
       name="viewport"
@@ -66,59 +67,66 @@ const ogImage = createOgImage({
       name="description"
       content={description ? description : config.metadata.meta_description}
     />
+    
     <!-- author from config.json -->
     <meta name="author" content={config.metadata.meta_author} />
-    <!-- og-title -->
-    <meta
-      property="og:title"
-      content={meta_title ? meta_title : title ? title : config.site.title}
-    />
-    <!-- og-description -->
-    <meta
-      property="og:description"
-      content={description ? description : config.metadata.meta_description}
-    />
+    
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta
       property="og:url"
       content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`}
     />
+    <meta
+      property="og:title"
+      content={meta_title ? meta_title : title ? title : config.site.title}
+    />
+    <meta
+      property="og:description"
+      content={description ? description : config.metadata.meta_description}
+    />
+    <meta property="og:image" content={ogImage} />
 
-    <!-- twitter-title -->
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
       content={meta_title ? meta_title : title ? title : config.site.title}
     />
-    <!-- twitter-description -->
     <meta
       name="twitter:description"
       content={description ? description : config.metadata.meta_description}
     />
-    <!-- og-image -->
-    <meta property="og:image" content={ogImage} />
-    <!-- twitter-image -->
     <meta name="twitter:image" content={ogImage} />
-    <meta name="twitter:card" content="summary_large_image" />
 
-    <script is:inline src="/registerSW.js"></script>
+    <!-- PWA -->
     <link rel="manifest" href="/manifest.webmanifest" />
+    <script is:inline src="/registerSW.js"></script>
+    
+    <!-- Astro View Transitions -->
     <ViewTransitions />
   </head>
+  
   <body class="bg-white dark:bg-zinc-900/95">
     <Header />
+    
     {!blogpost && <Hero />}
+    
     <main class="mx-auto max-w-screen-lg px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
       <slot />
     </main>
+    
     {!blogpost && config.features.youtube && <FeaturedVideos />}
+    
     <Footer />
-
-    <SpeedInsights />
-    <Analytics client:load /> {/* Nuevo componente añadido */}
 
     <script>
       // This is a hack to get vite-plugin-pwa to generate a sw.js file.
       // Do not remove this script tag.
     </script>
+
+    <!-- Analytics Components -->
+    <SpeedInsights client:load />
+    <Analytics client:load />
   </body>
 </html>

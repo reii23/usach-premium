@@ -1,6 +1,6 @@
 {
   "name": "usach-premium-page",
-  "version": "1.0",
+  "version": "1.0.0",
   "type": "module",
   "description": "Usach Premium with Astro by reii23",
   "license": "MIT",
@@ -35,7 +35,10 @@
     "youtube": "node scripts/youtube.cjs",
     "newpost": "astro-md-generator",
     "format": "prettier -w .",
-    "lint:eslint": "eslint . --ext .js,.ts,.astro"
+    "lint:eslint": "eslint . --ext .js,.ts,.astro",
+    "check": "astro check",
+    "clean": "rm -rf dist",
+    "build-prod": "npm run clean && npm run build"
   },
   "devDependencies": {
     "@astrojs/mdx": "2.0.2",
@@ -62,27 +65,28 @@
     "vite": "^5.4.13",
     "vite-plugin-pwa": "^0.21.1"
   },
-  "resolutions": {
-    "astro/sharp": "0.33.1",
-    "astro-compress/sharp": "0.33.1"
-  },
   "dependencies": {
-    "-": "^0.0.1",
-    "@astrojs/react": "^4.1.6",
+    "@astrojs/react": "^3.0.9",
     "@jridgewell/sourcemap-codec": "^1.4.15",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-node-resolve": "^16.0.0",
     "@rollup/plugin-replace": "^6.0.2",
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/pluginutils": "^5.1.4",
-    "@types/react": "^19.0.7",
-    "@vercel/analytics": "^1.4.1",
+    "@types/react": "^18.2.55",
+    "@vercel/analytics": "^1.1.2",
     "@vercel/speed-insights": "^1.0.10",
     "astro-compressor": "^0.4.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "rss-parser": "^3.13.0",
     "node-fetch": "^3.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rss-parser": "^3.13.0",
     "xml2js": "^0.5.0"
+  },
+  "resolutions": {
+    "astro/sharp": "0.33.1",
+    "astro-compress/sharp": "0.33.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
