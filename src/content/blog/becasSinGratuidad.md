@@ -98,7 +98,7 @@ Si has perdido la gratuidad, aún tienes diversas alternativas para financiar tu
 
 Para más información, visita los siguientes enlaces:
 
-- **Sitio web del Mineduc**: [Beneficios Estudiantiles del Estado](https://portal.beneficiosestudiantiles.cl/)  
+- **Sitio web del Mineduc**: [Beneficios Estudiantiles del Estado](https://educacionsuperior.mineduc.cl/)  
 - **Página oficial de beneficios USACH**: [Becas y beneficios USACH](https://usachatiende.cl/vrae/becas)  
 - **FEUSACH**: [Instagram de la Federación de Estudiantes](https://www.instagram.com/feusach/)  
 - **DBE USACH**: [Instagram del Departamento de Beneficios Estudiantiles](https://www.instagram.com/dbeusach/)  
