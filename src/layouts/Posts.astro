@@ -21,28 +21,87 @@ type PostType = {
     autors: string[];
   };
 };
+
+
+const totemPage = {
+  slug: "totems",
+  data: {
+    title: "Mapa de Ubicación Totems de Activación TNE",
+    description: "Descubre las Ubicaciones de los Totems disponibles en el metro de santiago para validar o revalidad tu TNE.",
+    heroImage: "/totem.jpg", 
+    pubDate: new Date(),
+    categories: []
+  }
+};
 ---
 
 <div
   class="mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3"
 >
+  {/* Primero renderizamos la página de Totems */}
+  <article class="flex w-full flex-col items-start">
+    <div class="rounded-lg block overflow-hidden mb-4 relative">
+      {totemPage.data.heroImage && (
+        <a href={`/Totems/`}>
+          <figure class="w-auto h-auto md:h-[150px] object-cover mt-[-10px]">
+            <Image
+              class="transition duration-300 ease-in-out hover:scale-110"
+              src={totemPage.data.heroImage}
+              alt={totemPage.data.title}
+              width={960}
+              height={480}
+              decoding="async"
+              loading="lazy"
+            />
+          </figure>
+        </a>
+      )}
+    </div>
+    
+    
+    
+    <div class="flex items-center gap-x-4 text-xs text-zinc-900 dark:text-white">
+      <FormattedDate date={totemPage.data.pubDate} />
+      {totemPage.data.categories.map((item) => (
+        <a
+          href={`/categories/${slugify(item)}`}
+          class="capitalize text-md relative z-10 rounded-full bg-zinc-50 px-3 py-1.5 font-medium text-zinc-600 hover:bg-zinc-50 dark:bg-zinc-900 dark:text-zinc-400"
+        >
+          {item}
+        </a>
+      ))}
+    </div>
+    <div class="relative">
+      <h2 class="mt-3 text-xl font-semibold leading-6 text-zinc-900 dark:text-white group-hover:text-zinc-600">
+        <a href={`/totems/`}>
+          <span class="absolute inset-0" />
+          {totemPage.data.title}
+        </a>
+      </h2>
+      <p class="mt-5 line-clamp-3 text-sm leading-6 text-zinc-900 dark:text-zinc-100">
+        {totemPage.data.description}
+      </p>
+    </div>
+  </article>
+
+  {/* Luego renderizamos los posts normales */}
   {
     posts?.slice(0, config.site.pageSize).map((post: PostType) => (
       <article class="flex w-full flex-col items-start">
         <div class="rounded-lg block overflow-hidden mb-4">
           {post.data.heroImage && (
             <a href={`/blog/${post.slug}/`}>
-            <figure class="w-auto h-auto md:h-[150px] object-cover">
-              <Image
-                class="transition duration-300 ease-in-out hover:scale-110"
-                src={post.data.heroImage}
-                alt={post.data.title}
-                width={960}
-                height={480}
-                decoding="async"
-                loading="lazy"
-              />
-            </figure>
+              <figure class="w-auto h-auto md:h-[150px] object-cover">
+                <Image
+                  class="transition duration-300 ease-in-out hover:scale-110"
+                  src={post.data.heroImage}
+                  alt={post.data.title}
+                  width={960}
+                  height={480}
+                  decoding="async"
+                  loading="lazy"
+                />
+              </figure>
             </a>
           )}
         </div>
