@@ -1,0 +1,39 @@
+---
+import Base from "@layouts/Base.astro";
+import Page from "@layouts/Page.astro";
+---
+
+<Base meta_title="Mapa de Activación y Revalidación TNE">
+    <Page title="Mapa de Activación y Revalidación TNE">
+        <p class="mb-6 text-gray-700 dark:text-gray-300 leading-relaxed">
+            A continuación, te presentamos un mapa interactivo con las ubicaciones donde puedes realizar la 
+            <strong>activación o revalidación</strong> de tu 
+            <span class="text-blue-500 font-semibold">Tarjeta Nacional Estudiantil (TNE)</span>. 
+            Estas ubicaciones han sido compartidas por estudiantes a través de una encuesta, con el objetivo de facilitar el acceso a esta información.
+        </p>
+
+        <div class="relative w-full h-96 border rounded-lg overflow-hidden shadow-md">
+            <iframe 
+                src="https://www.google.com/maps/d/u/0/embed?mid=115jRDgCg7lkDafusv-qMdc7Z5wxxndQ&ehbc=2E312F" 
+                width="100%" 
+                height="100%" 
+                class="border-none">
+            </iframe>
+        </div>
+
+        <p class="mt-6 text-gray-700 dark:text-gray-300 text-sm leading-relaxed">
+            <span class="font-semibold">¿Información incorrecta o falta una ubicación?</span>  
+            Si detectas algún error o deseas añadir una nueva ubicación, por favor contáctanos a través de 
+            <a href="https://www.instagram.com/usach.premium" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="text-blue-500 hover:text-blue-600 font-medium">
+               @usach.premium en Instagram
+            </a>.
+        </p>
+
+        <p class="text-center text-xs mt-6 text-gray-500 dark:text-gray-400">
+            Información recopilada y compartida por la comunidad estudiantil.
+        </p>
+    </Page>
+</Base>
