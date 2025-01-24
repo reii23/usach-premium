@@ -45,7 +45,7 @@ Dentro de este formulario pueden encontrar los distintos tipos de procesos que t
 Como se puede observar, el proceso se abrió el dia 13 de Enero y cierra el 28 de Febrero.
 Más abajo se encuentra un video realizado por la misma Facultad de Ingeniería, indicando el momento exacto en el que se encuentra la explicación del proceso a realizar.
 
-<img src="/images/carta/video.png" alt="Video facultad de ingeniería" width="600" height="auto" class="mx-auto rounded-lg shadow-lg" />
+<iframe width="500" height="500" class="mx-auto rounded-lg shadow-lg" src="https://www.youtube.com/embed/J3qxO4OvPjk" title="Solicitudes de Docencia FING" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
 
 Si te sigues desplazando hacia abajo, finalmente encontrarás varios cuadros con imagenes que hacen referencia a los formularios, los nombrados anterioremente son estos:
 
