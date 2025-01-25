@@ -50,7 +50,7 @@ async function updateYouTubeVideos() {
       };
     });
 
-    await fs.writeFile('config/youtube.json', JSON.stringify(videos, null, 2));
+    await fs.writeFile('src/config/youtube.json', JSON.stringify(videos, null, 2));
     console.log('Videos actualizados');
 
   } catch (error) {
