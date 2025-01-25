@@ -25,7 +25,7 @@ async function updateYouTubeVideos() {
       const videoId = entry['yt:videoId'][0];
       return {
         title: entry.title[0],
-        description: entry.description[0],
+        description: entry.description ? entry.description[0] : '',
         channelId: 'UsachPremium', 
         channelTitle: entry['author'][0]['name'][0],
         videoId: videoId,
@@ -55,6 +55,9 @@ async function updateYouTubeVideos() {
 
   } catch (error) {
     console.error('Error al actualizar videos!', error);
+    if (result && result.feed) {
+        console.error('Estructura del feed:', JSON.stringify(result.feed, null, 2));
+    }
     process.exit(1);
   }
 }
