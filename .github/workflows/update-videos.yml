@@ -30,9 +30,9 @@ jobs:
           echo "Installing dependencies..."
           npm ci
         
-      - name: Create data directory
+      - name: Create config directory
         run: |
-          mkdir -p src/data
+          mkdir -p src/config
           
       - name: Update videos
         id: update_videos
@@ -43,17 +43,17 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          if [[ -f src/data/videos.json ]]; then
-            echo "videos.json exists"
-            if git diff --quiet src/data/videos.json; then
-              echo "No changes to videos.json"
+          if [[ -f src/config/youtube.json ]]; then
+            echo "youtube.json exists"
+            if git diff --quiet src/config/youtube.json; then
+              echo "No changes to youtube.json"
               echo "has_changes=false" >> $GITHUB_OUTPUT
             else
-              echo "Changes detected in videos.json"
+              echo "Changes detected in youtube.json"
               echo "has_changes=true" >> $GITHUB_OUTPUT
             fi
           else
-            echo "Error: videos.json does not exist"
+            echo "Error: youtube.json does not exist"
             exit 1
           fi
         
@@ -62,6 +62,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add src/data/videos.json
+          git add src/config/youtube.json
           git commit -m "chore: update YouTube videos data [skip ci]"
           git push
