@@ -2,7 +2,7 @@
 title: 'Carta de Reincorporación'
 description: 'Guía detallada para saber como enviar una carta de reincorporación'
 pubDate: '2025-01-25T01:21:12.616Z'
-heroImage: '/images/carta/carta2.jpg'
+heroImage: '/images/carta/carta.jpg'
 categories: ['carta']
 tags: ['cartas']
 author: '["Sepitoooo19"]' 
