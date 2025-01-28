@@ -26,6 +26,7 @@ author: '["Byron Caices"]'
   <a 
     href="https://forms.gle/Ro2T7C8KwsA7movLA" 
     style="
+      display: block;
       background-color: #f97316; 
       color: #fff; 
       padding: 0.75rem 1.25rem; 
