@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  usach-frontend:
+    container_name: usach-premium-container
+    image: jaimeriquelme/usach-premium-app:latest 
+    ports:
+      - "80:80"  
+    networks:
+      - usach-network
+    restart: on-failure
+
+networks:
+  usach-network:
+    driver: bridge
