@@ -1,0 +1,26 @@
+---
+import Base from "@layouts/Base.astro";
+import Page from "@layouts/Page.astro";
+import salas from '../../scripts/salas.json';
+const handleSelectSala = (sala) => {
+    console.log("sala: " ,sala);
+}
+---
+
+<Base meta_title="Buscador Salas">
+    <Page title = "Buscador de Salas">
+        <div class="display:flex width:100%">
+            <label >
+                <select onChange={(e) => handleSelectSala(e.target.value)}>
+                    <option value="">Selecciona una sala</option>
+                    {salas.map((sala) => (
+                            <option key={sala.name} value={sala.name}>
+                                {sala.name}
+                            </option>
+                    ))}
+                </select>
+            </label>
+        </div>
+        <tbody></tbody>
+    </Page>
+</Base>
