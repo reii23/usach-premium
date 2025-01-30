@@ -3,9 +3,9 @@
     "title": "Usach Premium ",
     "base_url": "https://usachpremium.cl",
     "base_path": "/",
-    "favicon": "/src/assets/logoLight.png",
-    "logoLight": "/src/assets/logoLight.png",
-    "logoDark": "/src/assets/logoDark.png",
+    "favicon": "../../public/logoDark.png",
+    "logoLight": "../../public/logoDark.png",
+    "logoDark": "../../public/logoDark.png",
     "lang": "en",
     "description": "Usach Premium es una comunidad creada por y para los estudiantes de primer año de la Universidad de Santiago con el fin de ayudarles en el inicio de esta nueva etapa. Información-Ayudantías-Material de Estudio",
     "pageSize": 100
