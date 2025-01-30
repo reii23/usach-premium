@@ -4,76 +4,52 @@ import Page from "@layouts/Page.astro";
 ---
 
 <style>
-    .sala-picker-container {
-      display: flex;
-      flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
-      align-items: center;
-      gap: 12px;
-      margin-bottom: 20px;
-    }
-  
-    label {
-      font-weight: 500;
-      color: #ccc;
-    }
-  
-    select {
-      flex: 1; /* Permite que el select crezca y se ajuste */
-      min-width: 200px; /* Ancho mínimo para mantener la usabilidad */
-      height: 2rem;
-      padding: 0 8px;
-      border: 1px solid #555;
-      background-color: #222;
-      color: #fff;
-      border-radius: 4px;
-      font-size: 1rem;
-    }
-  
-    .btn-gmaps {
-      display: none;
-      text-decoration: none;
-      padding: 0.5rem 1rem;
-      background-color: #f90;
-      color: #000;
-      border-radius: 4px;
-      font-weight: 600;
-      transition: background-color 0.3s;
-      white-space: nowrap; /* Evita que el texto del botón se rompa */
-    }
-  
-    .btn-gmaps:hover {
-      background-color: #ffb233;
-    }
-  
-    #map {
-      height: 400px;
-      width: 100%;
-      border: 1px solid #444;
-      border-radius: 6px;
-      overflow: hidden;
-    }
-  
-    /* Media queries para dispositivos móviles */
-    @media (max-width: 768px) {
-      .sala-picker-container {
-        flex-direction: column; /* Apila los elementos verticalmente */
-        align-items: stretch; /* Estira los elementos al ancho completo */
-      }
-  
-      label {
-        margin-bottom: 4px;
-      }
-  
-      select {
-        width: 100%;
-      }
-  
-      .btn-gmaps {
-        width: 100%; /* Botón a ancho completo en móviles */
-        text-align: center;
-      }
-    }
-  </style>
+  .sala-picker-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-weight: 500;
+    color: #ccc;
+  }
+
+  select {
+    height: 2rem;
+    padding: 0 8px;
+    border: 1px solid #555;
+    background-color: #222;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+
+  .btn-gmaps {
+    display: none; /* hidden by default */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: #f90;
+    color: #000;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+
+  .btn-gmaps:hover {
+    background-color: #ffb233;
+  }
+
+  #map {
+    height: 400px;
+    width: 100%;
+    border: 1px solid #444;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+</style>
 
 <script>
   import L from 'leaflet';
@@ -83,14 +59,13 @@ import Page from "@layouts/Page.astro";
   let marcadorActual = null;
   let salas = [];
 
-  // Called whenever the user changes the <select>
   function handleSalaChange(event) {
     const selectedSalaName = event.target.value;
     const gmapsLink = document.getElementById("gmaps-link");
 
-    // If no sala is selected, hide the button, clear marker, etc.
+    // Si no hay sala seleccionada
     if (!selectedSalaName) {
-      gmapsLink.style.display = "none";
+      if (gmapsLink) gmapsLink.style.display = "none";
       if (marcadorActual) {
         map.removeLayer(marcadorActual);
         marcadorActual = null;
@@ -98,60 +73,93 @@ import Page from "@layouts/Page.astro";
       return;
     }
 
-    // Otherwise find the sala
+    // Encontrar la sala seleccionada
     const selectedSala = salas.find((sala) => sala.name === selectedSalaName);
-    if (!selectedSala) return; // Guard if not found
+    if (!selectedSala) return;
 
     const [lng, lat] = selectedSala.cords;
-    map.setView([lat, lng], 18);
 
-    // Remove old marker
-    if (marcadorActual) {
-      map.removeLayer(marcadorActual);
-    }
-    // Create new marker
-    marcadorActual = L.marker([lat, lng]).addTo(map);
+    // Centrar el mapa en la ubicación
+    if (map) {
+      map.setView([lat, lng], 18);
 
-    // Build a Google Maps link
-    const googleMapsUrl = `https://www.google.com/maps?q=${lat},${lng}`;
+      // Eliminar marcador anterior si existe
+      if (marcadorActual) {
+        map.removeLayer(marcadorActual);
+      }
 
-    // Bind a popup on the marker with more info
-    marcadorActual
-      .bindPopup(`
+      // Crear nuevo marcador
+      marcadorActual = L.marker([lat, lng]).addTo(map);
+      marcadorActual.bindPopup(`
         <div style="text-align: center; padding: 5px;">
           <strong>${selectedSala.name}</strong><br>
           <small>${selectedSala.name}</small>
         </div>
-      `)
-      .openPopup();
+      `).openPopup();
 
-    // Show the link-button, set its href
-    gmapsLink.href = googleMapsUrl;
-    gmapsLink.style.display = "inline-block";
+      // Actualizar y mostrar el botón de Google Maps
+      if (gmapsLink) {
+        gmapsLink.href = `https://www.google.com/maps?q=${lat},${lng}`;
+        gmapsLink.style.display = "inline-block";
+      }
+    }
   }
 
-  document.addEventListener('DOMContentLoaded', async () => {
-    // 1) Initialize Leaflet map
-    map = L.map('map').setView([-33.450, -70.680], 15);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '© OpenStreetMap contributors'
-    }).addTo(map);
+  async function initializeMap() {
+    const mapElement = document.getElementById('map');
+    if (!mapElement) return;
 
-    // 2) Fetch the salas.json
-    const response = await fetch('/salas.json');
-    salas = await response.json();
+    // Inicializar el mapa solo si no está ya inicializado
+    if (!map) {
+      map = L.map('map').setView([-33.450, -70.680], 15);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors',
+        maxZoom: 19
+      }).addTo(map);
+    }
 
-    // 3) Populate the dropdown
-    const selectElement = document.querySelector('#sala-select');
-    salas.forEach((sala) => {
-      const option = document.createElement('option');
-      option.value = sala.name;
-      option.textContent = sala.name;
-      selectElement.appendChild(option);
-    });
+    try {
+      // Cargar las salas
+      const response = await fetch('/salas.json');
+      salas = await response.json();
 
-    // 4) On change, handle marker placement
-    selectElement.addEventListener('change', handleSalaChange);
+      // Poblar el dropdown
+      const selectElement = document.querySelector('#sala-select');
+      if (selectElement && selectElement.children.length <= 1) {
+        salas.forEach((sala) => {
+          const option = document.createElement('option');
+          option.value = sala.name;
+          option.textContent = sala.name;
+          selectElement.appendChild(option);
+        });
+
+        // Asegurarse de que el event listener solo se agrega una vez
+        selectElement.removeEventListener('change', handleSalaChange);
+        selectElement.addEventListener('change', handleSalaChange);
+      }
+    } catch (error) {
+      console.error('Error al cargar las salas:', error);
+    }
+  }
+
+  // Inicialización cuando el DOM está listo
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeMap);
+  } else {
+    initializeMap();
+  }
+
+  // Manejo de navegación en Astro
+  document.addEventListener('astro:page-load', () => {
+    initializeMap();
+  });
+
+  // Limpieza al salir de la página
+  document.addEventListener('astro:before-preparation', () => {
+    if (map) {
+      map.remove();
+      map = null;
+    }
   });
 </script>
 
