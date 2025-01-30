@@ -2,7 +2,7 @@
 title: 'Departamentos FING'
 description: 'Departamentos asociados a la Facultad de Ingeniería de la USACH'
 pubDate: '2024-01-23T01:20:12.616Z'
-heroImage: '/ingenieria.jpg'
+heroImage: '/images/departamentos/ingenieria.jpg'
 categories: ['bienvenida']
 tags: ['Ingeniería']
 author: '["reii23"]'

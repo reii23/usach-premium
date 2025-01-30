@@ -2,7 +2,7 @@
 title: 'Salas de clase (Horario y Lugares)'
 description: '¿Dónde están las salas "MEC", "IND", "INF", "EPF"? En este post te lo explicamos'
 pubDate: '2024-03-03T01:14:13.616Z'
-heroImage: '/salasDeClases.jpg'
+heroImage: '/images/salas/salasDeClases.jpg'
 categories: ['bienvenida']
 tags: ['salas','ed']
 author: '["reii23"]'
@@ -77,7 +77,7 @@ Este edificio también cuenta con una pequeña cafetería en el 2do piso y un se
 </figure>
 
 <figure> 
-<img src="https://www.usach.cl/sites/default/files/field/noticia_image/Foto%20Destacado%201%20PAIEP%20%28cedida%29.jpg" alt="Salas Tipo Auditorio ED" width="400">
+<img src="/images/salas/auditorio.jpg" alt="Salas Tipo Auditorio ED" width="400">
 <figcaption>Salas Tipo Auditorio ED</figcaption>
 </figure>
 
@@ -105,7 +105,7 @@ Este edificio también posee varias mesas y sillas fuera de las salas y una pequ
 ### Imagenes Edificio Pabellón Forma
 
 <figure>
-<img src="https://i.ibb.co/Sy67wHq/Whats-App-Image-2024-03-01-at-2-45-23-PM.jpg" alt="EPF" width="400">
+<img src="/images/salas/pabellonforma.jpg" alt="EPF" width="500">
 <figcaption>Edificio Pabellón Forma</figcaption>
 </figure>
 

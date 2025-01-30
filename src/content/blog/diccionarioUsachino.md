@@ -2,7 +2,7 @@
 title: 'Diccionario Usachino'
 description: 'Términos palabras y frases que debes conocer'
 pubDate: '2024-01-21T01:20:12.616Z'
-heroImage: '/diccionarioUsachino.png'
+heroImage: '/images/diccionario/diccionarioUsachino.png'
 categories: ['bienvenida']
 tags: ['diccionario']
 author: '["reii23"]'

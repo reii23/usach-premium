@@ -2,7 +2,7 @@
 title: 'Calculadoras Recomendadas para la Vida Universitaria'
 description: 'Una guía detallada para elegir la calculadora ideal para la nueva vida universitaria.'
 pubDate: '2024-01-19T01:20:12.616Z'
-heroImage: '/calculadoras.jpg'
+heroImage: '/images/calculadoras/calculadoras.jpg'
 categories: ['calculadoras']
 tags: ['Calculadora', 'Ingeniería', 'Casio']
 author: '["Jaime Riquelme"]'

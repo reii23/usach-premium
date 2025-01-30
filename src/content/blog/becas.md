@@ -2,7 +2,7 @@
 title: 'Becas y financiamiento luego de perder la gratuidad'
 description: 'Opciones de financiamiento disponibles para estudiantes que han perdido la gratuidad en la USACH, incluyendo becas y créditos estatales.'
 pubDate: '2025-01-22T01:20:12.616Z'
-heroImage: '/becas.jpg'
+heroImage: '/images/becas/becas.jpg'
 categories: ['becas']
 tags: ['Becas', 'Financiamiento', 'Beca Media Matrícula', 'Fondo Solidario']
 author: '["Reinaldo Pacheco"]'

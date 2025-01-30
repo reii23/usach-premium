@@ -2,7 +2,7 @@
 title: 'Beneficios Correo USACH'
 description: 'Utiliza tu correo para programas gratis o descuentos'
 pubDate: '2024-01-22T01:20:12.616Z'
-heroImage: '/herramientas.jpg'
+heroImage: '/images/herramientas/herramientas.jpg'
 categories: ['bienvenida']
 tags: ['Programas', 'Ingeniería', 'Correo', 'Gratis']
 author: '["reii23"]'
