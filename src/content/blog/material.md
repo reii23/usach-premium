@@ -2,7 +2,7 @@
 title: 'Material y Grabaciones'
 description: 'Estos son los enlaces que debes tener a mano en todo momento ya que te ayudarán en los ramos'
 pubDate: '2024-01-24T01:20:12.616Z'
-heroImage: '/limites.jpg'
+heroImage: '/images/material/limites.jpg'
 categories: ['bienvenida']
 tags: ['material']
 author: '["reii23"]'
