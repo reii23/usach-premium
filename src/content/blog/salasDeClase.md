@@ -2,7 +2,7 @@
 title: 'Salas de clase (Horario y Lugares)'
 description: '¿Dónde están las salas "MEC", "IND", "INF", "EPF"? En este post te lo explicamos'
 pubDate: '2024-03-03T01:14:13.616Z'
-heroImage: '/images/salasDeClase/salasDeClases.jpg'
+heroImage: '/salasDeClases.jpg'
 categories: ['bienvenida']
 tags: ['salas','ed']
 author: '["reii23"]'

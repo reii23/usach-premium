@@ -2,7 +2,7 @@
 title: 'Bienvenida Cachorros Fing 2025'
 description: 'Inscríbete a la reunión donde resolveremos todas tus dudas. Este Jueves 30/01 a las 19:00 hrs'
 pubDate: '2025-01-28T03:04:12.616Z'
-heroImage: '/images/bienvenida/welcome.png'
+heroImage: '/welcome.png'
 categories: ['bienvenida']
 tags: ['bienvenida', 'cachorros']
 author: '["Byron Caices"]'
