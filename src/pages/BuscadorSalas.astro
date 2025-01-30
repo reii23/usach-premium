@@ -1,61 +1,151 @@
 ---
 import Base from "@layouts/Base.astro";
 import Page from "@layouts/Page.astro";
-import salas from '../../public/salas.json';
 ---
 
+<style>
+  .sala-picker-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-weight: 500;
+    color: #ccc;
+  }
+
+  select {
+    height: 2rem;
+    padding: 0 8px;
+    border: 1px solid #555;
+    background-color: #222;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+
+  /* Style the "Ver ubicación" link as a button */
+  .btn-gmaps {
+    display: none; /* hidden by default */
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: #f90;
+    color: #000;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+  .btn-gmaps:hover {
+    background-color: #ffb233;
+  }
+
+  #map {
+    height: 400px;
+    width: 100%;
+    border: 1px solid #444;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+</style>
+
 <script>
-    import L from 'leaflet';
-    import 'leaflet/dist/leaflet.css';
+  import L from 'leaflet';
+  import 'leaflet/dist/leaflet.css';
 
-    let map;
-    let marcadorActual= null
-    map = L.map('map').setView([-33.450, -70.680], 15); // usach
+  let map;
+  let marcadorActual = null;
+  let salas = [];
+
+  // Called whenever the user changes the <select>
+  function handleSalaChange(event) {
+    const selectedSalaName = event.target.value;
+    const gmapsLink = document.getElementById("gmaps-link");
+
+    // If no sala is selected, hide the button, clear marker, etc.
+    if (!selectedSalaName) {
+      gmapsLink.style.display = "none";
+      if (marcadorActual) {
+        map.removeLayer(marcadorActual);
+        marcadorActual = null;
+      }
+      return;
+    }
+
+    // Otherwise find the sala
+    const selectedSala = salas.find((sala) => sala.name === selectedSalaName);
+    if (!selectedSala) return; // Guard if not found
+
+    const [lng, lat] = selectedSala.cords;
+    map.setView([lat, lng], 18);
+
+    // Remove old marker
+    if (marcadorActual) {
+      map.removeLayer(marcadorActual);
+    }
+    // Create new marker
+    marcadorActual = L.marker([lat, lng]).addTo(map);
+
+    // Build a Google Maps link
+    const googleMapsUrl = `https://www.google.com/maps?q=${lat},${lng}`;
+
+    // Bind a popup on the marker with more info
+    marcadorActual
+      .bindPopup(`
+        <div style="text-align: center; padding: 5px;">
+          <strong>${selectedSala.name}</strong><br>
+          <small>${selectedSala.name}</small>
+        </div>
+      `)
+      .openPopup();
+
+    // Show the link-button, set its href
+    gmapsLink.href = googleMapsUrl;
+    gmapsLink.style.display = "inline-block";
+  }
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    // 1) Initialize Leaflet map
+    map = L.map('map').setView([-33.450, -70.680], 15);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap contributors'
+      attribution: '© OpenStreetMap contributors'
     }).addTo(map);
-    let salas = [];
-    async function loadSalas() {
-        const response = await fetch('/salas.json');
-        salas = await response.json();
-    }
 
-    function handleSalaChange(event) {
-        const selectedSalaName = event.target.value;
-        const selectedSala = salas.find(sala => sala.name === selectedSalaName); // como se tiene el nombre en el evento, se busca en el json por name:
-        if (selectedSala) {
-            const [lng, lat] = selectedSala.cords; //cords
-            //con las cords, se mueve el mapa, se limpan los marcadores y se agrega el marcador en las cords nuevas
-            map.setView([lat, lng], 18); // mas zoom para que se vea mas cerca
-            if(marcadorActual){
-                map.removeLayer(marcadorActual);
-            }
-            // TODO: ver como agregarle el selectedSala.name pq .bindPopup('<b>{selectedSala.name}</b>') no esta funcionando
-            marcadorActual = L.marker([lat, lng]).addTo(map);
+    // 2) Fetch the salas.json
+    const response = await fetch('/salas.json');
+    salas = await response.json();
 
-        }
-    }
-    document.addEventListener('DOMContentLoaded', async () => {
-        await loadSalas(); // cargar aca recien el json
-        const selectElement = document.querySelector('select');
-        selectElement.addEventListener('change', handleSalaChange);
+    // 3) Populate the dropdown
+    const selectElement = document.querySelector('#sala-select');
+    salas.forEach((sala) => {
+      const option = document.createElement('option');
+      option.value = sala.name;
+      option.textContent = sala.name;
+      selectElement.appendChild(option);
     });
+
+    // 4) On change, handle marker placement
+    selectElement.addEventListener('change', handleSalaChange);
+  });
 </script>
 
 <Base meta_title="Buscador Salas">
-    <Page title="Buscador de Salas">
-        <div class="display:flex width:100%">
-            <label>
-                <select>
-                    <option value="">Selecciona una sala</option>
-                    {salas.map((sala) => (
-                            <option key={sala.name} value={sala.name}>
-                                {sala.name}
-                            </option>
-                    ))}
-                </select>
-            </label>
-        </div>
-        <div id="map" style="height: 400px; width: 100%; margin-top: 20px;"></div>
-    </Page>
+  <Page title="Buscador de Salas">
+    <div class="sala-picker-container">
+      <label for="sala-select">Selecciona una sala:</label>
+      <select id="sala-select">
+        <option value="">-- Selecciona una sala --</option>
+      </select>
+      <a
+        id="gmaps-link"
+        class="btn-gmaps"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Ver ubicación en Google Maps
+      </a>
+    </div>
+    <div id="map"></div>
+  </Page>
 </Base>
