@@ -1,84 +1,115 @@
 ---
-import Base from "@layouts/Base.astro";
-import Page from "@layouts/Page.astro";
+import Base from '@layouts/Base.astro';
+import Page from '@layouts/Page.astro';
 ---
 
 <style>
+  .sala-picker-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-weight: 500;
+    color: #ccc;
+  }
+
+  .btn-gmaps {
+    display: none;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: #f90;
+    color: #000;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    white-space: nowrap;
+  }
+
+  .btn-gmaps:hover {
+    background-color: #ffb233;
+  }
+
+  #map {
+    height: 400px;
+    width: 100%;
+    border: 1px solid #444;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  /* Nuevos estilos para el buscador */
+  .search-container {
+    position: relative;
+    width: 100%;
+    flex: 1;
+  }
+
+  #search-input {
+    width: 100%;
+    height: 2.5rem;
+    padding: 0 12px;
+    border: 1px solid #666;
+    background-color: #ffffff; /* Fondo oscuro para el input */
+    color: #000000; /* Texto claro para contraste */
+    border-radius: 4px;
+    font-size: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  #search-input::placeholder {
+    color: #ccc; /* Un poco más claro para el placeholder */
+  }
+
+  #results-list {
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background: #fff;
+    border: 1px solid #666;
+    border-radius: 0 0 4px 4px;
+    z-index: 9999; 
+    display: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
+    margin-top: 2px; 
+  }
+
+  .result-item {
+    padding: 8px;
+    cursor: pointer;
+    color: #f0f0f0; 
+    font-size: 0.9rem;
+    background: #444; 
+  }
+
+  .result-item:hover {
+    background: #555; 
+  }
+
+  /* Media queries para móviles */
+  @media (max-width: 768px) {
     .sala-picker-container {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: 12px;
-      margin-bottom: 20px;
-    }
-  
-    label {
-      font-weight: 500;
-      color: #ccc;
-    }
-  
-    select {
-      flex: 1;
-      min-width: 200px;
-      height: 2rem;
-      padding: 0 8px;
-      border: 1px solid #555;
-      background-color: #222;
-      color: #fff;
-      border-radius: 4px;
-      font-size: 1rem;
-    }
-  
-    .btn-gmaps {
-      display: none;
-      text-decoration: none;
-      padding: 0.5rem 1rem;
-      background-color: #f90;
-      color: #000;
-      border-radius: 4px;
-      font-weight: 600;
-      transition: background-color 0.3s;
-      white-space: nowrap;
-    }
-  
-    .btn-gmaps:hover {
-      background-color: #ffb233;
-    }
-  
-    #map {
-      height: 400px;
-      width: 100%;
-      border: 1px solid #444;
-      border-radius: 6px;
-      overflow: hidden;
-    }
-  
-    /* Media queries para dispositivos móviles */
-    @media (max-width: 768px) {
-      .sala-picker-container {
-        flex-direction: column;
-        align-items: stretch;
-      }
-  
-      label {
-        margin-bottom: 4px;
-      }
-  
-      select {
-        width: 100%;
-      }
-  
-      .btn-gmaps {
-        width: 100%;
-        text-align: center;
-      }
+      flex-direction: column;
+      align-items: stretch;
     }
 
-    /* Estilos para el marcador personalizado */
-    .leaflet-marker-icon {
-      background: none;
-      border: none;
+    .btn-gmaps {
+      width: 100%;
+      text-align: center;
     }
+  }
+
+  .leaflet-marker-icon {
+    background: none;
+    border: none;
+  }
 </style>
 
 <script>
@@ -89,31 +120,57 @@ import Page from "@layouts/Page.astro";
   let marcadorActual = null;
   let salas = [];
 
-  // Definir el ícono personalizado globalmente
   const customIcon = L.icon({
     iconUrl: '/images/marker/ubi.png',
     iconRetinaUrl: '/images/marker/ubi.png',
-    iconSize: [30, 30], // Ajustado para un tamaño más apropiado
-    iconAnchor: [15, 30], // Centro inferior del ícono
-    popupAnchor: [0, -30], // Centro superior del popup
-    shadowUrl: null // Removida la sombra ya que usamos el mismo ícono
+    iconSize: [30, 30],
+    iconAnchor: [15, 30],
+    popupAnchor: [0, -30],
+    shadowUrl: null,
   });
 
-  function handleSalaChange(event) {
-    const selectedSalaName = event.target.value;
-    const gmapsLink = document.getElementById("gmaps-link");
+  function normalizeString(str) {
+    return str
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '');
+  }
 
-    if (!selectedSalaName) {
-      if (gmapsLink) gmapsLink.style.display = "none";
-      if (marcadorActual) {
-        map.removeLayer(marcadorActual);
-        marcadorActual = null;
-      }
+  function handleSearchInput() {
+    const searchInput = document.getElementById('search-input');
+    const searchTerm = normalizeString(searchInput.value);
+    const resultsList = document.getElementById('results-list');
+
+    resultsList.innerHTML = '';
+
+    if (!searchTerm) {
+      resultsList.style.display = 'none';
       return;
     }
 
-    const selectedSala = salas.find((sala) => sala.name === selectedSalaName);
-    if (!selectedSala) return;
+    const filteredSalas = salas.filter((sala) => {
+      const normalizedName = normalizeString(sala.name);
+      return normalizedName.includes(searchTerm);
+    });
+
+    filteredSalas.forEach((sala) => {
+      const div = document.createElement('div');
+      div.className = 'result-item';
+      div.textContent = sala.name;
+      div.onclick = () => selectSala(sala);
+      resultsList.appendChild(div);
+    });
+
+    resultsList.style.display = filteredSalas.length ? 'block' : 'none';
+  }
+
+  function selectSala(selectedSala) {
+    const searchInput = document.getElementById('search-input');
+    const resultsList = document.getElementById('results-list');
+    const gmapsLink = document.getElementById('gmaps-link');
+
+    searchInput.value = selectedSala.name;
+    resultsList.style.display = 'none';
 
     const [lng, lat] = selectedSala.cords;
 
@@ -124,18 +181,27 @@ import Page from "@layouts/Page.astro";
         map.removeLayer(marcadorActual);
       }
 
-      // Usar el ícono personalizado al crear el marcador
       marcadorActual = L.marker([lat, lng], { icon: customIcon }).addTo(map);
-      marcadorActual.bindPopup(`
-        <div style="text-align: center; padding: 5px;">
-          <strong>${selectedSala.name}</strong><br>
-          <small>${selectedSala.name}</small>
-        </div>
-      `).openPopup();
+      marcadorActual
+        .bindPopup(
+          `
+                <div style="
+                    background-color: #000;
+                    color: #fff;
+                    padding: 8px;
+                    border-radius: 4px;
+                    text-align: center;
+                    font-family: Arial, sans-serif;
+                ">
+                    <strong style="font-size:14px;">${selectedSala.name}</strong>
+                </div>
+            `
+        )
+        .openPopup();
 
       if (gmapsLink) {
         gmapsLink.href = `https://www.google.com/maps?q=${lat},${lng}`;
-        gmapsLink.style.display = "inline-block";
+        gmapsLink.style.display = 'inline-block';
       }
     }
   }
@@ -146,17 +212,17 @@ import Page from "@layouts/Page.astro";
 
     if (!map) {
       map = L.map('map', {
-        center: [-33.450, -70.680],
+        center: [-33.45, -70.68],
         zoom: 15,
         zoomControl: true,
         maxZoom: 19,
         minZoom: 13,
-        scrollWheelZoom: true
+        scrollWheelZoom: true,
       });
 
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap contributors',
-        maxZoom: 19
+        maxZoom: 19,
       }).addTo(map);
     }
 
@@ -164,17 +230,23 @@ import Page from "@layouts/Page.astro";
       const response = await fetch('/salas.json');
       salas = await response.json();
 
-      const selectElement = document.querySelector('#sala-select');
-      if (selectElement && selectElement.children.length <= 1) {
-        salas.forEach((sala) => {
-          const option = document.createElement('option');
-          option.value = sala.name;
-          option.textContent = sala.name;
-          selectElement.appendChild(option);
+      const searchInput = document.getElementById('search-input');
+      if (searchInput) {
+        searchInput.addEventListener('input', handleSearchInput);
+
+        // Cerrar resultados al hacer clic fuera
+        document.addEventListener('click', (e) => {
+          if (!e.target.closest('.search-container')) {
+            document.getElementById('results-list').style.display = 'none';
+          }
         });
 
-        selectElement.removeEventListener('change', handleSalaChange);
-        selectElement.addEventListener('change', handleSalaChange);
+        // Manejar tecla Escape
+        searchInput.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape') {
+            document.getElementById('results-list').style.display = 'none';
+          }
+        });
       }
     } catch (error) {
       console.error('Error al cargar las salas:', error);
@@ -202,18 +274,12 @@ import Page from "@layouts/Page.astro";
 <Base meta_title="Buscador Salas">
   <Page title="Buscador de Salas">
     <div class="sala-picker-container">
-      <label for="sala-select">Selecciona una sala:</label>
-      <select id="sala-select">
-        <option value="">-- Selecciona una sala --</option>
-      </select>
-      <a
-        id="gmaps-link"
-        class="btn-gmaps"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Ver ubicación en Google Maps
-      </a>
+      <div class="search-container">
+        <label for="search-input">Buscar sala:</label>
+        <input type="text" id="search-input" placeholder="Escribe el nombre de la sala..." autocomplete="off" />
+        <div id="results-list"></div>
+      </div>
+      <a id="gmaps-link" class="btn-gmaps" target="_blank" rel="noopener noreferrer"> Ver ubicación en Google Maps</a>
     </div>
     <div id="map"></div>
   </Page>
