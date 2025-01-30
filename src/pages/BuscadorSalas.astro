@@ -1,17 +1,52 @@
 ---
 import Base from "@layouts/Base.astro";
 import Page from "@layouts/Page.astro";
-import salas from '../../scripts/salas.json';
-const handleSelectSala = (sala) => {
-    console.log("sala: " ,sala);
-}
+import salas from '../../public/salas.json';
 ---
 
+<script>
+    import L from 'leaflet';
+    import 'leaflet/dist/leaflet.css';
+
+    let map;
+    let marcadorActual= null
+    map = L.map('map').setView([-33.450, -70.680], 15); // usach
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+    let salas = [];
+    async function loadSalas() {
+        const response = await fetch('/salas.json');
+        salas = await response.json();
+    }
+
+    function handleSalaChange(event) {
+        const selectedSalaName = event.target.value;
+        const selectedSala = salas.find(sala => sala.name === selectedSalaName); // como se tiene el nombre en el evento, se busca en el json por name:
+        if (selectedSala) {
+            const [lng, lat] = selectedSala.cords; //cords
+            //con las cords, se mueve el mapa, se limpan los marcadores y se agrega el marcador en las cords nuevas
+            map.setView([lat, lng], 18); // mas zoom para que se vea mas cerca
+            if(marcadorActual){
+                map.removeLayer(marcadorActual);
+            }
+            // TODO: ver como agregarle el selectedSala.name pq .bindPopup('<b>{selectedSala.name}</b>') no esta funcionando
+            marcadorActual = L.marker([lat, lng]).addTo(map);
+
+        }
+    }
+    document.addEventListener('DOMContentLoaded', async () => {
+        await loadSalas(); // cargar aca recien el json
+        const selectElement = document.querySelector('select');
+        selectElement.addEventListener('change', handleSalaChange);
+    });
+</script>
+
 <Base meta_title="Buscador Salas">
-    <Page title = "Buscador de Salas">
+    <Page title="Buscador de Salas">
         <div class="display:flex width:100%">
-            <label >
-                <select onChange={(e) => handleSelectSala(e.target.value)}>
+            <label>
+                <select>
                     <option value="">Selecciona una sala</option>
                     {salas.map((sala) => (
                             <option key={sala.name} value={sala.name}>
@@ -21,6 +56,6 @@ const handleSelectSala = (sala) => {
                 </select>
             </label>
         </div>
-        <tbody></tbody>
+        <div id="map" style="height: 400px; width: 100%; margin-top: 20px;"></div>
     </Page>
 </Base>
