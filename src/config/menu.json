@@ -8,7 +8,8 @@
       "name": "Calculadora de Notas",
       "url": "/CalculadoraNotas"
     },
-
+    {"name":  "Buscador de Salas",
+    "url":  "/BuscadorSalas"},
     {
       "name": "Sobre Nosotros",
       "url": "/about"
