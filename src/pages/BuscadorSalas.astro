@@ -149,6 +149,100 @@ import Page from '@layouts/Page.astro';
       .replace(/[\u0300-\u036f]/g, '');
   }
 
+  // Función para extraer códigos de sala (como FIS201, B26, etc.)
+  function extractRoomCodes(str) {
+    // Busca patrones como letras seguidas de números o solo números
+    const matches = str.match(/[a-z]+\d+|\d+[a-z]+|\d+/gi) || [];
+    return matches.map(m => m.toLowerCase());
+  }
+
+  // Lista de prefijos comunes que pueden ser intercambiables
+  const commonPrefixes = ['sala', 'lab', 'laboratorio', 'auditorio', 'aula', 'edificio', 'piso'];
+
+  // Función para calcular la relevancia de un resultado de búsqueda
+  function calculateRelevance(salaName, searchWords) {
+    const normalizedSalaName = normalizeString(salaName);
+    const salaWords = normalizedSalaName.split(/\s+/);
+    
+    // Extraer códigos de sala tanto del nombre de la sala como de la búsqueda
+    const salaCodes = extractRoomCodes(normalizedSalaName);
+    const searchCodes = [];
+    searchWords.forEach(word => {
+      const codes = extractRoomCodes(word);
+      searchCodes.push(...codes);
+    });
+    
+    let matches = 0;
+    let exactMatches = 0;
+    let codeMatches = 0;
+    
+    // Verificar coincidencias de códigos (mayor prioridad)
+    if (searchCodes.length > 0) {
+      searchCodes.forEach(searchCode => {
+        salaCodes.forEach(salaCode => {
+          if (salaCode === searchCode) {
+            codeMatches += 3; // Alta prioridad para coincidencias exactas de código
+          } else if (salaCode.includes(searchCode) || searchCode.includes(salaCode)) {
+            codeMatches += 2; // Prioridad media para coincidencias parciales de código
+          }
+        });
+      });
+    }
+    
+    // Verificar coincidencias exactas y parciales
+    searchWords.forEach(searchWord => {
+      // Si la palabra de búsqueda está completa en el nombre de la sala
+      if (normalizedSalaName.includes(searchWord)) {
+        matches++;
+        
+        // Si la palabra de búsqueda coincide exactamente con una palabra en el nombre
+        if (salaWords.includes(searchWord)) {
+          exactMatches++;
+        }
+      } 
+      // Verificar coincidencias parciales
+      else {
+        // Verificar si alguna palabra de la sala contiene la palabra de búsqueda
+        for (const salaWord of salaWords) {
+          if (salaWord.includes(searchWord) || searchWord.includes(salaWord)) {
+            matches += 0.5;
+            break;
+          }
+        }
+        
+        // Manejo especial para prefijos comunes
+        if (commonPrefixes.includes(searchWord)) {
+          for (const prefix of commonPrefixes) {
+            if (salaWords.includes(prefix)) {
+              matches += 0.3; // Dar algún valor a la coincidencia entre prefijos comunes
+              break;
+            }
+          }
+        }
+      }
+    });
+    
+    // Verificar si hay palabras que comparten inicios similares
+    for (const searchWord of searchWords) {
+      if (searchWord.length >= 3) { // Solo para palabras con cierta longitud
+        for (const salaWord of salaWords) {
+          // Si comparten al menos los primeros 3 caracteres
+          if (salaWord.length >= 3 && searchWord.substring(0, 3) === salaWord.substring(0, 3)) {
+            matches += 0.2;
+          }
+        }
+      }
+    }
+    
+    return {
+      matches,
+      exactMatches,
+      codeMatches,
+      // Mayor puntuación para coincidencias de código, seguido de coincidencias exactas, y luego coincidencias parciales
+      score: codeMatches * 10 + exactMatches * 5 + matches
+    };
+  }
+
   function handleSearchInput() {
     const searchInput = document.getElementById('search-input');
     const searchTerm = normalizeString(searchInput.value);
@@ -161,20 +255,31 @@ import Page from '@layouts/Page.astro';
       return;
     }
 
-    const filteredSalas = salas.filter((sala) => {
-      const normalizedName = normalizeString(sala.name);
-      return normalizedName.includes(searchTerm);
-    });
+    // Dividir el término de búsqueda en palabras individuales
+    const searchWords = searchTerm.split(/\s+/).filter(word => word.length > 0);
+    
+    // Filtrar salas que tengan al menos una coincidencia parcial
+    const scoredResults = salas
+      .map(sala => {
+        const relevance = calculateRelevance(sala.name, searchWords);
+        return {
+          sala,
+          ...relevance
+        };
+      })
+      .filter(result => result.score > 0)
+      .sort((a, b) => b.score - a.score); // Ordenar por puntuación descendente
 
-    filteredSalas.forEach((sala) => {
+    // Mostrar resultados en la lista
+    scoredResults.forEach((result) => {
       const div = document.createElement('div');
       div.className = 'result-item';
-      div.textContent = sala.name;
-      div.onclick = () => selectSala(sala);
+      div.textContent = result.sala.name;
+      div.onclick = () => selectSala(result.sala);
       resultsList.appendChild(div);
     });
 
-    resultsList.style.display = filteredSalas.length ? 'block' : 'none';
+    resultsList.style.display = scoredResults.length ? 'block' : 'none';
   }
 
   function selectSala(selectedSala) {
