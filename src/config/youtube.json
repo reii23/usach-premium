@@ -1,5 +1,80 @@
 [
   {
+    "title": "Química - Ayudantía 0 | Parte 3",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "go9TCg1mvq0",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/go9TCg1mvq0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/go9TCg1mvq0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/go9TCg1mvq0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-03-12T15:42:58+00:00"
+  },
+  {
+    "title": "Química - Ayudantía 0 | Parte 2",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "Ch8MujVflTU",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Ch8MujVflTU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Ch8MujVflTU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Ch8MujVflTU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-03-12T15:42:52+00:00"
+  },
+  {
+    "title": "Química - Ayudantía 0 | Parte 1",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "NyMUauPA28c",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/NyMUauPA28c/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/NyMUauPA28c/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/NyMUauPA28c/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-03-12T15:42:47+00:00"
+  },
+  {
     "title": "Bienvenida Cachorros G2025 - Usach Premium",
     "description": "",
     "channelId": "UsachPremium",
@@ -298,80 +373,5 @@
       }
     },
     "publishedAt": "2024-11-30T19:15:00+00:00"
-  },
-  {
-    "title": "Ayudantía 4 - Álgebra 1: Ejercicios de Inducción [Maxito Rodríguez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "5svNEY4Xops",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/5svNEY4Xops/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/5svNEY4Xops/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/5svNEY4Xops/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2024-11-27T18:14:34+00:00"
-  },
-  {
-    "title": "Fundamentos de Economía: Ayudantía 7 [Benjamín Sepúlveda]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "4NzWklZMIeM",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/4NzWklZMIeM/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/4NzWklZMIeM/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/4NzWklZMIeM/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2024-11-23T23:03:50+00:00"
-  },
-  {
-    "title": "Ayudantía 4 - Cálculo 1: Función exponencial y logaritmica [Mohamed Al-Marzuk]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "8nvb7ouXbJ0",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/8nvb7ouXbJ0/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/8nvb7ouXbJ0/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/8nvb7ouXbJ0/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2024-11-22T02:30:04+00:00"
   }
 ]
