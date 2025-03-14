@@ -6,35 +6,56 @@ import Page from "@layouts/Page.astro";
 <Base meta_title="Calculadora de Notas">
     <Page title="Calculadora de Notas">
       <p class="mb-8 text-gray-700 dark:text-gray-300">
-        En este apartado podrás calcular la nota que necesitas en una evaluación para alcanzar la nota final que deseas en un ramo.
+        En este apartado podrás calcular la nota que necesitas en una evaluación para alcanzar la nota final que deseas en un ramo. Especialmente diseñada para el sistema de evaluación chileno (escala 1.0 a 7.0).
       </p>
   
       <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 max-w-md mx-auto">
         <h3 class="text-xl font-semibold mb-4 text-gray-800 dark:text-white">Ingresa aquí tus notas actuales:</h3>
         
+        <div class="mb-4 p-3 bg-blue-50 dark:bg-blue-900/30 rounded-lg">
+          <p class="text-sm text-gray-600 dark:text-gray-400">
+            <strong>Instrucciones:</strong> Agrega tus notas (1.0-7.0) y sus respectivos porcentajes. 
+            La calculadora te dirá qué nota necesitas en el porcentaje restante para alcanzar tu meta.
+          </p>
+        </div>
+        
         <div id="notas-container">
           <div class="mb-4 flex">
-            <input type="text" placeholder="Nota, Ej: 3.2" class="nota bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded-l px-3 py-2 w-1/2" />
-            <input type="number" placeholder="Porcentaje, Ej: 20 " class="porcentaje bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded-r px-3 py-2 w-1/2" />
+            <input type="text" placeholder="Nota, Ej: 5.5" class="nota bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded-l px-3 py-2 w-1/2" />
+            <input type="number" placeholder="Porcentaje, Ej: 20" class="porcentaje bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 px-3 py-2 w-1/3" />
+            <button class="eliminar-nota bg-red-500 hover:bg-red-600 text-white px-3 py-2 rounded-r">X</button>
           </div>
         </div>
         
-        <button class="agregar-nota bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded w-full mb-4">
-          Agregar nota
-        </button>
+        <div class="flex space-x-2 mb-4">
+          <button class="agregar-nota bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded flex-grow">
+            <i class="fas fa-plus mr-1"></i> Agregar nota
+          </button>
+          <button id="limpiar-notas" class="bg-gray-500 hover:bg-gray-600 text-white px-3 py-2 rounded">
+            <i class="fas fa-trash"></i> Limpiar
+          </button>
+        </div>
+        
+        <div class="mb-4">
+          <label for="notaMeta" class="block text-gray-700 dark:text-gray-300 mb-2">Nota que deseo obtener:</label>
+          <input type="number" id="notaMeta" class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded px-3 py-2 w-full" value="4.0" step="0.1" min="1.0" max="7.0">
+        </div>
         
         <button id="calcular" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded w-full mb-4">
           Calcular Nota Faltante
         </button>
         
         <p id="error-mensaje" class="text-red-500 mt-2"></p>
-        <p id="resultado" class="mt-4 text-lg font-semibold text-gray-800 dark:text-white"></p>
+        <div id="resultado-container" class="hidden mt-4 p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
+          <p id="resultado" class="text-lg font-semibold text-gray-800 dark:text-white"></p>
+          <p id="resultado-adicional" class="text-sm text-gray-600 dark:text-gray-400 mt-2"></p>
+        </div>
         
         <button id="configBtn" class="text-green-500 hover:text-green-400 mt-4">
           Configuración
         </button>
       </div>
-
+      
       <p class="text-center text-sm mt-4 text-gray-600 dark:text-gray-400">
         Creado por 
         <a href="https://github.com/JaimeRiquelme" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-600">
@@ -62,7 +83,7 @@ import Page from "@layouts/Page.astro";
             <input type="number" id="notaAprobacion" class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded px-3 py-2 w-full" step="0.1" min="0" max="10">
           </div>
           <div class="mb-4">
-            <label for="notaDeseada" class="block text-gray-700 dark:text-gray-300 mb-2">Nota final que deseo:</label>
+            <label for="notaDeseada" class="block text-gray-700 dark:text-gray-300 mb-2">Nota predeterminada deseada:</label>
             <input type="number" id="notaDeseada" class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded px-3 py-2 w-full" step="0.1" min="0" max="10">
           </div>
           <p id="configError" class="text-red-500 mb-4"></p>
@@ -92,21 +113,25 @@ import Page from "@layouts/Page.astro";
   let CONFIG: Config = {
     notaMinima: 1.0,
     notaMaxima: 7.0,
-    notaAprobacion: 3.95,
-    notaDeseada: 3.95
+    notaAprobacion: 4.0,
+    notaDeseada: 4.0
   };
 
   document.addEventListener('DOMContentLoaded', () => {
     const notasContainer = document.getElementById('notas-container') as HTMLDivElement | null;
     const agregarNotaBtn = document.querySelector('.agregar-nota') as HTMLButtonElement | null;
     const calcularBtn = document.getElementById('calcular') as HTMLButtonElement | null;
+    const limpiarBtn = document.getElementById('limpiar-notas') as HTMLButtonElement | null;
+    const resultadoContainer = document.getElementById('resultado-container') as HTMLDivElement | null;
     const resultadoP = document.getElementById('resultado') as HTMLParagraphElement | null;
+    const resultadoAdicional = document.getElementById('resultado-adicional') as HTMLParagraphElement | null;
     const errorMensaje = document.getElementById('error-mensaje') as HTMLParagraphElement | null;
     const configBtn = document.getElementById('configBtn') as HTMLButtonElement | null;
     const configModal = document.getElementById('configModal') as HTMLDivElement | null;
     const cancelarConfigBtn = document.getElementById('cancelarConfig') as HTMLButtonElement | null;
     const guardarConfigBtn = document.getElementById('guardarConfig') as HTMLButtonElement | null;
     const configError = document.getElementById('configError') as HTMLParagraphElement | null;
+    const notaMetaInput = document.getElementById('notaMeta') as HTMLInputElement | null;
 
     function validarNota(valor: string): boolean {
       const nota = parseFloat(valor);
@@ -114,11 +139,26 @@ import Page from "@layouts/Page.astro";
     }
 
     function mostrarError(mensaje: string): void {
-      if (errorMensaje) errorMensaje.textContent = mensaje;
+      if (errorMensaje) {
+        errorMensaje.textContent = mensaje;
+        errorMensaje.classList.remove('hidden');
+      }
     }
 
     function limpiarError(): void {
       if (errorMensaje) errorMensaje.textContent = '';
+    }
+    
+    function crearFilaNota() {
+      const nuevaNota = document.createElement('div');
+      nuevaNota.className = 'mb-4 flex';
+      nuevaNota.innerHTML = `
+        <input type="text" placeholder="Nota, Ej: 5.5" class="nota bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded-l px-3 py-2 w-1/2" />
+        <input type="number" placeholder="Porcentaje, Ej: 20" class="porcentaje bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 px-3 py-2 w-1/3" />
+        <button class="eliminar-nota bg-red-500 hover:bg-red-600 text-white px-3 py-2 rounded-r">X</button>
+      `;
+      notasContainer?.appendChild(nuevaNota);
+      return nuevaNota;
     }
 
     notasContainer?.addEventListener('input', (e: Event) => {
@@ -130,29 +170,51 @@ import Page from "@layouts/Page.astro";
           limpiarError();
         }
       }
+      if (target.classList.contains('porcentaje')) {
+        const porcentaje = parseFloat(target.value);
+        if (isNaN(porcentaje) || porcentaje <= 0 || porcentaje > 100) {
+          mostrarError('El porcentaje debe ser un valor entre 1 y 100.');
+        } else {
+          limpiarError();
+        }
+      }
     });
 
     agregarNotaBtn?.addEventListener('click', () => {
-      const nuevaNota = document.createElement('div');
-      nuevaNota.className = 'mb-4 flex';
-      nuevaNota.innerHTML = `
-        <input type="text" placeholder="Nota Ej: 3.2" class="nota bg-gray-700 text-white border border-gray-600 rounded-l px-3 py-2 w-1/2" />
-        <input type="number" placeholder="Porcentaje Ej: 20" class="porcentaje bg-gray-700 text-white border border-gray-600 px-3 py-2 w-1/2" />
-        <button class="eliminar-nota bg-red-500 hover:bg-red-600 text-white px-3 py-2 rounded-r">X</button>
-      `;
-      notasContainer?.appendChild(nuevaNota);
+      crearFilaNota();
+    });
+    
+    limpiarBtn?.addEventListener('click', () => {
+      if (notasContainer) {
+        notasContainer.innerHTML = '';
+        crearFilaNota();
+      }
+      if (resultadoContainer) {
+        resultadoContainer.classList.add('hidden');
+      }
+      limpiarError();
     });
 
     notasContainer?.addEventListener('click', (e: Event) => {
       const target = e.target as HTMLElement;
       if (target.classList.contains('eliminar-nota')) {
-        target.parentElement?.remove();
+        if (document.querySelectorAll('.nota').length > 1) {
+          target.parentElement?.remove();
+        } else {
+          mostrarError('Debe haber al menos una nota en la calculadora.');
+        }
       }
     });
 
     calcularBtn?.addEventListener('click', () => {
       const notas = Array.from(document.querySelectorAll('.nota')) as HTMLInputElement[];
       const porcentajes = Array.from(document.querySelectorAll('.porcentaje')) as HTMLInputElement[];
+      const notaDeseada = parseFloat(notaMetaInput?.value || CONFIG.notaDeseada.toString());
+
+      if (isNaN(notaDeseada) || notaDeseada < CONFIG.notaMinima || notaDeseada > CONFIG.notaMaxima) {
+        mostrarError(`La nota deseada debe estar entre ${CONFIG.notaMinima.toFixed(1)} y ${CONFIG.notaMaxima.toFixed(1)}`);
+        return;
+      }
 
       let sumaPonderada = 0;
       let sumaPorcentajes = 0;
@@ -162,8 +224,9 @@ import Page from "@layouts/Page.astro";
         const nota = parseFloat(notas[i].value);
         const porcentaje = parseFloat(porcentajes[i].value) / 100;
 
-        if (!validarNota(notas[i].value) || isNaN(porcentaje) || porcentaje < 0 || porcentaje > 1) {
+        if (!validarNota(notas[i].value) || isNaN(porcentaje) || porcentaje <= 0 || porcentaje > 1) {
           hayErrores = true;
+          mostrarError('Hay errores en las notas o porcentajes. Por favor, revise los valores ingresados.');
           break;
         }
 
@@ -172,7 +235,6 @@ import Page from "@layouts/Page.astro";
       }
 
       if (hayErrores) {
-        mostrarError('Por favor, corrija los errores en las notas o porcentajes antes de calcular.');
         return;
       }
 
@@ -182,15 +244,34 @@ import Page from "@layouts/Page.astro";
       }
 
       const porcentajeFaltante = 1 - sumaPorcentajes;
-      const notaNecesaria = (CONFIG.notaDeseada - sumaPonderada) / porcentajeFaltante;
+      const notaNecesaria = (notaDeseada - sumaPonderada) / porcentajeFaltante;
 
-      if (resultadoP) {
+      if (resultadoContainer) {
+        resultadoContainer.classList.remove('hidden');
+      }
+
+      if (resultadoP && resultadoAdicional) {
         if (notaNecesaria <= CONFIG.notaMinima) {
-          resultadoP.textContent = 'No es necesario obtener nota adicional para alcanzar la nota deseada. (Pasaste el ramo :D)';
+          resultadoP.textContent = `¡Felicidades! Ya has alcanzado la nota deseada.`;
+          resultadoAdicional.textContent = `Tu promedio actual es ${sumaPonderada.toFixed(1)}, que ya cumple con tu meta de ${notaDeseada.toFixed(1)}.`;
+          resultadoP.classList.add('text-green-600', 'dark:text-green-400');
         } else if (notaNecesaria <= CONFIG.notaMaxima) {
-          resultadoP.textContent = `Necesitas una nota de ${notaNecesaria.toFixed(1)} en el ${(porcentajeFaltante * 100).toFixed(1)}% restante para alcanzar la nota deseada.`;
+          resultadoP.textContent = `Necesitas un ${notaNecesaria.toFixed(1)} en el ${(porcentajeFaltante * 100).toFixed(0)}% restante.`;
+          
+          if (notaNecesaria > CONFIG.notaMaxima - 1) {
+            resultadoAdicional.textContent = `¡Atención! Necesitas una nota muy alta. Te recomendamos estudiar con tiempo.`;
+            resultadoP.classList.add('text-yellow-600', 'dark:text-yellow-400');
+          } else if (notaNecesaria > CONFIG.notaAprobacion) {
+            resultadoAdicional.textContent = `La nota es alcanzable con un buen estudio.`;
+            resultadoP.classList.remove('text-yellow-600', 'text-red-600', 'dark:text-yellow-400', 'dark:text-red-400');
+          } else {
+            resultadoAdicional.textContent = `La nota está dentro del rango aprobatorio y es alcanzable.`;
+            resultadoP.classList.add('text-green-600', 'dark:text-green-400');
+          }
         } else {
-          resultadoP.textContent = 'Lo siento, ya no es posible alcanzar la nota deseada con las notas actuales. :(';
+          resultadoP.textContent = `No es posible alcanzar la nota ${notaDeseada.toFixed(1)} con las calificaciones actuales.`;
+          resultadoAdicional.textContent = `Necesitarías un ${notaNecesaria.toFixed(1)}, que excede la nota máxima (${CONFIG.notaMaxima.toFixed(1)}).`;
+          resultadoP.classList.add('text-red-600', 'dark:text-red-400');
         }
       }
       limpiarError();
@@ -223,9 +304,19 @@ import Page from "@layouts/Page.astro";
       }
 
       CONFIG = { notaMinima, notaMaxima, notaAprobacion, notaDeseada };
+      if (notaMetaInput) {
+        notaMetaInput.value = notaDeseada.toString();
+        notaMetaInput.min = notaMinima.toString();
+        notaMetaInput.max = notaMaxima.toString();
+      }
       configModal?.classList.add('hidden');
       configModal?.classList.remove('flex');
       if (configError) configError.textContent = '';
     });
+
+    // Inicialización
+    if (notaMetaInput) {
+      notaMetaInput.value = CONFIG.notaDeseada.toString();
+    }
   });
 </script>
