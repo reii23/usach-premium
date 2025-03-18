@@ -1,5 +1,30 @@
 [
   {
+    "title": "Ayudantía 1 - Álgebra 1: Preparando el control [Isidora V]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "QhmZNVwY5tI",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/QhmZNVwY5tI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/QhmZNVwY5tI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/QhmZNVwY5tI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-03-18T00:51:16+00:00"
+  },
+  {
     "title": "Química - Ayudantía 0 | Parte 3",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2024-11-30T20:09:38+00:00"
-  },
-  {
-    "title": "Cápsula 4 - Cálculo 1: Límites",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "BlDng8i6bms",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/BlDng8i6bms/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/BlDng8i6bms/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/BlDng8i6bms/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2024-11-30T19:15:00+00:00"
   }
 ]
