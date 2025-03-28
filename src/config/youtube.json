@@ -1,5 +1,30 @@
 [
   {
+    "title": "Ayudantía 2 - Álgebra 1: Lógica y predicados [Maxi Rodríguez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "OtJGbeB2QY0",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/OtJGbeB2QY0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/OtJGbeB2QY0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/OtJGbeB2QY0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-03-27T16:17:07+00:00"
+  },
+  {
     "title": "Cálculo 1 - Ayudantía 1: Preparando el Control 1 [Isidora V]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2024-12-17T02:04:06+00:00"
-  },
-  {
-    "title": "Fundamentos de Economía: Ayudantía PEP 2 [Benjamín Sepúlveda]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "1HijqjlRvbI",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/1HijqjlRvbI/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/1HijqjlRvbI/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/1HijqjlRvbI/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2024-12-14T02:31:13+00:00"
   }
 ]
