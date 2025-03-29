@@ -1,5 +1,55 @@
 [
   {
+    "title": "Ayudantía 0 - Física 1: Análisis Dimensional y Conversión de unidades",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "J-DtA5_bbzA",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/J-DtA5_bbzA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/J-DtA5_bbzA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/J-DtA5_bbzA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-03-29T02:35:24+00:00"
+  },
+  {
+    "title": "Fundamentos de Economía: Ayudantía 1 [Benjamín Sepúlveda]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "cWzNCrX_yvU",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/cWzNCrX_yvU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/cWzNCrX_yvU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/cWzNCrX_yvU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-03-29T01:59:11+00:00"
+  },
+  {
     "title": "Química - Ayudantía 1: Preparando el Control 1 [Leonard S.]",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2024-12-18T01:52:18+00:00"
-  },
-  {
-    "title": "Cápsula 7 - Cálculo 1: Derivadas continuación",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "xrb5bDVpzfI",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/xrb5bDVpzfI/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/xrb5bDVpzfI/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/xrb5bDVpzfI/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2024-12-17T02:04:29+00:00"
-  },
-  {
-    "title": "Cápsula 6 - Cálculo 1: Derivadas",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "KcZvKMaM_jY",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/KcZvKMaM_jY/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/KcZvKMaM_jY/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/KcZvKMaM_jY/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2024-12-17T02:04:22+00:00"
   }
 ]
