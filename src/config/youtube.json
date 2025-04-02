@@ -1,5 +1,30 @@
 [
   {
+    "title": "Cálculo 1 - Ayudantía 2: Inecuaciones [Mohamed al-Marzuk]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "BWmbveIU7zk",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/BWmbveIU7zk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/BWmbveIU7zk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/BWmbveIU7zk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-01T17:06:15+00:00"
+  },
+  {
     "title": "Ayudantía 0 - Física 1: Análisis Dimensional y Conversión de unidades",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2024-12-18T02:24:54+00:00"
-  },
-  {
-    "title": "Cápsula 4: Teorema del Binomio",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "8JqpJZZCYxY",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/8JqpJZZCYxY/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/8JqpJZZCYxY/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/8JqpJZZCYxY/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2024-12-18T01:52:18+00:00"
   }
 ]
