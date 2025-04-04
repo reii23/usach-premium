@@ -1,5 +1,30 @@
 [
   {
+    "title": "Física 2 - Ayudantía 0: Preparando el Control 1 [Aisaac M.]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "AQfrpJU1YrA",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/AQfrpJU1YrA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/AQfrpJU1YrA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/AQfrpJU1YrA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-04T03:16:38+00:00"
+  },
+  {
     "title": "Cálculo 1 - Ayudantía 2: Inecuaciones [Mohamed al-Marzuk]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2024-12-18T03:06:15+00:00"
-  },
-  {
-    "title": "Cápsula 5: Sumatorias",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "rmsZFS4ZUAw",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/rmsZFS4ZUAw/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/rmsZFS4ZUAw/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/rmsZFS4ZUAw/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2024-12-18T02:24:54+00:00"
   }
 ]
