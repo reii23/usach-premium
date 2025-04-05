@@ -1,5 +1,30 @@
 [
   {
+    "title": "Fundamentos de Economía: Ayundantía 2 [Benjamín Sepúlveda]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "8CShddZTX8I",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/8CShddZTX8I/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/8CShddZTX8I/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/8CShddZTX8I/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-05T00:25:12+00:00"
+  },
+  {
     "title": "Física 2 - Ayudantía 0: Preparando el Control 1 [Aisaac M.]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2024-12-18T03:40:09+00:00"
-  },
-  {
-    "title": "Cápsula 6: Teorema del Binomio",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "9X2_bEdO7Is",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/9X2_bEdO7Is/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/9X2_bEdO7Is/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/9X2_bEdO7Is/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2024-12-18T03:06:15+00:00"
   }
 ]
