@@ -1,5 +1,55 @@
 [
   {
+    "title": "Química - Ayudantía 2: Números Cuánticos/Configuración Electrónica [Leonard S.]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "0vWA-CIT7cE",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/0vWA-CIT7cE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/0vWA-CIT7cE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/0vWA-CIT7cE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-13T00:12:02+00:00"
+  },
+  {
+    "title": "Álgebra 1 - Ayudantía 3: Conjuntos [Maxi Rodríguez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "5PC1DOVGC5E",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/5PC1DOVGC5E/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/5PC1DOVGC5E/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/5PC1DOVGC5E/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-13T00:08:16+00:00"
+  },
+  {
     "title": "Cálculo 3 - Cápsula 0: Preparando el Control 1",
     "description": "",
     "channelId": "UsachPremium",
@@ -250,7 +300,7 @@
     "publishedAt": "2025-03-28T12:01:30+00:00"
   },
   {
-    "title": "Ayudantía 2 - Álgebra 1: Lógica y predicados [Maxi Rodríguez]",
+    "title": "Álgebra 1 - Ayudantía 2: Lógica y predicados [Maxi Rodríguez]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -300,7 +350,7 @@
     "publishedAt": "2025-03-19T23:59:56+00:00"
   },
   {
-    "title": "Ayudantía 1 - Álgebra 1: Preparando el control [Isidora V]",
+    "title": "Álgebra 1 - Ayudantía 1: Preparando el control [Isidora V]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2025-03-18T00:51:16+00:00"
-  },
-  {
-    "title": "Química - Ayudantía 0 | Parte 3",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "go9TCg1mvq0",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/go9TCg1mvq0/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/go9TCg1mvq0/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/go9TCg1mvq0/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-03-12T15:42:58+00:00"
-  },
-  {
-    "title": "Química - Ayudantía 0 | Parte 2",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "Ch8MujVflTU",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Ch8MujVflTU/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Ch8MujVflTU/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Ch8MujVflTU/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-03-12T15:42:52+00:00"
   }
 ]
