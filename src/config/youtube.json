@@ -1,5 +1,55 @@
 [
   {
+    "title": "Álgebra 2 - Ayudantía 1: Preparando el Control [Byron C.]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "uvxKeWyoOhA",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/uvxKeWyoOhA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/uvxKeWyoOhA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/uvxKeWyoOhA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-14T02:06:09+00:00"
+  },
+  {
+    "title": "Álgebra 2 - Ayudantía 0: Preparando el Control [Trinidad P.]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "7T8dPTjpYX4",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/7T8dPTjpYX4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/7T8dPTjpYX4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/7T8dPTjpYX4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-14T02:03:03+00:00"
+  },
+  {
     "title": "Química - Ayudantía 2: Números Cuánticos/Configuración Electrónica [Leonard S.]",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2025-03-27T16:17:07+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Ayudantía 1: Preparando el Control 1 [Isidora V]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "x8zouEcgYlU",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/x8zouEcgYlU/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/x8zouEcgYlU/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/x8zouEcgYlU/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-03-19T23:59:56+00:00"
-  },
-  {
-    "title": "Álgebra 1 - Ayudantía 1: Preparando el control [Isidora V]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "QhmZNVwY5tI",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/QhmZNVwY5tI/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/QhmZNVwY5tI/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/QhmZNVwY5tI/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-03-18T00:51:16+00:00"
   }
 ]
