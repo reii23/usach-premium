@@ -1,5 +1,55 @@
 [
   {
+    "title": "Física 1 - Ayudantía 1: MRU, MRUA y Análisis de Gráficos [Aisaac M.]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "jpNsjgFytPQ",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/jpNsjgFytPQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/jpNsjgFytPQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/jpNsjgFytPQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-16T03:31:26+00:00"
+  },
+  {
+    "title": "Física 2 - Ayudantía 1: MCU, MCUA y Aceleración Centrípeta [Aisaac M.]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "_ZgtS5pY-sQ",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/_ZgtS5pY-sQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/_ZgtS5pY-sQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/_ZgtS5pY-sQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-16T03:26:28+00:00"
+  },
+  {
     "title": "Álgebra 2 - Ayudantía 1: Preparando el Control [Byron C.]",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2025-03-29T01:59:11+00:00"
-  },
-  {
-    "title": "Química - Ayudantía 1: Preparando el Control 1 [Leonard S.]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "u4k0qFlVOdQ",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/u4k0qFlVOdQ/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/u4k0qFlVOdQ/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/u4k0qFlVOdQ/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-03-28T12:01:30+00:00"
-  },
-  {
-    "title": "Álgebra 1 - Ayudantía 2: Lógica y predicados [Maxi Rodríguez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "OtJGbeB2QY0",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/OtJGbeB2QY0/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/OtJGbeB2QY0/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/OtJGbeB2QY0/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-03-27T16:17:07+00:00"
   }
 ]
