@@ -1,5 +1,30 @@
 [
   {
+    "title": "Cálculo 1 - Ayudantía 3: Monotonía, composición de funciones y función inversa [Mohamed Al-Marzuk]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "ZLzD2_B29g8",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ZLzD2_B29g8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ZLzD2_B29g8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ZLzD2_B29g8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-17T02:51:58+00:00"
+  },
+  {
     "title": "Física 1 - Ayudantía 1: MRU, MRUA y Análisis de Gráficos [Aisaac M.]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-03-29T02:35:24+00:00"
-  },
-  {
-    "title": "Fundamentos de Economía: Ayudantía 1 [Benjamín Sepúlveda]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "cWzNCrX_yvU",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/cWzNCrX_yvU/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/cWzNCrX_yvU/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/cWzNCrX_yvU/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-03-29T01:59:11+00:00"
   }
 ]
