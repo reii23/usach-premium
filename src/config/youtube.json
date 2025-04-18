@@ -1,5 +1,30 @@
 [
   {
+    "title": "Python para Ingeniería - Ayudantía 2 [Iteraciones]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "_CtuoeY_3e8",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/_CtuoeY_3e8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/_CtuoeY_3e8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/_CtuoeY_3e8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-18T02:14:29+00:00"
+  },
+  {
     "title": "Cálculo 1 - Ayudantía 3: Monotonía, composición de funciones y función inversa [Mohamed Al-Marzuk]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-04-01T17:06:15+00:00"
-  },
-  {
-    "title": "Ayudantía 0 - Física 1: Análisis Dimensional y Conversión de unidades",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "J-DtA5_bbzA",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/J-DtA5_bbzA/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/J-DtA5_bbzA/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/J-DtA5_bbzA/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-03-29T02:35:24+00:00"
   }
 ]
