@@ -1,5 +1,105 @@
 [
   {
+    "title": "Álgebra 1 - Ayudantía 4: Polinomios [Aisaac M.]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "UlMy3fl3xL4",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/UlMy3fl3xL4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/UlMy3fl3xL4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/UlMy3fl3xL4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-21T00:49:58+00:00"
+  },
+  {
+    "title": "Fundamentos de Economía - Ayudantía 3 [Benjamín Sepúlveda]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "Qh_jHwXzcOs",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Qh_jHwXzcOs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Qh_jHwXzcOs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Qh_jHwXzcOs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-20T21:35:13+00:00"
+  },
+  {
+    "title": "Cálculo 2 - Ayudantía 2: Sustitución Trigonométrica y Área entre Curvas [Byron Caices]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "btdfLj1IZEw",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/btdfLj1IZEw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/btdfLj1IZEw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/btdfLj1IZEw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-20T18:01:36+00:00"
+  },
+  {
+    "title": "Cálculo 2 - Ayudantía 1: Integral por Sustitución Simple e Integral Por Partes [Byron Caices]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "n7b0_avRjfo",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/n7b0_avRjfo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/n7b0_avRjfo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/n7b0_avRjfo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-20T18:01:08+00:00"
+  },
+  {
     "title": "Python para Ingeniería - Ayudantía 2 [Iteraciones]",
     "description": "",
     "channelId": "UsachPremium",
@@ -273,105 +373,5 @@
       }
     },
     "publishedAt": "2025-04-06T22:40:50+00:00"
-  },
-  {
-    "title": "Cálculo 2 - Ayudantía 0 Parte 1: Riemann Normal [Fernando S.]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "edPAVcfjDYQ",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/edPAVcfjDYQ/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/edPAVcfjDYQ/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/edPAVcfjDYQ/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-06T22:39:48+00:00"
-  },
-  {
-    "title": "Fundamentos de Economía: Ayundantía 2 [Benjamín Sepúlveda]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "8CShddZTX8I",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/8CShddZTX8I/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/8CShddZTX8I/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/8CShddZTX8I/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-05T00:25:12+00:00"
-  },
-  {
-    "title": "Física 2 - Ayudantía 0: Preparando el Control 1 [Aisaac M.]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "AQfrpJU1YrA",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/AQfrpJU1YrA/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/AQfrpJU1YrA/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/AQfrpJU1YrA/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-04T03:16:38+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Ayudantía 2: Inecuaciones [Mohamed al-Marzuk]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "BWmbveIU7zk",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/BWmbveIU7zk/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/BWmbveIU7zk/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/BWmbveIU7zk/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-01T17:06:15+00:00"
   }
 ]
