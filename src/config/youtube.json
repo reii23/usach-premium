@@ -1,5 +1,55 @@
 [
   {
+    "title": "Álgebra 1 - Ayudantía 5: Polinomios (Parte 2) [Maxi Rodríguez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "23atjVgl1o4",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/23atjVgl1o4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/23atjVgl1o4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/23atjVgl1o4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-24T03:25:22+00:00"
+  },
+  {
+    "title": "Álgebra 1 - Ayudantía 5: Polinomios (Parte 1) [Maxi Rodríguez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "dEq-XPHKdaE",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/dEq-XPHKdaE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/dEq-XPHKdaE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/dEq-XPHKdaE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-24T03:24:58+00:00"
+  },
+  {
     "title": "Álgebra 1 - Ayudantía 4: Polinomios [Aisaac M.]",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2025-04-11T01:50:07+00:00"
-  },
-  {
-    "title": "Cálculo 2 - Ayudantía 0 Parte 3: Suma Geométrica [Fernando S.]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "uK_BvQzNFwo",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/uK_BvQzNFwo/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/uK_BvQzNFwo/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/uK_BvQzNFwo/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-06T22:41:53+00:00"
-  },
-  {
-    "title": "Cálculo 2 - Ayudantía 0 Parte 2: Suma Telescópica [Fernando S.]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "jMtjszDTNWQ",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/jMtjszDTNWQ/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/jMtjszDTNWQ/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/jMtjszDTNWQ/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-06T22:40:50+00:00"
   }
 ]
