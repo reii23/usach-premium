@@ -1,5 +1,30 @@
 [
   {
+    "title": "Python para Ingeniería - Ayudantía 3: Iteraciones [Rodrigo O.]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "5sMINiL64z0",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/5sMINiL64z0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/5sMINiL64z0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/5sMINiL64z0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-25T02:11:24+00:00"
+  },
+  {
     "title": "Cálculo 1 - Ayudantía 4: Límites [Mohamed Al-Marzuk]",
     "description": "",
     "channelId": "UsachPremium",
@@ -175,7 +200,7 @@
     "publishedAt": "2025-04-20T18:01:08+00:00"
   },
   {
-    "title": "Python para Ingeniería - Ayudantía 2 [Iteraciones]",
+    "title": "Python para Ingeniería - Ayudantía 2: Iteraciones [Rodrigo O.]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-04-13T00:12:02+00:00"
-  },
-  {
-    "title": "Álgebra 1 - Ayudantía 3: Conjuntos [Maxi Rodríguez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "5PC1DOVGC5E",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/5PC1DOVGC5E/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/5PC1DOVGC5E/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/5PC1DOVGC5E/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-13T00:08:16+00:00"
   }
 ]
