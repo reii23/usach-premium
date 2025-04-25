@@ -1,5 +1,30 @@
 [
   {
+    "title": "Cálculo 1 - Ayudantía 4: Límites [Mohamed Al-Marzuk]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "D3ZEGJsdoC0",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/D3ZEGJsdoC0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/D3ZEGJsdoC0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/D3ZEGJsdoC0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-24T14:14:07+00:00"
+  },
+  {
     "title": "Álgebra 1 - Ayudantía 5: Polinomios (Parte 2) [Maxi Rodríguez]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-04-13T00:08:16+00:00"
-  },
-  {
-    "title": "Cálculo 3 - Cápsula 0: Preparando el Control 1",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "vcTViLzLhkQ",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/vcTViLzLhkQ/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/vcTViLzLhkQ/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/vcTViLzLhkQ/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-11T01:50:07+00:00"
   }
 ]
