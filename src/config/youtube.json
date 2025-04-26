@@ -1,5 +1,30 @@
 [
   {
+    "title": "Química - Ayudantía 3: Preparando el Control 2 [Leonard S.]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "tj3pPHaoVzE",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/tj3pPHaoVzE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/tj3pPHaoVzE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/tj3pPHaoVzE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-25T18:10:25+00:00"
+  },
+  {
     "title": "Python para Ingeniería - Ayudantía 3: Iteraciones [Rodrigo O.]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-04-14T02:03:03+00:00"
-  },
-  {
-    "title": "Química - Ayudantía 2: Números Cuánticos/Configuración Electrónica [Leonard S.]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "0vWA-CIT7cE",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/0vWA-CIT7cE/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/0vWA-CIT7cE/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/0vWA-CIT7cE/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-13T00:12:02+00:00"
   }
 ]
