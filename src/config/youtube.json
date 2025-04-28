@@ -1,5 +1,80 @@
 [
   {
+    "title": "Cálculo 1 - Ayudantía 7: Composición de Funciones [Byron Caices]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "Lfq_R88s-SM",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Lfq_R88s-SM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Lfq_R88s-SM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Lfq_R88s-SM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-27T14:30:20+00:00"
+  },
+  {
+    "title": "Cálculo 1 - Ayudantía 6: Inyectividad y Sobreyectividad (Teoría) [Byron Caices]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "qiCmrpxnDZ8",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/qiCmrpxnDZ8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/qiCmrpxnDZ8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/qiCmrpxnDZ8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-27T13:30:43+00:00"
+  },
+  {
+    "title": "Cálculo 1 - Ayudantía 5: Funciones, Monotonía y Límites [Byron Caices]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "n9oFON1NycI",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/n9oFON1NycI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/n9oFON1NycI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/n9oFON1NycI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-04-27T12:30:54+00:00"
+  },
+  {
     "title": "Química - Ayudantía 3: Preparando el Control 2 [Leonard S.]",
     "description": "",
     "channelId": "UsachPremium",
@@ -298,80 +373,5 @@
       }
     },
     "publishedAt": "2025-04-16T03:31:26+00:00"
-  },
-  {
-    "title": "Física 2 - Ayudantía 1: MCU, MCUA y Aceleración Centrípeta [Aisaac M.]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "_ZgtS5pY-sQ",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/_ZgtS5pY-sQ/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/_ZgtS5pY-sQ/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/_ZgtS5pY-sQ/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-16T03:26:28+00:00"
-  },
-  {
-    "title": "Álgebra 2 - Ayudantía 1: Preparando el Control [Byron Caices]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "uvxKeWyoOhA",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/uvxKeWyoOhA/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/uvxKeWyoOhA/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/uvxKeWyoOhA/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-14T02:06:09+00:00"
-  },
-  {
-    "title": "Álgebra 2 - Ayudantía 0: Preparando el Control [Trinidad P.]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "7T8dPTjpYX4",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/7T8dPTjpYX4/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/7T8dPTjpYX4/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/7T8dPTjpYX4/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-14T02:03:03+00:00"
   }
 ]
