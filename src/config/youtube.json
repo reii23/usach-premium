@@ -1,5 +1,105 @@
 [
   {
+    "title": "Ecuaciones Diferenciales: Intensivo Pep 1 [Benjamín Sepúlveda]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "DrmfdyLdO3c",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/DrmfdyLdO3c/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/DrmfdyLdO3c/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/DrmfdyLdO3c/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-01T22:45:44+00:00"
+  },
+  {
+    "title": "Fundamentos de Economía: Ayudantía 5 [Benjamín Sepúlveda]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "yw6jyMYjj-U",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/yw6jyMYjj-U/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/yw6jyMYjj-U/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/yw6jyMYjj-U/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-01T21:47:30+00:00"
+  },
+  {
+    "title": "Fundamentos de Economía: Ayudantía 4 [Benjamín Sepúlveda]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "-0X09imE6hM",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/-0X09imE6hM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/-0X09imE6hM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/-0X09imE6hM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-01T21:45:44+00:00"
+  },
+  {
+    "title": "Cálculo 3 - Cápsula Ejercicios PEP1 [Benjamín S.]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "Vv8xcEvJCxA",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Vv8xcEvJCxA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Vv8xcEvJCxA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Vv8xcEvJCxA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-01T21:33:56+00:00"
+  },
+  {
     "title": "Cálculo 2 - Cápsula Ejercicios PEP1 [Benjamin S.]",
     "description": "",
     "channelId": "UsachPremium",
@@ -273,105 +373,5 @@
       }
     },
     "publishedAt": "2025-04-20T21:35:13+00:00"
-  },
-  {
-    "title": "Cálculo 2 - Ayudantía 2: Sustitución Trigonométrica y Área entre Curvas [Byron Caices]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "btdfLj1IZEw",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/btdfLj1IZEw/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/btdfLj1IZEw/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/btdfLj1IZEw/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-20T18:01:36+00:00"
-  },
-  {
-    "title": "Cálculo 2 - Ayudantía 1: Integral por Sustitución Simple e Integral Por Partes [Byron Caices]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "n7b0_avRjfo",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/n7b0_avRjfo/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/n7b0_avRjfo/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/n7b0_avRjfo/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-20T18:01:08+00:00"
-  },
-  {
-    "title": "Python para Ingeniería - Ayudantía 2: Iteraciones [Rodrigo O.]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "_CtuoeY_3e8",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/_CtuoeY_3e8/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/_CtuoeY_3e8/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/_CtuoeY_3e8/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-18T02:14:29+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Ayudantía 3: Monotonía, composición de funciones y función inversa [Mohamed Al-Marzuk]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "ZLzD2_B29g8",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/ZLzD2_B29g8/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/ZLzD2_B29g8/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/ZLzD2_B29g8/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-17T02:51:58+00:00"
   }
 ]
