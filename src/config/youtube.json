@@ -1,5 +1,55 @@
 [
   {
+    "title": "AYUDANTÍA Química - INTENSIVO PREPARANDO SEMANA DE PEPS",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "LVzZucd5QY0",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/LVzZucd5QY0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/LVzZucd5QY0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/LVzZucd5QY0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-02T23:39:23+00:00"
+  },
+  {
+    "title": "Transmisión en vivo de Usach Premium",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "4Ohi0nKs4Io",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/4Ohi0nKs4Io/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/4Ohi0nKs4Io/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/4Ohi0nKs4Io/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-02T15:15:31+00:00"
+  },
+  {
     "title": "Ecuaciones Diferenciales: Intensivo Pep 1 [Benjamín Sepúlveda]",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2025-04-24T03:24:58+00:00"
-  },
-  {
-    "title": "Álgebra 1 - Ayudantía 4: Polinomios [Aisaac M.]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "UlMy3fl3xL4",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/UlMy3fl3xL4/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/UlMy3fl3xL4/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/UlMy3fl3xL4/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-21T00:49:58+00:00"
-  },
-  {
-    "title": "Fundamentos de Economía - Ayudantía 3 [Benjamín Sepúlveda]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "Qh_jHwXzcOs",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Qh_jHwXzcOs/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Qh_jHwXzcOs/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Qh_jHwXzcOs/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-20T21:35:13+00:00"
   }
 ]
