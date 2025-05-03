@@ -1,6 +1,56 @@
 [
   {
-    "title": "AYUDANTÍA Química - INTENSIVO PREPARANDO SEMANA DE PEPS",
+    "title": "Álgebra 1 - Ayudantía 6: Preparando la PEP 1 [Maxi Rodríguez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "WDbslfJASgc",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/WDbslfJASgc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/WDbslfJASgc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/WDbslfJASgc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-03T04:27:56+00:00"
+  },
+  {
+    "title": "AYUDANTÍA Cálculo 2 - INTENSIVO PREPARANDO SEMANA DE PEPS [Renato Vásquez C.]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "UAPtyI2RHms",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/UAPtyI2RHms/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/UAPtyI2RHms/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/UAPtyI2RHms/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-03T01:17:25+00:00"
+  },
+  {
+    "title": "AYUDANTÍA Química - INTENSIVO PREPARANDO SEMANA DE PEPS [Leonard S.]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2025-04-24T14:14:07+00:00"
-  },
-  {
-    "title": "Álgebra 1 - Ayudantía 5: Polinomios (Parte 2) [Maxi Rodríguez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "23atjVgl1o4",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/23atjVgl1o4/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/23atjVgl1o4/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/23atjVgl1o4/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-24T03:25:22+00:00"
-  },
-  {
-    "title": "Álgebra 1 - Ayudantía 5: Polinomios (Parte 1) [Maxi Rodríguez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "dEq-XPHKdaE",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/dEq-XPHKdaE/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/dEq-XPHKdaE/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/dEq-XPHKdaE/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-24T03:24:58+00:00"
   }
 ]
