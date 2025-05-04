@@ -1,5 +1,205 @@
 [
   {
+    "title": "Ayudantía F1 - 21:00 hrs",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "f6cBJ3jGegM",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/f6cBJ3jGegM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/f6cBJ3jGegM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/f6cBJ3jGegM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-04T01:03:23+00:00"
+  },
+  {
+    "title": "Cálculo 2 - Ayudantía 5: Método de discos, arandelas y cascarones cilíndricos [Byron Caices]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "LGTmSbwgkfg",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/LGTmSbwgkfg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/LGTmSbwgkfg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/LGTmSbwgkfg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-04T01:15:04+00:00"
+  },
+  {
+    "title": "Cálculo 2 - Ayudantía 4: Secciones Transversales [Byron Caices]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "QK_qhZ7TWJc",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/QK_qhZ7TWJc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/QK_qhZ7TWJc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/QK_qhZ7TWJc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-04T01:00:32+00:00"
+  },
+  {
+    "title": "Física 1 - Ayudantía 2: Repaso MRU/MRUA [Byron Caices]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "voLgTpvasUE",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/voLgTpvasUE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/voLgTpvasUE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/voLgTpvasUE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-04T00:30:45+00:00"
+  },
+  {
+    "title": "Cálculo 1 - Ayudantía 10: Preparando la PEP 1 [Mohamed Al-Marzuk]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "Nj0icP3w3uw",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Nj0icP3w3uw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Nj0icP3w3uw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Nj0icP3w3uw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-04T00:16:08+00:00"
+  },
+  {
+    "title": "Cálculo 1 - Ayudantía 9: Inecuaciones con valor absoluto y funciones [Byron Caices]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "mWxZshmOy1E",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/mWxZshmOy1E/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/mWxZshmOy1E/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/mWxZshmOy1E/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-03T23:49:37+00:00"
+  },
+  {
+    "title": "Cálculo 1 - Ayudantía 8: Cambio de Variable en límites y Teorema del Sandwich [Byron Caices]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "HauzRXMYyCA",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/HauzRXMYyCA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/HauzRXMYyCA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/HauzRXMYyCA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-03T23:27:27+00:00"
+  },
+  {
+    "title": "AYUDANTÍA PREPARANDO LA PEP1 - FÍSICA 2",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "U3wgLHK-6XQ",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/U3wgLHK-6XQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/U3wgLHK-6XQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/U3wgLHK-6XQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-03T18:40:02+00:00"
+  },
+  {
     "title": "Álgebra 1 - Ayudantía 6: Preparando la PEP 1 [Maxi Rodríguez]",
     "description": "",
     "channelId": "UsachPremium",
@@ -25,7 +225,7 @@
     "publishedAt": "2025-05-03T04:27:56+00:00"
   },
   {
-    "title": "AYUDANTÍA Cálculo 2 - INTENSIVO PREPARANDO SEMANA DE PEPS [Renato Vásquez C.]",
+    "title": "Cálculo 2 - Ayudantía 3: INTENSIVO PREPARANDO SEMANA DE PEPS [Renato Vásquez C.]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -173,205 +373,5 @@
       }
     },
     "publishedAt": "2025-05-01T21:45:44+00:00"
-  },
-  {
-    "title": "Cálculo 3 - Cápsula Ejercicios PEP1 [Benjamín S.]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "Vv8xcEvJCxA",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Vv8xcEvJCxA/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Vv8xcEvJCxA/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Vv8xcEvJCxA/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-05-01T21:33:56+00:00"
-  },
-  {
-    "title": "Cálculo 2 - Cápsula Ejercicios PEP1 [Benjamin S.]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "zqUlk5u6guY",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/zqUlk5u6guY/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/zqUlk5u6guY/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/zqUlk5u6guY/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-05-01T02:48:54+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Ayudantía 7: Composición de Funciones [Byron Caices]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "Lfq_R88s-SM",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Lfq_R88s-SM/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Lfq_R88s-SM/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Lfq_R88s-SM/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-27T14:30:20+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Ayudantía 6: Inyectividad y Sobreyectividad (Teoría) [Byron Caices]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "qiCmrpxnDZ8",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/qiCmrpxnDZ8/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/qiCmrpxnDZ8/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/qiCmrpxnDZ8/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-27T13:30:43+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Ayudantía 5: Funciones, Monotonía y Límites [Byron Caices]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "n9oFON1NycI",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/n9oFON1NycI/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/n9oFON1NycI/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/n9oFON1NycI/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-27T12:30:54+00:00"
-  },
-  {
-    "title": "Química - Ayudantía 3: Preparando el Control 2 [Leonard S.]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "tj3pPHaoVzE",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/tj3pPHaoVzE/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/tj3pPHaoVzE/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/tj3pPHaoVzE/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-25T18:10:25+00:00"
-  },
-  {
-    "title": "Python para Ingeniería - Ayudantía 3: Iteraciones [Rodrigo O.]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "5sMINiL64z0",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/5sMINiL64z0/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/5sMINiL64z0/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/5sMINiL64z0/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-25T02:11:24+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Ayudantía 4: Límites [Mohamed Al-Marzuk]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "D3ZEGJsdoC0",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/D3ZEGJsdoC0/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/D3ZEGJsdoC0/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/D3ZEGJsdoC0/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-04-24T14:14:07+00:00"
   }
 ]
