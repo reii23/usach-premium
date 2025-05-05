@@ -1,5 +1,80 @@
 [
   {
+    "title": "Ayudantía Fisica 1 Preparando la PEP1",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "3B3Jl9hpIjM",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/3B3Jl9hpIjM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/3B3Jl9hpIjM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/3B3Jl9hpIjM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-04T23:12:29+00:00"
+  },
+  {
+    "title": "Física 1 Ayudantia 2: MRU y MRUA [Fernando S.]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "YVbcINKacMk",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/YVbcINKacMk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/YVbcINKacMk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/YVbcINKacMk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-04T20:44:21+00:00"
+  },
+  {
+    "title": "Fundamentos de Economía: Ejercicio Pep 1 [Benjamín Sepúlveda]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "Qjrthe2huTk",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Qjrthe2huTk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Qjrthe2huTk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Qjrthe2huTk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-04T16:32:53+00:00"
+  },
+  {
     "title": "ÁLGEBRA 2 - Preparando la PEP - Trinidad Palma",
     "description": "",
     "channelId": "UsachPremium",
@@ -298,80 +373,5 @@
       }
     },
     "publishedAt": "2025-05-02T15:15:31+00:00"
-  },
-  {
-    "title": "Ecuaciones Diferenciales: Intensivo Pep 1 [Benjamín Sepúlveda]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "DrmfdyLdO3c",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/DrmfdyLdO3c/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/DrmfdyLdO3c/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/DrmfdyLdO3c/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-05-01T22:45:44+00:00"
-  },
-  {
-    "title": "Fundamentos de Economía: Ayudantía 5 [Benjamín Sepúlveda]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "yw6jyMYjj-U",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/yw6jyMYjj-U/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/yw6jyMYjj-U/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/yw6jyMYjj-U/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-05-01T21:47:30+00:00"
-  },
-  {
-    "title": "Fundamentos de Economía: Ayudantía 4 [Benjamín Sepúlveda]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "-0X09imE6hM",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/-0X09imE6hM/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/-0X09imE6hM/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/-0X09imE6hM/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-05-01T21:45:44+00:00"
   }
 ]
