@@ -40,6 +40,13 @@ import Page from "@layouts/Page.astro";
           <label for="notaMeta" class="block text-gray-700 dark:text-gray-300 mb-2">Nota que deseo obtener:</label>
           <input type="number" id="notaMeta" class="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded px-3 py-2 w-full" value="4.0" step="0.1" min="1.0" max="7.0">
         </div>
+        <div class="mb-4 flex items-center">
+          <input type="checkbox" id="multiNotasCheck" class="mr-2">
+          <label for="multiNotasCheck" class="text-gray-700 dark:text-gray-300">¿Calcular combinaciones para más de una nota faltante?</label>
+        </div>
+        <div id="multiNotasExplicacion" class="mb-2 text-sm text-blue-700 dark:text-blue-300 hidden">
+          Para usar esta opción, deja vacíos los campos de nota donde quieras calcular combinaciones y asegúrate de ingresar el porcentaje correspondiente en cada fila. La suma de todos los porcentajes (incluyendo los de las notas vacías) debe ser exactamente 100%.
+        </div>
         
         <button id="calcular" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded w-full mb-4">
           Calcular Nota Faltante
@@ -49,6 +56,12 @@ import Page from "@layouts/Page.astro";
         <div id="resultado-container" class="hidden mt-4 p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
           <p id="resultado" class="text-lg font-semibold text-gray-800 dark:text-white"></p>
           <p id="resultado-adicional" class="text-sm text-gray-600 dark:text-gray-400 mt-2"></p>
+        </div>
+        <div id="tabla-combinaciones-container" class="hidden mt-4 p-4 border border-gray-200 dark:border-gray-700 rounded-lg overflow-x-auto">
+          <p class="text-md font-semibold text-gray-800 dark:text-white mb-2">Combinaciones posibles de notas faltantes:</p>
+          <table id="tabla-combinaciones" class="min-w-full text-sm text-left">
+            <!-- Se llenará dinámicamente -->
+          </table>
         </div>
         
         <button id="configBtn" class="text-green-500 hover:text-green-400 mt-4">
@@ -118,205 +131,449 @@ import Page from "@layouts/Page.astro";
   };
 
   document.addEventListener('DOMContentLoaded', () => {
-    const notasContainer = document.getElementById('notas-container') as HTMLDivElement | null;
-    const agregarNotaBtn = document.querySelector('.agregar-nota') as HTMLButtonElement | null;
-    const calcularBtn = document.getElementById('calcular') as HTMLButtonElement | null;
-    const limpiarBtn = document.getElementById('limpiar-notas') as HTMLButtonElement | null;
-    const resultadoContainer = document.getElementById('resultado-container') as HTMLDivElement | null;
-    const resultadoP = document.getElementById('resultado') as HTMLParagraphElement | null;
-    const resultadoAdicional = document.getElementById('resultado-adicional') as HTMLParagraphElement | null;
-    const errorMensaje = document.getElementById('error-mensaje') as HTMLParagraphElement | null;
-    const configBtn = document.getElementById('configBtn') as HTMLButtonElement | null;
-    const configModal = document.getElementById('configModal') as HTMLDivElement | null;
-    const cancelarConfigBtn = document.getElementById('cancelarConfig') as HTMLButtonElement | null;
-    const guardarConfigBtn = document.getElementById('guardarConfig') as HTMLButtonElement | null;
-    const configError = document.getElementById('configError') as HTMLParagraphElement | null;
-    const notaMetaInput = document.getElementById('notaMeta') as HTMLInputElement | null;
+  // ... (all your existing querySelectors and interface/CONFIG setup) ...
+  const notasContainer = document.getElementById('notas-container') as HTMLDivElement | null;
+  const agregarNotaBtn = document.querySelector('.agregar-nota') as HTMLButtonElement | null;
+  const calcularBtn = document.getElementById('calcular') as HTMLButtonElement | null;
+  const limpiarBtn = document.getElementById('limpiar-notas') as HTMLButtonElement | null;
+  const resultadoContainer = document.getElementById('resultado-container') as HTMLDivElement | null;
+  const resultadoP = document.getElementById('resultado') as HTMLParagraphElement | null;
+  const resultadoAdicional = document.getElementById('resultado-adicional') as HTMLParagraphElement | null;
+  const errorMensaje = document.getElementById('error-mensaje') as HTMLParagraphElement | null;
+  const configBtn = document.getElementById('configBtn') as HTMLButtonElement | null;
+  const configModal = document.getElementById('configModal') as HTMLDivElement | null;
+  const cancelarConfigBtn = document.getElementById('cancelarConfig') as HTMLButtonElement | null;
+  const guardarConfigBtn = document.getElementById('guardarConfig') as HTMLButtonElement | null;
+  const configError = document.getElementById('configError') as HTMLParagraphElement | null;
+  const notaMetaInput = document.getElementById('notaMeta') as HTMLInputElement | null;
+  const multiNotasCheck = document.getElementById('multiNotasCheck') as HTMLInputElement | null;
+  const tablaCombinacionesContainer = document.getElementById('tabla-combinaciones-container') as HTMLDivElement | null;
+  const tablaCombinaciones = document.getElementById('tabla-combinaciones') as HTMLTableElement | null;
 
-    function validarNota(valor: string): boolean {
-      const nota = parseFloat(valor);
-      return !isNaN(nota) && nota >= CONFIG.notaMinima && nota <= CONFIG.notaMaxima && /^\d+(\.\d)?$/.test(valor);
+  // Mostrar/ocultar explicación al marcar el checkbox de combinaciones
+  if (multiNotasCheck) {
+    multiNotasCheck.addEventListener('change', () => {
+      const explicacion = document.getElementById('multiNotasExplicacion');
+      if (multiNotasCheck.checked) {
+        explicacion?.classList.remove('hidden');
+      } else {
+        explicacion?.classList.add('hidden');
+      }
+    });
+  }
+
+  interface Config {
+    notaMinima: number;
+    notaMaxima: number;
+    notaAprobacion: number;
+    notaDeseada: number;
+  }
+
+  let CONFIG: Config = {
+    notaMinima: 1.0,
+    notaMaxima: 7.0,
+    notaAprobacion: 4.0,
+    notaDeseada: 4.0
+  };
+
+  function validarNota(valor: string): boolean {
+    const valorCorregido = valor.trim().replace(',', '.');
+    const nota = parseFloat(valorCorregido);
+    return (
+      !isNaN(nota) &&
+      nota >= CONFIG.notaMinima &&
+      nota <= CONFIG.notaMaxima &&
+      // This regex validates the original input format allows for comma or period
+      // and 0 to 2 decimal places. E.g., "5", "5.5", "5,55"
+      /^\d+([.,]\d{0,2})?$/.test(valor.trim()) // Adjusted regex slightly for common patterns
+    );
+  }
+
+  function mostrarError(mensaje: string): void {
+    if (errorMensaje) {
+      errorMensaje.textContent = mensaje;
+      errorMensaje.classList.remove('hidden'); // Assuming hidden class hides it
     }
+  }
 
-    function mostrarError(mensaje: string): void {
-      if (errorMensaje) {
-        errorMensaje.textContent = mensaje;
-        errorMensaje.classList.remove('hidden');
+  function limpiarError(): void {
+    if (errorMensaje) {
+        errorMensaje.textContent = '';
+        errorMensaje.classList.add('hidden'); // Assuming hidden class hides it
+    }
+  }
+  
+  function crearFilaNota() {
+    const nuevaNota = document.createElement('div');
+    nuevaNota.className = 'mb-4 flex';
+    nuevaNota.innerHTML = `
+      <input type="text" placeholder="Nota, Ej: 5.5" class="nota bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded-l px-3 py-2 w-1/2" />
+      <input type="number" placeholder="Porcentaje, Ej: 20" class="porcentaje bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 px-3 py-2 w-1/3" />
+      <button class="eliminar-nota bg-red-500 hover:bg-red-600 text-white px-3 py-2 rounded-r">X</button>
+    `;
+    notasContainer?.appendChild(nuevaNota);
+    return nuevaNota;
+  }
+
+  notasContainer?.addEventListener('input', (e: Event) => {
+    const target = e.target as HTMLInputElement;
+    if (target.classList.contains('nota')) {
+      // Real-time validation for nota input is tricky with replace, 
+      // as "5," would be "5." and might be seen as invalid momentarily.
+      // Full validation is best on calculate. For now, basic error message.
+      if (target.value.trim() !== "" && !validarNota(target.value)) {
+        // Don't show error immediately on input for partial inputs like "5,"
+        // Only if it's clearly not a valid start or violates range.
+        // This part can be enhanced for better UX.
+      } else {
+        // Potentially clear an error related to this specific field if it was previously marked.
       }
     }
-
-    function limpiarError(): void {
-      if (errorMensaje) errorMensaje.textContent = '';
-    }
-    
-    function crearFilaNota() {
-      const nuevaNota = document.createElement('div');
-      nuevaNota.className = 'mb-4 flex';
-      nuevaNota.innerHTML = `
-        <input type="text" placeholder="Nota, Ej: 5.5" class="nota bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 rounded-l px-3 py-2 w-1/2" />
-        <input type="number" placeholder="Porcentaje, Ej: 20" class="porcentaje bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-white border border-gray-300 dark:border-gray-600 px-3 py-2 w-1/3" />
-        <button class="eliminar-nota bg-red-500 hover:bg-red-600 text-white px-3 py-2 rounded-r">X</button>
-      `;
-      notasContainer?.appendChild(nuevaNota);
-      return nuevaNota;
-    }
-
-    notasContainer?.addEventListener('input', (e: Event) => {
-      const target = e.target as HTMLInputElement;
-      if (target.classList.contains('nota')) {
-        if (!validarNota(target.value)) {
-          mostrarError(`Formato de nota inválido. Use valores entre ${CONFIG.notaMinima.toFixed(1)} y ${CONFIG.notaMaxima.toFixed(1)} con un decimal.`);
-        } else {
-          limpiarError();
-        }
+    if (target.classList.contains('porcentaje')) {
+      const porcentaje = parseFloat(target.value);
+      if (target.value.trim() !== "" && (isNaN(porcentaje) || porcentaje <= 0 || porcentaje > 100)) {
+        // mostrarError('El porcentaje debe ser un valor entre 1 y 100.'); // This could be too aggressive
+      } else {
+        // limpiarError();
       }
-      if (target.classList.contains('porcentaje')) {
-        const porcentaje = parseFloat(target.value);
-        if (isNaN(porcentaje) || porcentaje <= 0 || porcentaje > 100) {
-          mostrarError('El porcentaje debe ser un valor entre 1 y 100.');
-        } else {
-          limpiarError();
-        }
-      }
-    });
-
-    agregarNotaBtn?.addEventListener('click', () => {
-      crearFilaNota();
-    });
-    
-    limpiarBtn?.addEventListener('click', () => {
-      if (notasContainer) {
-        notasContainer.innerHTML = '';
-        crearFilaNota();
-      }
-      if (resultadoContainer) {
-        resultadoContainer.classList.add('hidden');
-      }
-      limpiarError();
-    });
-
-    notasContainer?.addEventListener('click', (e: Event) => {
-      const target = e.target as HTMLElement;
-      if (target.classList.contains('eliminar-nota')) {
-        if (document.querySelectorAll('.nota').length > 1) {
-          target.parentElement?.remove();
-        } else {
-          mostrarError('Debe haber al menos una nota en la calculadora.');
-        }
-      }
-    });
-
-    calcularBtn?.addEventListener('click', () => {
-      const notas = Array.from(document.querySelectorAll('.nota')) as HTMLInputElement[];
-      const porcentajes = Array.from(document.querySelectorAll('.porcentaje')) as HTMLInputElement[];
-      const notaDeseada = parseFloat(notaMetaInput?.value || CONFIG.notaDeseada.toString());
-
-      if (isNaN(notaDeseada) || notaDeseada < CONFIG.notaMinima || notaDeseada > CONFIG.notaMaxima) {
-        mostrarError(`La nota deseada debe estar entre ${CONFIG.notaMinima.toFixed(1)} y ${CONFIG.notaMaxima.toFixed(1)}`);
-        return;
-      }
-
-      let sumaPonderada = 0;
-      let sumaPorcentajes = 0;
-      let hayErrores = false;
-
-      for (let i = 0; i < notas.length; i++) {
-        const nota = parseFloat(notas[i].value);
-        const porcentaje = parseFloat(porcentajes[i].value) / 100;
-
-        if (!validarNota(notas[i].value) || isNaN(porcentaje) || porcentaje <= 0 || porcentaje > 1) {
-          hayErrores = true;
-          mostrarError('Hay errores en las notas o porcentajes. Por favor, revise los valores ingresados.');
-          break;
-        }
-
-        sumaPonderada += nota * porcentaje;
-        sumaPorcentajes += porcentaje;
-      }
-
-      if (hayErrores) {
-        return;
-      }
-
-      if (sumaPorcentajes >= 1) {
-        mostrarError('La suma de los porcentajes no puede ser mayor al 100%');
-        return;
-      }
-
-      const porcentajeFaltante = 1 - sumaPorcentajes;
-      const notaNecesaria = (notaDeseada - sumaPonderada) / porcentajeFaltante;
-
-      if (resultadoContainer) {
-        resultadoContainer.classList.remove('hidden');
-      }
-
-      if (resultadoP && resultadoAdicional) {
-        if (notaNecesaria <= CONFIG.notaMinima) {
-          resultadoP.textContent = `¡Felicidades! Ya has alcanzado la nota deseada.`;
-          resultadoAdicional.textContent = `Tu promedio actual es ${sumaPonderada.toFixed(1)}, que ya cumple con tu meta de ${notaDeseada.toFixed(1)}.`;
-          resultadoP.classList.add('text-green-600', 'dark:text-green-400');
-        } else if (notaNecesaria <= CONFIG.notaMaxima) {
-          resultadoP.textContent = `Necesitas un ${notaNecesaria.toFixed(1)} en el ${(porcentajeFaltante * 100).toFixed(0)}% restante.`;
-          
-          if (notaNecesaria > CONFIG.notaMaxima - 1) {
-            resultadoAdicional.textContent = `¡Atención! Necesitas una nota muy alta. Te recomendamos estudiar con tiempo.`;
-            resultadoP.classList.add('text-yellow-600', 'dark:text-yellow-400');
-          } else if (notaNecesaria > CONFIG.notaAprobacion) {
-            resultadoAdicional.textContent = `La nota es alcanzable con un buen estudio.`;
-            resultadoP.classList.remove('text-yellow-600', 'text-red-600', 'dark:text-yellow-400', 'dark:text-red-400');
-          } else {
-            resultadoAdicional.textContent = `La nota está dentro del rango aprobatorio y es alcanzable.`;
-            resultadoP.classList.add('text-green-600', 'dark:text-green-400');
-          }
-        } else {
-          resultadoP.textContent = `No es posible alcanzar la nota ${notaDeseada.toFixed(1)} con las calificaciones actuales.`;
-          resultadoAdicional.textContent = `Necesitarías un ${notaNecesaria.toFixed(1)}, que excede la nota máxima (${CONFIG.notaMaxima.toFixed(1)}).`;
-          resultadoP.classList.add('text-red-600', 'dark:text-red-400');
-        }
-      }
-      limpiarError();
-    });
-
-    // Configuración modal
-    configBtn?.addEventListener('click', () => {
-      configModal?.classList.remove('hidden');
-      configModal?.classList.add('flex');
-      (document.getElementById('notaMinima') as HTMLInputElement).value = CONFIG.notaMinima.toString();
-      (document.getElementById('notaMaxima') as HTMLInputElement).value = CONFIG.notaMaxima.toString();
-      (document.getElementById('notaAprobacion') as HTMLInputElement).value = CONFIG.notaAprobacion.toString();
-      (document.getElementById('notaDeseada') as HTMLInputElement).value = CONFIG.notaDeseada.toString();
-    });
-
-    cancelarConfigBtn?.addEventListener('click', () => {
-      configModal?.classList.add('hidden');
-      configModal?.classList.remove('flex');
-    });
-
-    guardarConfigBtn?.addEventListener('click', () => {
-      const notaMinima = parseFloat((document.getElementById('notaMinima') as HTMLInputElement).value);
-      const notaMaxima = parseFloat((document.getElementById('notaMaxima') as HTMLInputElement).value);
-      const notaAprobacion = parseFloat((document.getElementById('notaAprobacion') as HTMLInputElement).value);
-      const notaDeseada = parseFloat((document.getElementById('notaDeseada') as HTMLInputElement).value);
-
-      if (notaMinima >= notaMaxima || notaAprobacion < notaMinima || notaAprobacion > notaMaxima || notaDeseada < notaMinima || notaDeseada > notaMaxima) {
-        if (configError) configError.textContent = 'Configuración inválida. Por favor, revise los valores.';
-        return;
-      }
-
-      CONFIG = { notaMinima, notaMaxima, notaAprobacion, notaDeseada };
-      if (notaMetaInput) {
-        notaMetaInput.value = notaDeseada.toString();
-        notaMetaInput.min = notaMinima.toString();
-        notaMetaInput.max = notaMaxima.toString();
-      }
-      configModal?.classList.add('hidden');
-      configModal?.classList.remove('flex');
-      if (configError) configError.textContent = '';
-    });
-
-    // Inicialización
-    if (notaMetaInput) {
-      notaMetaInput.value = CONFIG.notaDeseada.toString();
     }
   });
-</script>
+
+  agregarNotaBtn?.addEventListener('click', () => {
+    crearFilaNota();
+  });
+  
+  limpiarBtn?.addEventListener('click', () => {
+    if (notasContainer) {
+      notasContainer.innerHTML = ''; // Clear all note rows
+      crearFilaNota(); // Add back one initial empty row
+    }
+    if (resultadoContainer) {
+      resultadoContainer.classList.add('hidden');
+    }
+    if (tablaCombinacionesContainer) {
+        tablaCombinacionesContainer.classList.add('hidden');
+    }
+    limpiarError();
+    if (notaMetaInput) notaMetaInput.value = CONFIG.notaDeseada.toString(); // Reset desired grade
+  });
+
+  notasContainer?.addEventListener('click', (e: Event) => {
+    const target = e.target as HTMLElement;
+    if (target.classList.contains('eliminar-nota')) {
+      if (document.querySelectorAll('#notas-container > div').length > 1) { // Check direct children of notas-container
+        target.parentElement?.remove();
+      } else {
+        mostrarError('Debe haber al menos una fila de nota en la calculadora.');
+      }
+    }
+  });
+
+  calcularBtn?.addEventListener('click', () => {
+    limpiarError(); 
+    if (resultadoContainer) resultadoContainer.classList.add('hidden');
+    if (tablaCombinacionesContainer) tablaCombinacionesContainer.classList.add('hidden');
+
+    const notaInputs = Array.from(document.querySelectorAll('.nota')) as HTMLInputElement[];
+    const porcentajeInputs = Array.from(document.querySelectorAll('.porcentaje')) as HTMLInputElement[];
+    const notaDeseadaText = (notaMetaInput?.value || CONFIG.notaDeseada.toString()).replace(',', '.');
+    const notaDeseada = parseFloat(notaDeseadaText);
+
+    if (isNaN(notaDeseada) || notaDeseada < CONFIG.notaMinima || notaDeseada > CONFIG.notaMaxima) {
+      mostrarError(`La nota deseada debe estar entre ${CONFIG.notaMinima.toFixed(1)} y ${CONFIG.notaMaxima.toFixed(1)}.`);
+      return;
+    }
+
+    let sumaPonderadaConocidas = 0; 
+    let sumaPorcentajesTotal = 0;   
+    let erroresEnFilas = false;
+    const notasFaltantesInfo: { index: number; porcentaje: number }[] = [];
+    const vacias: number[] = [];
+
+    for (let i = 0; i < notaInputs.length; i++) {
+      const notaValueOriginal = notaInputs[i].value;
+      const notaValueTrimmed = notaValueOriginal.trim();
+      const porcentajeValueStr = porcentajeInputs[i].value;
+
+      if (porcentajeValueStr.trim() === '') {
+        mostrarError(`Debe ingresar el porcentaje para la fila ${i + 1}.`);
+        erroresEnFilas = true;
+        break;
+      }
+      const porcentaje = parseFloat(porcentajeValueStr) / 100;
+
+      if (isNaN(porcentaje) || porcentaje <= 0 || porcentaje > 1) {
+        mostrarError(`El porcentaje en la fila ${i + 1} debe ser un valor entre 1 y 100.`);
+        erroresEnFilas = true;
+        break;
+      }
+      sumaPorcentajesTotal += porcentaje;
+
+      if (notaValueTrimmed === '') { 
+        notasFaltantesInfo.push({ index: i, porcentaje: porcentaje });
+        vacias.push(i); 
+      } else { 
+        if (!validarNota(notaValueOriginal)) { 
+          mostrarError(`Formato de nota inválido en la fila ${i + 1}. Use valores entre ${CONFIG.notaMinima.toFixed(1)} y ${CONFIG.notaMaxima.toFixed(1)} (ej: 5.5 o 5,5).`);
+          erroresEnFilas = true;
+          break;
+        }
+        const nota = parseFloat(notaValueTrimmed.replace(',', '.'));
+        sumaPonderadaConocidas += nota * porcentaje;
+      }
+    }
+
+    if (erroresEnFilas) return;
+
+    // --- Validaciones de Suma de Porcentajes ---
+    if (sumaPorcentajesTotal > 1.001) { // Usar una pequeña tolerancia para flotantes
+        mostrarError('La suma de los porcentajes ingresados excede el 100%.');
+        return;
+    }
+
+    // Si hay notas faltantes explícitas (campos de nota vacíos), la suma total DEBE ser 100%.
+    if (notasFaltantesInfo.length > 0 && Math.abs(sumaPorcentajesTotal - 1.0) > 0.001) {
+        mostrarError('Hay notas faltantes definidas (campos de nota vacíos), pero la suma total de porcentajes no es 100%. Por favor, ajuste los porcentajes para que sumen 100% o elimine las filas de notas faltantes si desea calcular para un porcentaje implícito restante.');
+        return;
+    }
+
+    // --- Lógica Principal de Cálculo ---
+
+    if (Math.abs(sumaPorcentajesTotal - 1.0) < 0.001) {
+        // CASO A: La suma de porcentajes es (aproximadamente) 100%.
+        if (notasFaltantesInfo.length === 0) {
+            // A1: Todas las notas están llenas y la suma es 100%.
+            if (resultadoContainer && resultadoP && resultadoAdicional) {
+                resultadoContainer.classList.remove('hidden');
+                tablaCombinacionesContainer?.classList.add('hidden');
+                const promedioActual = sumaPonderadaConocidas; 
+                
+                resultadoP.className = 'text-lg font-semibold text-gray-800 dark:text-white';
+                resultadoP.textContent = `Todas las notas están ingresadas. Tu promedio final es ${promedioActual.toFixed(2)}.`;
+                if (promedioActual >= notaDeseada) {
+                    resultadoAdicional.textContent = `¡Felicidades! Has alcanzado o superado tu meta de ${notaDeseada.toFixed(1)}.`;
+                    resultadoP.classList.add('text-green-600', 'dark:text-green-400');
+                } else {
+                    resultadoAdicional.textContent = `No has alcanzado tu meta de ${notaDeseada.toFixed(1)}.`;
+                    resultadoP.classList.add('text-red-600', 'dark:text-red-400');
+                }
+            }
+        } else if (notasFaltantesInfo.length === 1) {
+            // A2: Exactamente una nota faltante explícita y la suma es 100%.
+            if (resultadoContainer && resultadoP && resultadoAdicional) {
+                resultadoContainer.classList.remove('hidden');
+                tablaCombinacionesContainer?.classList.add('hidden');
+                const porcentajeDeLaNotaVacia = notasFaltantesInfo[0].porcentaje;
+                const notaNecesaria = (notaDeseada - sumaPonderadaConocidas) / porcentajeDeLaNotaVacia;
+
+                resultadoP.className = 'text-lg font-semibold text-gray-800 dark:text-white';
+                resultadoAdicional.textContent = '';
+
+                if (notaNecesaria <= CONFIG.notaMinima - 0.01) {
+                    resultadoP.textContent = `¡Felicidades! Prácticamente ya has alcanzado la nota deseada de ${notaDeseada.toFixed(1)}.`;
+                    resultadoAdicional.textContent = `Solo necesitarías una nota mínima en el ${(porcentajeDeLaNotaVacia * 100).toFixed(0)}% de la evaluación faltante.`;
+                    resultadoP.classList.add('text-green-600', 'dark:text-green-400');
+                } else if (notaNecesaria <= CONFIG.notaMaxima + 0.01) {
+                    resultadoP.textContent = `Necesitas un ${notaNecesaria.toFixed(1)} en el ${(porcentajeDeLaNotaVacia * 100).toFixed(0)}% de la evaluación faltante.`;
+                    if (notaNecesaria > CONFIG.notaMaxima - 1) {
+                        resultadoAdicional.textContent = `¡Atención! Necesitas una nota muy alta. Te recomendamos estudiar con tiempo.`;
+                        resultadoP.classList.add('text-yellow-600', 'dark:text-yellow-400');
+                    } else if (notaNecesaria >= CONFIG.notaAprobacion) {
+                        resultadoAdicional.textContent = `La nota es alcanzable con un buen estudio. ¡Ánimo!`;
+                        resultadoP.classList.add('text-green-600', 'dark:text-green-400');
+                    } else {
+                        resultadoAdicional.textContent = `Necesitas una nota aprobatoria. Es un buen momento para enfocarse.`;
+                        resultadoP.classList.add('text-yellow-600', 'dark:text-yellow-400');
+                    }
+                } else {
+                    resultadoP.textContent = `No es posible alcanzar la nota ${notaDeseada.toFixed(1)}.`;
+                    resultadoAdicional.textContent = `Para la evaluación faltante del ${(porcentajeDeLaNotaVacia * 100).toFixed(0)}%, necesitarías un ${notaNecesaria.toFixed(1)}, que excede la nota máxima (${CONFIG.notaMaxima.toFixed(1)}).`;
+                    resultadoP.classList.add('text-red-600', 'dark:text-red-400');
+                }
+            }
+        } else { // notasFaltantesInfo.length >= 2
+            // A3: Dos o más notas faltantes explícitas y la suma es 100%.
+            if (multiNotasCheck && multiNotasCheck.checked) {
+                // **Multi-note calculation (tu lógica existente)**
+                if (tablaCombinacionesContainer && tablaCombinaciones && resultadoP && resultadoAdicional) {
+                    resultadoContainer?.classList.add('hidden');
+                    tablaCombinacionesContainer.classList.remove('hidden');
+                    tablaCombinaciones.innerHTML = ''; 
+
+                    let header = '<tr>';
+                    notasFaltantesInfo.forEach((info, i) => {
+                        header += `<th class="px-2 py-1 border dark:border-gray-600">Nota Faltante ${i + 1} (${(info.porcentaje * 100).toFixed(0)}%)</th>`;
+                    });
+                    header += '<th class="px-2 py-1 border dark:border-gray-600">Promedio Final</th></tr>';
+                    tablaCombinaciones.innerHTML += header;
+
+                    const paso = 0.5; 
+                    const minNotaCalc = CONFIG.notaMinima;
+                    const maxNotaCalc = CONFIG.notaMaxima;
+                    let combinacionesGeneradas: number[][] = [];
+
+                    function generarCombinacionesRecursivas(actualComb: number[], nivel: number) {
+                        if (nivel === notasFaltantesInfo.length) {
+                            combinacionesGeneradas.push([...actualComb]);
+                            return;
+                        }
+                        for (let n = minNotaCalc; n <= maxNotaCalc + 0.001; n += paso) {
+                            actualComb[nivel] = parseFloat(n.toFixed(1));
+                            generarCombinacionesRecursivas(actualComb, nivel + 1);
+                        }
+                    }
+                    generarCombinacionesRecursivas([], 0);
+
+                    // Recolectar combinaciones válidas con su promedio final
+                    const combinacionesValidas: { notas: number[]; promedio: number }[] = [];
+                    const umbralMeta = 0.05;
+                    for (const comb of combinacionesGeneradas) {
+                        let sumaPonderadaTotalTemp = sumaPonderadaConocidas;
+                        for (let j = 0; j < comb.length; j++) {
+                            sumaPonderadaTotalTemp += comb[j] * notasFaltantesInfo[j].porcentaje;
+                        }
+                        if (sumaPonderadaTotalTemp >= notaDeseada - umbralMeta) {
+                            combinacionesValidas.push({ notas: comb.slice(), promedio: sumaPonderadaTotalTemp });
+                        }
+                    }
+                    // Ordenar combinaciones por promedio final de menor a mayor
+                    combinacionesValidas.sort((a, b) => a.promedio - b.promedio);
+                    // Mostrar hasta 100 filas
+                    let filasMostradas = 0;
+                    for (const combObj of combinacionesValidas) {
+                        if (filasMostradas >= 100) break;
+                        let rowHtml = '<tr>';
+                        combObj.notas.forEach(n => {
+                            rowHtml += `<td class="px-2 py-1 border dark:border-gray-600 text-center">${n.toFixed(1)}</td>`;
+                        });
+                        rowHtml += `<td class="px-2 py-1 border dark:border-gray-600 text-center">${combObj.promedio.toFixed(2)}</td></tr>`;
+                        tablaCombinaciones.innerHTML += rowHtml;
+                        filasMostradas++;
+                    }
+                    if (filasMostradas === 0) {
+                        tablaCombinaciones.innerHTML += `<tr><td colspan="${notasFaltantesInfo.length + 1}" class="text-center py-2">No se encontraron combinaciones de notas (con paso ${paso.toFixed(1)}) que alcancen la meta de ${notaDeseada.toFixed(1)}.</td></tr>`;
+                    }
+                }
+            } else {
+                // Checkbox de múltiples notas no está marcado.
+                mostrarError('Hay varias notas faltantes definidas y la suma de porcentajes es 100%. Active la opción "¿Calcular combinaciones...?" para ver posibles notas.');
+            }
+        }
+    } else if (sumaPorcentajesTotal < 0.999 && notasFaltantesInfo.length === 0) {
+        // CASO B: La suma de porcentajes es MENOR a 100% Y NO hay notas faltantes explícitas.
+        // Aquí se calcula para el porcentaje implícito restante.
+        if (multiNotasCheck && multiNotasCheck.checked) {
+            mostrarError("Ha activado el cálculo de combinaciones, pero la suma de porcentajes es menor al 100% y no ha definido notas faltantes (filas con NOTA VACÍA). Para ver combinaciones, asegúrese de que los porcentajes sumen 100% (agregando filas para notas faltantes si es necesario). Alternativamente, desactive la opción '¿Calcular combinaciones...?' para calcular la nota necesaria en el porcentaje restante.");
+            return;
+        }
+
+        // Proceder con el cálculo de la nota faltante implícita.
+        if (resultadoContainer && resultadoP && resultadoAdicional) {
+            resultadoContainer.classList.remove('hidden');
+            tablaCombinacionesContainer?.classList.add('hidden');
+
+            const porcentajeRestanteImplícito = 1.0 - sumaPorcentajesTotal;
+            const notaNecesaria = (notaDeseada - sumaPonderadaConocidas) / porcentajeRestanteImplícito;
+
+            resultadoP.className = 'text-lg font-semibold text-gray-800 dark:text-white';
+            resultadoAdicional.textContent = '';
+
+            if (notaNecesaria <= CONFIG.notaMinima - 0.01) {
+                resultadoP.textContent = `¡Felicidades! Prácticamente ya has alcanzado la nota deseada de ${notaDeseada.toFixed(1)}.`;
+                resultadoAdicional.textContent = `Solo necesitarías una nota mínima en el ${(porcentajeRestanteImplícito * 100).toFixed(0)}% restante Nota no ingresada.`;
+                resultadoP.classList.add('text-green-600', 'dark:text-green-400');
+            } else if (notaNecesaria <= CONFIG.notaMaxima + 0.01) {
+                resultadoP.textContent = `Necesitas un ${notaNecesaria.toFixed(1)} en el ${(porcentajeRestanteImplícito * 100).toFixed(0)}% restante Nota no ingresada.`;
+                if (notaNecesaria > CONFIG.notaMaxima - 1) {
+                    resultadoAdicional.textContent = `¡Atención! Necesitas una nota muy alta. Te recomendamos estudiar con tiempo.`;
+                    resultadoP.classList.add('text-yellow-600', 'dark:text-yellow-400');
+                } else if (notaNecesaria >= CONFIG.notaAprobacion) {
+                    resultadoAdicional.textContent = `La nota es alcanzable con un buen estudio. ¡Ánimo!`;
+                    resultadoP.classList.add('text-green-600', 'dark:text-green-400');
+                } else {
+                    resultadoAdicional.textContent = `Necesitas una nota aprobatoria. Es un buen momento para enfocarse.`;
+                    resultadoP.classList.add('text-yellow-600', 'dark:text-yellow-400');
+                }
+            } else {
+                resultadoP.textContent = `No es posible alcanzar la nota ${notaDeseada.toFixed(1)}.`;
+                resultadoAdicional.textContent = `Para el ${(porcentajeRestanteImplícito * 100).toFixed(0)}% restante Nota no ingresada, necesitarías un ${notaNecesaria.toFixed(1)}, que excede la nota máxima (${CONFIG.notaMaxima.toFixed(1)}).`;
+                resultadoP.classList.add('text-red-600', 'dark:text-red-400');
+            }
+        }
+    } else {
+        // Caso residual: podría ser sumaPorcentajesTotal < 0.999 Y notasFaltantesInfo.length > 0,
+        // lo cual ya fue cubierto por el segundo chequeo de error.
+        // O alguna otra condición no prevista.
+        mostrarError('No se pudo determinar el cálculo a realizar. Verifique los porcentajes y las notas ingresadas. Asegúrese de que la suma de porcentajes sea 100% si define explícitamente notas faltantes.');
+    }
+  });
+
+  // --- Configuración modal ---
+  configBtn?.addEventListener('click', () => {
+    if (configModal && configError) {
+        configModal.classList.remove('hidden');
+        configModal.classList.add('flex');
+        (document.getElementById('notaMinima') as HTMLInputElement).value = CONFIG.notaMinima.toString();
+        (document.getElementById('notaMaxima') as HTMLInputElement).value = CONFIG.notaMaxima.toString();
+        (document.getElementById('notaAprobacion') as HTMLInputElement).value = CONFIG.notaAprobacion.toString();
+        (document.getElementById('notaDeseada') as HTMLInputElement).value = CONFIG.notaDeseada.toString();
+        configError.textContent = ''; // Clear previous config errors
+    }
+  });
+
+  cancelarConfigBtn?.addEventListener('click', () => {
+    if (configModal) {
+        configModal.classList.add('hidden');
+        configModal.classList.remove('flex');
+    }
+  });
+
+  guardarConfigBtn?.addEventListener('click', () => {
+    if (configError && notaMetaInput && configModal) {
+        const notaMinima = parseFloat((document.getElementById('notaMinima') as HTMLInputElement).value);
+        const notaMaxima = parseFloat((document.getElementById('notaMaxima') as HTMLInputElement).value);
+        const notaAprobacion = parseFloat((document.getElementById('notaAprobacion') as HTMLInputElement).value);
+        const notaDeseadaConfig = parseFloat((document.getElementById('notaDeseada') as HTMLInputElement).value);
+
+        if (isNaN(notaMinima) || isNaN(notaMaxima) || isNaN(notaAprobacion) || isNaN(notaDeseadaConfig) ||
+            notaMinima >= notaMaxima ||
+            notaAprobacion < notaMinima || notaAprobacion > notaMaxima ||
+            notaDeseadaConfig < notaMinima || notaDeseadaConfig > notaMaxima ||
+            notaMinima < 0 || notaMaxima > 10 ) { // Added basic sanity checks for range 0-10
+          configError.textContent = 'Configuración inválida. Revisa los valores (ej: Mín ≤ Aprobación ≤ Máx).';
+          return;
+        }
+
+        CONFIG = { notaMinima, notaMaxima, notaAprobacion, notaDeseada: notaDeseadaConfig };
+        
+        notaMetaInput.value = notaDeseadaConfig.toString();
+        notaMetaInput.min = notaMinima.toString();
+        notaMetaInput.max = notaMaxima.toString();
+        
+        // Update placeholders for note inputs if needed, e.g., if min/max changes significantly
+        // This might involve iterating through existing .nota inputs and updating placeholders
+        // For now, just updating the config and notaMetaInput.
+        
+        configModal.classList.add('hidden');
+        configModal.classList.remove('flex');
+        configError.textContent = '';
+
+        // Optionally, re-validate or clear existing notes if new config makes them invalid
+        // For simplicity, current grades remain, user can adjust.
+    }
+  });
+
+  // --- Inicialización ---
+  if (notaMetaInput) {
+    notaMetaInput.value = CONFIG.notaDeseada.toString();
+    notaMetaInput.min = CONFIG.notaMinima.toString();
+    notaMetaInput.max = CONFIG.notaMaxima.toString();
+  }
+  // Add one initial empty row for notes if notasContainer is empty
+  if (notasContainer && notasContainer.children.length === 0) {
+      crearFilaNota();
+  }
+  if (errorMensaje) errorMensaje.classList.add('hidden'); // Ensure error is hidden on load
+
+
+});
