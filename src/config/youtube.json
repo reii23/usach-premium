@@ -1,5 +1,30 @@
 [
   {
+    "title": "Cálculo 1 - Ayudantía 11: Asíntotas [Mohamed Al-Marzuk]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "gjY5AsY8kxA",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/gjY5AsY8kxA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/gjY5AsY8kxA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/gjY5AsY8kxA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-14T03:08:01+00:00"
+  },
+  {
     "title": "Álgebra 1 - Ayudantía 7: Principio de Inducción [Maxi Rodríguez]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-05-03T23:27:27+00:00"
-  },
-  {
-    "title": "Física 2 - Ayudantía 2: Preparando la PEP 1 [Aisaac M.]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "U3wgLHK-6XQ",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/U3wgLHK-6XQ/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/U3wgLHK-6XQ/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/U3wgLHK-6XQ/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-05-03T18:40:02+00:00"
   }
 ]
