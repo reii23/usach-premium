@@ -8,15 +8,15 @@
       "name": "Calculadora de Notas",
       "url": "/CalculadoraNotas"
     },
+    {
+      "name": "Qué Nota Necesito",
+      "url": "/CalculadoraMbi"
+    },
     {"name":  "Buscador de Salas",
     "url":  "/BuscadorSalas"},
     {
       "name": "Sobre Nosotros",
       "url": "/about"
-    },
-    {
-      "name": "Etiquetas",
-      "url": "/tags"
     },
     {
       "name": "Categorías",
