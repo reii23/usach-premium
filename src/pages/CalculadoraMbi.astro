@@ -31,7 +31,7 @@ import Page from "@layouts/Page.astro";
           </div>
 
           <div>
-            <p class="font-semibold mb-2">Talleres (15% - Promedio de los mejores 2) </p>
+            <p class="font-semibold mb-2">Talleres (15% - Promedio de los mejores 2)</p>
             <div class="grid grid-cols-3 gap-4">
               <input id="taller1-calculo1" type="number" min="1" max="7" step="0.01" placeholder="Taller 1"
                 class="border rounded px-2 py-1" />
@@ -55,10 +55,15 @@ import Page from "@layouts/Page.astro";
           </div>
 
           <div>
-            <label class="block mb-1">Meta para aprobar</label>
+            <label class="block mb-1 font-semibold text-white">Meta para aprobar</label>
             <input id="notaMeta-calculo1" type="number" min="1" max="7" step="0.01" value="3.95"
               class="w-full border rounded px-2 py-1" />
           </div>
+
+          <button id="btn-calcular-calculo1" type="button"
+            class="mt-2 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">
+            Calcular
+          </button>
         </form>
         <p id="resultado-calculo1" class="mt-4 font-semibold"></p>
       </section>
@@ -66,38 +71,49 @@ import Page from "@layouts/Page.astro";
       <!-- SECCIÓN ÁLGEBRA 1 -->
       <section id="seccion-algebra1" class="hidden">
         <h2 class="text-xl font-bold mb-4">Álgebra 1</h2>
-        <!-- Mismos campos que Cálculo 1, con IDs “-algebra1” -->
         <div class="grid grid-cols-2 gap-4">
           <div>
             <label class="block mb-1 font-semibold text-white">PEP 1 (30%)</label>
-            <input id="pep1-algebra1" type="number" min="1" max="7" step="0.01" class="w-full border rounded px-2 py-1" />
+            <input id="pep1-algebra1" type="number" min="1" max="7" step="0.01" placeholder="Ej: 5.0"
+              class="w-full border rounded px-2 py-1" />
           </div>
           <div>
             <label class="block mb-1 font-semibold text-white">PEP 2 (30%)</label>
-            <input id="pep2-algebra1" type="number" min="1" max="7" step="0.01" class="w-full border rounded px-2 py-1" />
+            <input id="pep2-algebra1" type="number" min="1" max="7" step="0.01" placeholder="Ej: 6.0"
+              class="w-full border rounded px-2 py-1" />
           </div>
         </div>
         <div>
           <p class="font-semibold mb-2">Talleres (15% - Promedio de los mejores 2)</p>
           <div class="grid grid-cols-3 gap-4">
-            <input id="taller1-algebra1" type="number" min="1" max="7" step="0.01" class="border rounded px-2 py-1" />
-            <input id="taller2-algebra1" type="number" min="1" max="7" step="0.01" class="border rounded px-2 py-1" />
-            <input id="taller3-algebra1" type="number" min="1" max="7" step="0.01" class="border rounded px-2 py-1" />
+            <input id="taller1-algebra1" type="number" min="1" max="7" step="0.01" placeholder="Taller 1"
+              class="border rounded px-2 py-1" />
+            <input id="taller2-algebra1" type="number" min="1" max="7" step="0.01" placeholder="Taller 2"
+              class="border rounded px-2 py-1" />
+            <input id="taller3-algebra1" type="number" min="1" max="7" step="0.01"  placeholder="Taller 3"
+              class="border rounded px-2 py-1" />
           </div>
         </div>
         <div>
-          <p class="font-semibold mb-2">Controles (25%  - Promedio de los mejores 2)</p>
+          <p class="font-semibold mb-2">Controles (25% - Promedio de los mejores 2)</p>
           <div class="grid grid-cols-3 gap-4">
-            <input id="control1-algebra1" type="number" min="1" max="7" step="0.01" class="border rounded px-2 py-1" />
-            <input id="control2-algebra1" type="number" min="1" max="7" step="0.01" class="border rounded px-2 py-1" />
-            <input id="control3-algebra1" type="number" min="1" max="7" step="0.01" class="border rounded px-2 py-1" />
+            <input id="control1-algebra1" type="number" min="1" max="7" step="0.01" placeholder="Control 1"
+              class="border rounded px-2 py-1" />
+            <input id="control2-algebra1" type="number" min="1" max="7" step="0.01" placeholder="Control 2"
+              class="border rounded px-2 py-1" />
+            <input id="control3-algebra1" type="number" min="1" max="7" step="0.01" placeholder="Control 3"
+              class="border rounded px-2 py-1" />
           </div>
         </div>
         <div>
-          <label class="block mb-1">Meta para aprobar</label>
+          <label class="block mb-1 font-semibold text-white">Meta para aprobar</label>
           <input id="notaMeta-algebra1" type="number" min="1" max="7" step="0.01" value="3.95"
             class="w-full border rounded px-2 py-1" />
         </div>
+        <button id="btn-calcular-algebra1" type="button"
+          class="mt-2 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">
+          Calcular
+        </button>
         <p id="resultado-algebra1" class="mt-4 font-semibold"></p>
       </section>
 
@@ -107,35 +123,33 @@ import Page from "@layouts/Page.astro";
         <form class="space-y-4">
           <div class="grid grid-cols-2 gap-4">
             <div>
-              <label class="block mb-1">PEP 1 (40%)</label>
-              <input id="pep1-fisica1" type="number" min="1" max="7" step="0.01" class="w-full border rounded px-2 py-1" />
+              <label class="block mb-1 font-semibold text-white">PEP 1 (40%)</label>
+              <input id="pep1-fisica1" type="number" min="1" max="7" step="0.01" placeholder="Ej: 5.0"
+                class="w-full border rounded px-2 py-1" />
             </div>
             <div>
-              <label class="block mb-1">PEP 2 (40%)</label>
-              <input id="pep2-fisica1" type="number" min="1" max="7" step="0.01" class="w-full border rounded px-2 py-1" />
+              <label class="block mb-1 font-semibold text-white">PEP 2 (40%)</label>
+              <input id="pep2-fisica1" type="number" min="1" max="7" step="0.01" placeholder="Ej: 6.0"
+                class="w-full border rounded px-2 py-1" />
             </div>
           </div>
           <div>
-            <label class="block mb-1">Control (20%)</label>
-            <input id="control-fisica1" type="number" min="1" max="7" step="0.01" class="w-full border rounded px-2 py-1" />
-          </div>
-          <div>
-            <label class="block mb-1">Meta para aprobar</label>
-            <input id="notaMeta-fisica1" type="number" min="1" max="7" step="0.01" value="3.95"
+            <label class="block mb-1 font-semibold text-white">Control (20%)</label>
+            <input id="control-fisica1" type="number" min="1" max="7" step="0.01" placeholder="Ej: 5.5"
               class="w-full border rounded px-2 py-1" />
           </div>
+          <div>
+            <label class="block mb-1 font-semibold text-white">Meta para aprobar</label>
+            <input id="notaMeta-fisica1" type="number" min="1" max="7" step="0.01" value="3.95" 
+              class="w-full border rounded px-2 py-1" />
+          </div>
+          <button id="btn-calcular-fisica1" type="button"
+            class="mt-2 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">
+            Calcular
+          </button>
         </form>
         <p id="resultado-fisica1" class="mt-4 font-semibold"></p>
       </section>
-      <p class="text-center text-sm mt-4 text-gray-600 dark:text-gray-400">
-        Creado por
-        <a href="https://github.com/ByronCaices" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-600">
-          <svg xmlns="http://www.w3.org/2000/svg" class="inline-block h-4 w-4 mr-1" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-          </svg>
-          Byron Caices
-        </a>
-      </p>
     </div>
 
     <!-- SCRIPT DE LÓGICA -->
@@ -174,8 +188,7 @@ import Page from "@layouts/Page.astro";
       function calcNota(ramo) {
         let sumKnown = 0;
         const toFill = [];
-        const targetEl = document.getElementById(`notaMeta-${ramo}`);
-        const target = parseFloat(targetEl.value) || 3.95;
+        const target = parseFloat(document.getElementById(`notaMeta-${ramo}`).value) || 3.95;
 
         if (ramo === 'fisica1') {
           const { examIds, weights } = config.fisica1;
@@ -192,6 +205,7 @@ import Page from "@layouts/Page.astro";
           }
         } else {
           const { pepIds, tallerIds, controlIds, wT, wC } = config[ramo];
+          // PEPs
           pepIds.forEach(id => {
             const el = document.getElementById(id);
             const v = parseFloat(el.value);
@@ -203,68 +217,58 @@ import Page from "@layouts/Page.astro";
               toFill.push({ el, w });
             }
           });
-
-          // Talleres (mejor 2 de 3)
+          // Talleres
           {
             const known = tallerIds.map(id => parseFloat(document.getElementById(id).value)).filter(n => !isNaN(n));
             const blanks = tallerIds.filter(id => isNaN(parseFloat(document.getElementById(id).value)));
             const need = Math.max(0, 2 - known.length);
             const wPer = wT / 2;
             if (known.length >= 2) {
-              const best2 = known.sort((a, b) => b - a).slice(0, 2);
-              sumKnown += (best2[0] + best2[1]) / 2 * wT;
+              const best2 = known.sort((a,b)=>b-a).slice(0,2);
+              sumKnown += (best2[0]+best2[1])/2 * wT;
             } else if (known.length === 1) {
               sumKnown += known[0] * wPer;
             }
-            blanks.slice(0, need).forEach(id => {
-              const el = document.getElementById(id);
-              toFill.push({ el, w: wPer });
-            });
+            blanks.slice(0, need).forEach(id => toFill.push({ el: document.getElementById(id), w: wPer }));
             blanks.slice(need).forEach(id => document.getElementById(id).classList.remove('bg-orange-100'));
           }
-
-          // Controles (mejor 2 de 3)
+          // Controles
           {
             const known = controlIds.map(id => parseFloat(document.getElementById(id).value)).filter(n => !isNaN(n));
             const blanks = controlIds.filter(id => isNaN(parseFloat(document.getElementById(id).value)));
             const need = Math.max(0, 2 - known.length);
             const wPer = wC / 2;
             if (known.length >= 2) {
-              const best2 = known.sort((a, b) => b - a).slice(0, 2);
-              sumKnown += (best2[0] + best2[1]) / 2 * wC;
+              const best2 = known.sort((a,b)=>b-a).slice(0,2);
+              sumKnown += (best2[0]+best2[1])/2 * wC;
             } else if (known.length === 1) {
               sumKnown += known[0] * wPer;
             }
-            blanks.slice(0, need).forEach(id => {
-              const el = document.getElementById(id);
-              toFill.push({ el, w: wPer });
-            });
+            blanks.slice(0, need).forEach(id => toFill.push({ el: document.getElementById(id), w: wPer }));
             blanks.slice(need).forEach(id => document.getElementById(id).classList.remove('bg-orange-100'));
           }
         }
 
-        // Rellenar todos los faltantes con un decimal
-        const totalMissingWeight = toFill.reduce((acc, o) => acc + o.w, 0);
-        if (totalMissingWeight > 0) {
-          const needed = (target - sumKnown) / totalMissingWeight;
-          toFill.forEach(({ el }) => {
+        // Rellenar faltantes a un decimal
+        const totalW = toFill.reduce((acc,o)=>acc+o.w,0);
+        if (totalW>0) {
+          const needed = (target - sumKnown) / totalW;
+          toFill.forEach(({el})=>{
             el.value = needed.toFixed(1);
             el.classList.add('bg-orange-100');
           });
-          sumKnown += needed * totalMissingWeight;
+          sumKnown += needed * totalW;
         }
 
-        // Mostrar promedio con dos decimales
+        // Mostrar resultado
         document.getElementById(`resultado-${ramo}`).textContent =
           `Si obtienes esas notas, tu promedio será ${sumKnown.toFixed(2)}.`;
       }
 
-      // Suscribir inputs
-      ['calculo1','algebra1','fisica1'].forEach(ramo => {
-        document.querySelectorAll(`#seccion-${ramo} input`).forEach(el => {
-          el.addEventListener('input', () => calcNota(ramo));
-        });
-      });
+      // Suscribir botones de calcular
+      document.getElementById('btn-calcular-calculo1').addEventListener('click', () => calcNota('calculo1'));
+      document.getElementById('btn-calcular-algebra1').addEventListener('click', () => calcNota('algebra1'));
+      document.getElementById('btn-calcular-fisica1').addEventListener('click', () => calcNota('fisica1'));
     </script>
   </Page>
 </Base>
