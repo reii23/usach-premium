@@ -1,5 +1,30 @@
 [
   {
+    "title": "Cálculo 1 - Ayudantía 12: Función trigonométrica, exponencial y logarítmica [Mohamed Al-Marzuk]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "I9cWKpwf4Nw",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/I9cWKpwf4Nw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/I9cWKpwf4Nw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/I9cWKpwf4Nw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-05-28T02:45:31+00:00"
+  },
+  {
     "title": "Álgebra 1 - Ayudantía 8: Sumatorias [Maxi Rodríguez]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-05-04T00:16:08+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Ayudantía 9: Inecuaciones con valor absoluto y funciones [Byron Caices]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "mWxZshmOy1E",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/mWxZshmOy1E/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/mWxZshmOy1E/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/mWxZshmOy1E/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-05-03T23:49:37+00:00"
   }
 ]
