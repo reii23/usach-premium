@@ -1,5 +1,30 @@
 [
   {
+    "title": "Física 1 - Ayudantia 4:  Preparando el Control 2 [Aisaac M.]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "GWZbUAagpmk",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/GWZbUAagpmk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/GWZbUAagpmk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/GWZbUAagpmk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-06-01T03:59:45+00:00"
+  },
+  {
     "title": "Cálculo 1 - Ayudantía 12: Función trigonométrica, exponencial y logarítmica [Mohamed Al-Marzuk]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-05-04T00:30:45+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Ayudantía 10: Preparando la PEP 1 [Mohamed Al-Marzuk]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "Nj0icP3w3uw",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Nj0icP3w3uw/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Nj0icP3w3uw/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Nj0icP3w3uw/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-05-04T00:16:08+00:00"
   }
 ]
