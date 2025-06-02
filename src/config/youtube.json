@@ -1,5 +1,30 @@
 [
   {
+    "title": "Fundamentos de Economía: Ayudantía 6 [Benjamín Sepúlveda]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "xXGSTB86Ub8",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/xXGSTB86Ub8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/xXGSTB86Ub8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/xXGSTB86Ub8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-06-01T19:41:37+00:00"
+  },
+  {
     "title": "Física 1 - Ayudantia 4:  Preparando el Control 2 [Aisaac M.]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-05-04T01:00:32+00:00"
-  },
-  {
-    "title": "Física 1 - Ayudantía 2: Repaso MRU/MRUA [Byron Caices]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "voLgTpvasUE",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/voLgTpvasUE/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/voLgTpvasUE/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/voLgTpvasUE/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-05-04T00:30:45+00:00"
   }
 ]
