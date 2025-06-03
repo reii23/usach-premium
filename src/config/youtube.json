@@ -1,5 +1,30 @@
 [
   {
+    "title": "Álgebra 1 - Ayudantía 9: Teorema del Binomio [Maxi Rodríguez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "Id6f51GooyA",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Id6f51GooyA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Id6f51GooyA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Id6f51GooyA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-06-03T02:39:22+00:00"
+  },
+  {
     "title": "Fundamentos de Economía: Ayudantía 6 [Benjamín Sepúlveda]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-05-04T01:15:04+00:00"
-  },
-  {
-    "title": "Cálculo 2 - Ayudantía 4: Secciones Transversales [Byron Caices]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "QK_qhZ7TWJc",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/QK_qhZ7TWJc/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/QK_qhZ7TWJc/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/QK_qhZ7TWJc/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-05-04T01:00:32+00:00"
   }
 ]
