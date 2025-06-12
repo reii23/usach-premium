@@ -1,5 +1,30 @@
 [
   {
+    "title": "Cálculo 1 - Ayudantía 13: Preparando el control 3 [Mohamed Al-Marzuk]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "hIOBNP15otU",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/hIOBNP15otU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/hIOBNP15otU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/hIOBNP15otU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-06-11T14:12:08+00:00"
+  },
+  {
     "title": "Álgebra 1 - Ayudantía 10: Matrices [Maxi Rodríguez]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-05-04T16:32:53+00:00"
-  },
-  {
-    "title": "Álgebra 2 - Ayudantía 2: Preparando la Pep 1 [Trinidad Palma]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "dB8eSsL89qA",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/dB8eSsL89qA/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/dB8eSsL89qA/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/dB8eSsL89qA/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-05-04T02:44:48+00:00"
   }
 ]
