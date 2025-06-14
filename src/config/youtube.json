@@ -1,5 +1,30 @@
 [
   {
+    "title": "Fundamentos de Economía: Ayudantía 7 [Benjamín Sepúlveda]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "_QYkPT5xlTE",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/_QYkPT5xlTE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/_QYkPT5xlTE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/_QYkPT5xlTE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-06-14T00:41:04+00:00"
+  },
+  {
     "title": "Cálculo 1 - Ayudantía 13: Preparando el control 3 [Mohamed Al-Marzuk]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-05-04T20:44:21+00:00"
-  },
-  {
-    "title": "Fundamentos de Economía: Ejercicio Pep 1 [Benjamín Sepúlveda]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "Qjrthe2huTk",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Qjrthe2huTk/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Qjrthe2huTk/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Qjrthe2huTk/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-05-04T16:32:53+00:00"
   }
 ]
