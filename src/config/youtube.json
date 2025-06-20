@@ -1,6 +1,56 @@
 [
   {
-    "title": "Física 1-Ayudantía 6  Trabajo y Energía [Fernando S]",
+    "title": "Cálculo 1 - Ejercicio 2 Intensivo PEP2 [Mohamed Al-Marzuk]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "FHea19lEAew",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/FHea19lEAew/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/FHea19lEAew/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/FHea19lEAew/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-06-20T04:32:21+00:00"
+  },
+  {
+    "title": "Cálculo 1 - Ejercicio 1 Intensivo PEP2 [Mohamed Al-Marzuk]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "O1G9nct23Dc",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/O1G9nct23Dc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/O1G9nct23Dc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/O1G9nct23Dc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-06-20T04:27:14+00:00"
+  },
+  {
+    "title": "Física 1 - Ayudantía 6: Trabajo y Energía [Fernando S]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -25,7 +75,7 @@
     "publishedAt": "2025-06-16T14:01:47+00:00"
   },
   {
-    "title": "Ayudantía - Álgebra 2 [Trinidad P]",
+    "title": "Álgebra 2 - Preparando el Control [Trinidad P]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -75,7 +125,7 @@
     "publishedAt": "2025-06-15T01:55:02+00:00"
   },
   {
-    "title": "Fundamentos de Economía: Ayudantía 7 [Benjamín Sepúlveda]",
+    "title": "Fundamentos de Economía - Ayudantía 7 [Benjamín Sepúlveda]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -175,7 +225,7 @@
     "publishedAt": "2025-06-03T02:39:22+00:00"
   },
   {
-    "title": "Fundamentos de Economía: Ayudantía 6 [Benjamín Sepúlveda]",
+    "title": "Fundamentos de Economía - Ayudantía 6 [Benjamín Sepúlveda]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2025-05-13T03:01:28+00:00"
-  },
-  {
-    "title": "Fundamentos de Economía: Ayudantía Express para la Pep 1 [Benjamín Sepúlveda]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "f-Ef55ZH3Ts",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/f-Ef55ZH3Ts/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/f-Ef55ZH3Ts/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/f-Ef55ZH3Ts/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-05-07T05:51:11+00:00"
-  },
-  {
-    "title": "Python Para Ingeniería - Preparando tu Prueba [Rodrigo O.]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "9lXAx7SCWHg",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/9lXAx7SCWHg/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/9lXAx7SCWHg/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/9lXAx7SCWHg/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-05-05T03:07:06+00:00"
   }
 ]
