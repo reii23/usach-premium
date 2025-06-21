@@ -1,5 +1,105 @@
 [
   {
+    "title": "Álgebra 2 - Intensivo PEP2 [Trinidad Palma]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "5cF22ishWjo",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/5cF22ishWjo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/5cF22ishWjo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/5cF22ishWjo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-06-21T06:50:54+00:00"
+  },
+  {
+    "title": "Python para Ingeniería - Intensivo PEP2 [Rodrigo Olea]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "OF30EKeoI8w",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/OF30EKeoI8w/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/OF30EKeoI8w/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/OF30EKeoI8w/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-06-21T06:50:52+00:00"
+  },
+  {
+    "title": "Física 1 - Ejercicio 2 Intensivo PEP2 [Daniela Castro]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "yKeEFgJPRvE",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/yKeEFgJPRvE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/yKeEFgJPRvE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/yKeEFgJPRvE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-06-21T06:49:32+00:00"
+  },
+  {
+    "title": "Física 1 - Ejercicio 1 Intensivo PEP2 [Daniela Castro]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "YNlcU93pS1s",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/YNlcU93pS1s/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/YNlcU93pS1s/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/YNlcU93pS1s/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-06-21T06:49:29+00:00"
+  },
+  {
     "title": "Fundamentos de Economía - Ejercicio 5 Intensivo PEP2 [Benjamín Sepúlveda]",
     "description": "",
     "channelId": "UsachPremium",
@@ -273,105 +373,5 @@
       }
     },
     "publishedAt": "2025-06-14T00:41:04+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Ayudantía 13: Preparando el control 3 [Mohamed Al-Marzuk]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "hIOBNP15otU",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/hIOBNP15otU/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/hIOBNP15otU/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/hIOBNP15otU/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-06-11T14:12:08+00:00"
-  },
-  {
-    "title": "Álgebra 1 - Ayudantía 10: Matrices [Maxi Rodríguez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "fujIhG7yL0w",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/fujIhG7yL0w/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/fujIhG7yL0w/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/fujIhG7yL0w/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-06-10T01:17:04+00:00"
-  },
-  {
-    "title": "Álgebra 1 - Ayudantía 9: Teorema del Binomio [Maxi Rodríguez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "Id6f51GooyA",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Id6f51GooyA/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Id6f51GooyA/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Id6f51GooyA/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-06-03T02:39:22+00:00"
-  },
-  {
-    "title": "Fundamentos de Economía - Ayudantía 6 [Benjamín Sepúlveda]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "xXGSTB86Ub8",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/xXGSTB86Ub8/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/xXGSTB86Ub8/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/xXGSTB86Ub8/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-06-01T19:41:37+00:00"
   }
 ]
