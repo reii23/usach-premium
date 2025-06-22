@@ -1,5 +1,80 @@
 [
   {
+    "title": "Álgebra 1 - Intensivo PEP2 [Maxito Rodríguez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "u7upJUSXp1E",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/u7upJUSXp1E/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/u7upJUSXp1E/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/u7upJUSXp1E/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-06-21T23:20:48+00:00"
+  },
+  {
+    "title": "Cálculo 1 - Parte 2 Intensivo PEP2 [Byron Caices]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "A5GIUqn5-Ds",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/A5GIUqn5-Ds/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/A5GIUqn5-Ds/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/A5GIUqn5-Ds/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-06-21T17:50:42+00:00"
+  },
+  {
+    "title": "Cálculo 1 - Parte 1 Intensivo PEP2 [Byron Caices]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "vTLYJLG4YqI",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/vTLYJLG4YqI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/vTLYJLG4YqI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/vTLYJLG4YqI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-06-21T17:50:39+00:00"
+  },
+  {
     "title": "Álgebra 2 - Intensivo PEP2 [Trinidad Palma]",
     "description": "",
     "channelId": "UsachPremium",
@@ -298,80 +373,5 @@
       }
     },
     "publishedAt": "2025-06-16T14:01:47+00:00"
-  },
-  {
-    "title": "Álgebra 2 - Preparando el Control [Trinidad P]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "Gk3kNYEOdvs",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Gk3kNYEOdvs/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Gk3kNYEOdvs/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Gk3kNYEOdvs/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-06-16T14:01:43+00:00"
-  },
-  {
-    "title": "Física 1 - Ayudantia 5:  TORQUE [Aisaac M.]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "itlxgLJRgOA",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/itlxgLJRgOA/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/itlxgLJRgOA/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/itlxgLJRgOA/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-06-15T01:55:02+00:00"
-  },
-  {
-    "title": "Fundamentos de Economía - Ayudantía 7 [Benjamín Sepúlveda]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "_QYkPT5xlTE",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/_QYkPT5xlTE/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/_QYkPT5xlTE/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/_QYkPT5xlTE/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-06-14T00:41:04+00:00"
   }
 ]
