@@ -1,5 +1,30 @@
 [
   {
+    "title": "Química - Intensivo PEP2 [Leonard Sánchez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "oFMPZTu0VCw",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/oFMPZTu0VCw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/oFMPZTu0VCw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/oFMPZTu0VCw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-06-26T00:05:04+00:00"
+  },
+  {
     "title": "Física 1 - Intensivo PEP2 [Fernando Sarmiento]",
     "description": "",
     "channelId": "UsachPremium",
@@ -25,7 +50,7 @@
     "publishedAt": "2025-06-23T04:35:55+00:00"
   },
   {
-    "title": "Física 2 - Intensivo PEP2 [Aisaac M.]",
+    "title": "Física 2 - Intensivo PEP2 [Aisaac Mamani]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -100,7 +125,7 @@
     "publishedAt": "2025-06-22T22:13:21+00:00"
   },
   {
-    "title": "Física 1 - Intensivo PEP2 [Aisaac M.]",
+    "title": "Física 1 - Intensivo PEP2 [Aisaac Mamani]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-06-20T18:58:44+00:00"
-  },
-  {
-    "title": "Fundamentos de Economía - Ejercicio 4 Intensivo PEP2 [Benjamín Sepúlveda]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "7dS6d__dRXw",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/7dS6d__dRXw/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/7dS6d__dRXw/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/7dS6d__dRXw/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-06-20T18:58:42+00:00"
   }
 ]
