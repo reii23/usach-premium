@@ -1,5 +1,30 @@
 [
   {
+    "title": "Ayudantía PYTHON - Preparando la evaluación 2 | Rodrigo",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "1_Fklt8ysxg",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/1_Fklt8ysxg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/1_Fklt8ysxg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/1_Fklt8ysxg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-06-28T03:12:42+00:00"
+  },
+  {
     "title": "Química - Intensivo PEP2 [Leonard Sánchez]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-06-21T06:49:29+00:00"
-  },
-  {
-    "title": "Fundamentos de Economía - Ejercicio 5 Intensivo PEP2 [Benjamín Sepúlveda]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "Bl-JsCiZaek",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Bl-JsCiZaek/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Bl-JsCiZaek/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Bl-JsCiZaek/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-06-20T18:58:44+00:00"
   }
 ]
