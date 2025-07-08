@@ -1,5 +1,80 @@
 [
   {
+    "title": "Física 1 - Repaso MRU-MRUA [Byron Caices]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "mMdmrq8Hd7E",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/mMdmrq8Hd7E/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/mMdmrq8Hd7E/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/mMdmrq8Hd7E/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-07-08T02:34:14+00:00"
+  },
+  {
+    "title": "Física 1 - Ejercicios de Trabajo y Energía [Byron Caices]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "guld-Sg15Y4",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/guld-Sg15Y4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/guld-Sg15Y4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/guld-Sg15Y4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-07-08T02:34:12+00:00"
+  },
+  {
+    "title": "Física 1 - Ejercicios Tipo Pep Newton y Torque [Byron Caices]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "lm12e14xxpo",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/lm12e14xxpo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/lm12e14xxpo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/lm12e14xxpo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-07-08T02:34:09+00:00"
+  },
+  {
     "title": "Física 1 - Preparando la POR [Isaac M]",
     "description": "",
     "channelId": "UsachPremium",
@@ -298,80 +373,5 @@
       }
     },
     "publishedAt": "2025-06-21T17:50:42+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Parte 1 Intensivo PEP2 [Byron Caices]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "vTLYJLG4YqI",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/vTLYJLG4YqI/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/vTLYJLG4YqI/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/vTLYJLG4YqI/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-06-21T17:50:39+00:00"
-  },
-  {
-    "title": "Álgebra 2 - Intensivo PEP2 [Trinidad Palma]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "5cF22ishWjo",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/5cF22ishWjo/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/5cF22ishWjo/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/5cF22ishWjo/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-06-21T06:50:54+00:00"
-  },
-  {
-    "title": "Python para Ingeniería - Intensivo PEP2 [Rodrigo Olea]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "OF30EKeoI8w",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/OF30EKeoI8w/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/OF30EKeoI8w/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/OF30EKeoI8w/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-06-21T06:50:52+00:00"
   }
 ]
