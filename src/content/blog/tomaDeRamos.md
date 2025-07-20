@@ -54,3 +54,5 @@ No te preocupes. El sistema está preparado para esta situación y siempre exist
 Si estás cursando el intensivo de Física 1 porque lo reprobaste, en la **primera toma de ramos** el sistema te obligará a inscribir nuevamente los ramos de menor nivel que tengas pendientes (en este caso, Física 1).
     
 Debes inscribirlo sin problemas. Una vez que apruebes el intensivo, para la **segunda toma de ramos**, el sistema ya registrará tu aprobación y te permitirá inscribir las asignaturas que desbloqueaste (como Física 2).
+
+Si quedaste con alguna duda déjala en la caja de preguntas que subimos a Instagram!!
