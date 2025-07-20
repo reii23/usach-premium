@@ -2,7 +2,7 @@
 title: 'Preguntas Frecuentes: Toma de Ramos'
 description: 'Fechas y dudas sobre el proceso de toma de ramos FING-USACH 2-2025.'
 pubDate: '2025-07-19T01:20:12.616Z'
-heroImage: '/images/becas/becas.jpg'
+heroImage: '/images/becas/tomaderamos.png'
 categories: ['toma de ramos']
 tags: ['Toma de ramos']
 author: '["Byron Caices"]'
