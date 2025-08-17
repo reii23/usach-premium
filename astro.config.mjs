@@ -11,7 +11,7 @@ import { manifest } from './src/utils/manifest';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'http://localhost:4322/',
+  site: 'https://usachpremium.cl',
   image: {
     remotePatterns: [{ protocol: 'https' }],
   },

@@ -74,7 +74,11 @@ const { main }: { main: NavigationLink[] } = menu;
                 <li>
                   <a
                     href={menu?.url}
-                    class="block rounded-lg px-4 py-2 text-sm text-zinc-500 hover:bg-zinc-50 hover:text-zinc-700 dark:text-zinc-400 dark:hover:bg-zinc-200 dark:hover:text-zinc-800"
+                    class={`block rounded-lg px-4 py-2 text-sm hover:bg-zinc-50 hover:text-zinc-700 dark:hover:bg-zinc-200 dark:hover:text-zinc-800 ${
+                      menu?.url === '/ExploradorCampus'
+                        ? 'bg-amber-400 text-zinc-900 font-semibold'
+                        : 'text-zinc-500 dark:text-zinc-400'
+                    }`}
                     onclick={
                       menu?.url === '/CalculadoraNotas'
                         ? "event.preventDefault(); window.location.href='/CalculadoraNotas';"
@@ -92,10 +96,16 @@ const { main }: { main: NavigationLink[] } = menu;
       <ul class="ml-auto hidden items-center gap-6 md:flex lg:flex">
         {
           main?.map((menu) => (
-            <li class="text-md block rounded-lg px-2 py-2 text-zinc-500 transition-all hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-200">
+            <li class={`text-md block rounded-lg px-2 py-2 transition-all hover:text-zinc-800 dark:hover:text-zinc-200 ${
+              menu?.url === '/ExploradorCampus' ? 'text-zinc-900 dark:text-white' : 'text-zinc-500 dark:text-zinc-400'
+            }`}>
               <a
                 href={menu?.url}
-                class="relative flex items-center"
+                class={`relative flex items-center ${
+                  menu?.url === '/ExploradorCampus'
+                    ? 'rounded-md bg-amber-400/90 px-3 py-1.5 text-zinc-900 font-semibold hover:bg-amber-300'
+                    : ''
+                }`}
                 onclick={
                   menu?.url === '/CalculadoraNotas'
                     ? "event.preventDefault(); window.location.href='/CalculadoraNotas';"

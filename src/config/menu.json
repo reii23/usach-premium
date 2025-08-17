@@ -12,8 +12,8 @@
       "name": "Qué Nota Necesito",
       "url": "/CalculadoraMbi"
     },
-    {"name":  "Buscador de Salas",
-    "url":  "/BuscadorSalas"},
+  {"name":  "Explorador Campus USACH",
+  "url":  "/ExploradorCampus"},
     {
       "name": "Sobre Nosotros",
       "url": "/about"

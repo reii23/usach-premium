@@ -34,11 +34,11 @@ const totemPage = {
   }
 };
 
-const buscarSalaa = {
-  slug: "BuscadorSalas",
+const ExploradorCampus = {
+  slug: "ExploradorCampus",
   data: {
-    title: "Buscador de Salas",
-    description: "Busca una sala y encuentra su ubicación en el mapa.",
+    title: "Explorador Campus USACH",
+    description: "Explora todo el campo de la USACH y descubre donde encontrar salas, baños, accesos entre otros puntos de interés",
     heroImage: "/salas.jpg", 
     pubDate: new Date(),
     categories: []
@@ -55,13 +55,13 @@ const buscarSalaa = {
   {/* Luego renderizamos la página de Buscador de Salas */}
   <article class="flex w-full flex-col items-start">
     <div class="rounded-lg block overflow-hidden mb-4 relative">
-      {buscarSalaa.data.heroImage && (
-        <a href={`/BuscadorSalas/`}>
+      {ExploradorCampus.data.heroImage && (
+        <a href={`/ExploradorCampus`}>
           <figure class="w-auto h-auto md:h-[150px] object-cover mt-[-10px]">
             <Image
               class="transition duration-300 ease-in-out hover:scale-110"
-              src={buscarSalaa.data.heroImage}
-              alt={buscarSalaa.data.title}
+              src={ExploradorCampus.data.heroImage}
+              alt={ExploradorCampus.data.title}
               width={960}
               height={480}
               decoding="async"
@@ -72,8 +72,8 @@ const buscarSalaa = {
       )}
     </div>
     <div class="flex items-center gap-x-4 text-xs text-zinc-900 dark:text-white">
-      <FormattedDate date={buscarSalaa.data.pubDate} />
-      {buscarSalaa.data.categories.map((item) => (
+      <FormattedDate date={ExploradorCampus.data.pubDate} />
+      {ExploradorCampus.data.categories.map((item) => (
         <a
           href={`/categories/${slugify(item)}`}
           class="capitalize text-md relative z-10 rounded-full bg-zinc-50 px-3 py-1.5 font-medium text-zinc-600 hover:bg-zinc-50 dark:bg-zinc-900 dark:text-zinc-400"
@@ -84,13 +84,13 @@ const buscarSalaa = {
     </div>
     <div class="relative">
       <h2 class="mt-3 text-xl font-semibold leading-6 text-zinc-900 dark:text-white group-hover:text-zinc-600">
-        <a href={`/BuscadorSalas/`}>
+        <a href={`/ExploradorCampus`}>
           <span class="absolute inset-0" />
-          {buscarSalaa.data.title}
+          {ExploradorCampus.data.title}
         </a>
       </h2>
       <p class="mt-5 line-clamp-3 text-sm leading-6 text-zinc-900 dark:text-zinc-100">
-        {buscarSalaa.data.description}
+        {ExploradorCampus.data.description}
       </p>
     </div>
   </article>
