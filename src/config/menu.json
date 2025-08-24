@@ -12,8 +12,12 @@
       "name": "Qué Nota Necesito",
       "url": "/CalculadoraMbi"
     },
-  {"name":  "Explorador Campus USACH",
+  {"name":  "Mapa USACH",
   "url":  "/ExploradorCampus"},
+    {
+      "name": "Codecove",
+      "url": "/Codecove"
+    },
     {
       "name": "Sobre Nosotros",
       "url": "/about"
