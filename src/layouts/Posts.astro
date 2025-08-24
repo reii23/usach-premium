@@ -44,6 +44,17 @@ const ExploradorCampus = {
     categories: []
   }
 };
+
+const Codecove = {
+  slug: "Codecove",
+  data: {
+    title: "Codecove: Practica Programación",
+    description: "Mejora tus habilidades de programación con ejercicios interactivos y retroalimentación instantánea.",
+    heroImage: "/codecove.png",
+    pubDate: new Date(),
+    categories: []
+  }
+};
 ---
 
 
@@ -91,6 +102,49 @@ const ExploradorCampus = {
       </h2>
       <p class="mt-5 line-clamp-3 text-sm leading-6 text-zinc-900 dark:text-zinc-100">
         {ExploradorCampus.data.description}
+      </p>
+    </div>
+  </article>
+
+  {/* Tarjeta para Codecove */}
+  <article class="flex w-full flex-col items-start">
+    <div class="rounded-lg block overflow-hidden mb-4 relative">
+      {Codecove.data.heroImage && (
+        <a href={`/Codecove`}>
+          <figure class="w-auto h-auto md:h-[150px] object-cover mt-[-10px]">
+            <Image
+              class="transition duration-300 ease-in-out hover:scale-110"
+              src={Codecove.data.heroImage}
+              alt={Codecove.data.title}
+              width={960}
+              height={480}
+              decoding="async"
+              loading="lazy"
+            />
+          </figure>
+        </a>
+      )}
+    </div>
+    <div class="flex items-center gap-x-4 text-xs text-zinc-900 dark:text-white">
+      <FormattedDate date={Codecove.data.pubDate} />
+      {Codecove.data.categories.map((item) => (
+        <a
+          href={`/categories/${slugify(item)}`}
+          class="capitalize text-md relative z-10 rounded-full bg-zinc-50 px-3 py-1.5 font-medium text-zinc-600 hover:bg-zinc-50 dark:bg-zinc-900 dark:text-zinc-400"
+        >
+          {item}
+        </a>
+      ))}
+    </div>
+    <div class="relative">
+      <h2 class="mt-3 text-xl font-semibold leading-6 text-zinc-900 dark:text-white group-hover:text-zinc-600">
+        <a href={`/Codecove`}>
+          <span class="absolute inset-0" />
+          {Codecove.data.title}
+        </a>
+      </h2>
+      <p class="mt-5 line-clamp-3 text-sm leading-6 text-zinc-900 dark:text-zinc-100">
+        {Codecove.data.description}
       </p>
     </div>
   </article>
