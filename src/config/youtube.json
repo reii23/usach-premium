@@ -1,5 +1,30 @@
 [
   {
+    "title": "Fisica 2  - Ayudantía 1: Movimiento Parabólico [Fernando Sarmiento]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "iBK7QstQT8g",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/iBK7QstQT8g/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/iBK7QstQT8g/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/iBK7QstQT8g/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-09-02T01:39:30+00:00"
+  },
+  {
     "title": "Cálculo 2 - Ayudantía 1: Sumas de Riemann (Iniciados)",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-07-06T03:25:59+00:00"
-  },
-  {
-    "title": "Cálculo 3 - Preparando la PEP 2 [Aisaac Mamani]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "igIZnbHFhik",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/igIZnbHFhik/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/igIZnbHFhik/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/igIZnbHFhik/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-07-04T12:32:38+00:00"
   }
 ]
