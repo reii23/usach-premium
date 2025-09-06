@@ -1,5 +1,30 @@
 [
   {
+    "title": "Química - Ayudantía 1 [Leonard Sanchez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "XgKT9_KfvME",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/XgKT9_KfvME/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/XgKT9_KfvME/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/XgKT9_KfvME/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-09-05T23:59:11+00:00"
+  },
+  {
     "title": "Fundamentos de Economía - Ayudantía 1 [Benjamín Sepúlveda]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-07-14T03:17:44+00:00"
-  },
-  {
-    "title": "Física 1 - Preparando la POR [Fernando Sarmiento]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "j3JFovpv8fw",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/j3JFovpv8fw/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/j3JFovpv8fw/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/j3JFovpv8fw/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-07-09T03:15:36+00:00"
   }
 ]
