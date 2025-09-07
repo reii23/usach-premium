@@ -1,5 +1,30 @@
 [
   {
+    "title": "Python para Ingeniería - Ayudantía 2: Ciclos y Condicionales [Rodrigo Olea]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "ToXbHnjVrR8",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ToXbHnjVrR8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ToXbHnjVrR8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ToXbHnjVrR8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-09-07T01:57:22+00:00"
+  },
+  {
     "title": "Química - Ayudantía 1 [Leonard Sanchez]",
     "description": "",
     "channelId": "UsachPremium",
@@ -175,7 +200,7 @@
     "publishedAt": "2025-09-02T01:39:30+00:00"
   },
   {
-    "title": "Cálculo 2 - Ayudantía 1: Sumas de Riemann (Iniciados)",
+    "title": "Cálculo 2 - Ayudantía 1: Sumas de Riemann (Iniciados) [Byron Caices]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-07-17T17:25:50+00:00"
-  },
-  {
-    "title": "Electromagnetismo - Ayudantía Especial [Aisaac Mamani]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "WvcHlStcjYk",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/WvcHlStcjYk/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/WvcHlStcjYk/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/WvcHlStcjYk/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-07-14T03:17:44+00:00"
   }
 ]
