@@ -1,5 +1,30 @@
 [
   {
+    "title": "Cálculo 1 - Cápsula 1: Funciones, Composición e Inversa [Mohamed Al-Marzuk]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "P4DejiaBDCk",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/P4DejiaBDCk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/P4DejiaBDCk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/P4DejiaBDCk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-09-22T11:00:50+00:00"
+  },
+  {
     "title": "Python para Ingeniería - Ayudantía 2: Ciclos y Condicionales [Rodrigo Olea]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-07-22T14:37:20+00:00"
-  },
-  {
-    "title": "Tutorial: ¿Cómo me inscribo a un intensivo?",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "e0z8yzoG66g",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/e0z8yzoG66g/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/e0z8yzoG66g/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/e0z8yzoG66g/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-07-17T17:25:50+00:00"
   }
 ]
