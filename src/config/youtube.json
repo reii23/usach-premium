@@ -1,5 +1,30 @@
 [
   {
+    "title": "Fundamentos de Economía - Ayudantía 2 [Benjamín Sepulveda]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "LTJAnhI42ng",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/LTJAnhI42ng/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/LTJAnhI42ng/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/LTJAnhI42ng/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-09-24T01:09:23+00:00"
+  },
+  {
     "title": "Álgebra 1 - Ayudantia 2: Conjuntos [Maxito Rodríguez]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-08-31T17:32:02+00:00"
-  },
-  {
-    "title": "CodeCove - Tutorial de registro y uso",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "TzxSrFyY1JA",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/TzxSrFyY1JA/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/TzxSrFyY1JA/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/TzxSrFyY1JA/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-08-24T14:34:58+00:00"
   }
 ]
