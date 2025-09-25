@@ -1,5 +1,55 @@
 [
   {
+    "title": "Álgebra 2 - Ayudantía 1: Parte 1 [Trinidad Palma]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "Dd3wBVu9cs0",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Dd3wBVu9cs0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Dd3wBVu9cs0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Dd3wBVu9cs0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-09-24T19:25:26+00:00"
+  },
+  {
+    "title": "Álgebra 2 - Ayudantía 1: Parte 2 [Trinidad Palma]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "j91zkZO7PXA",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/j91zkZO7PXA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/j91zkZO7PXA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/j91zkZO7PXA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-09-24T19:25:18+00:00"
+  },
+  {
     "title": "Fundamentos de Economía - Ayudantía 2 [Benjamín Sepulveda]",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2025-09-01T00:52:21+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Ayudantía 1: Inecuaciones [Mohamed Al-Marzuk]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "GgHAZtwHRps",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/GgHAZtwHRps/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/GgHAZtwHRps/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/GgHAZtwHRps/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-08-31T21:19:56+00:00"
-  },
-  {
-    "title": "Python para Ingeniería - Introducción a Python [Byron Caices]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "QQkFVkEIGDo",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/QQkFVkEIGDo/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/QQkFVkEIGDo/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/QQkFVkEIGDo/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-08-31T17:32:02+00:00"
   }
 ]
