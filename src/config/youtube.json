@@ -1,5 +1,30 @@
 [
   {
+    "title": "📊 Fundamentos de Economía – Ayudantía 3 | Benjamín Sepúlveda",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "Lv-p1ufseNw",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Lv-p1ufseNw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Lv-p1ufseNw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Lv-p1ufseNw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-09-25T19:08:37+00:00"
+  },
+  {
     "title": "Álgebra 2 - Ayudantía 1: Parte 1 [Trinidad Palma]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-09-02T01:39:30+00:00"
-  },
-  {
-    "title": "Cálculo 2 - Ayudantía 1: Sumas de Riemann (Iniciados) [Byron Caices]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "pW_abEFO8D0",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/pW_abEFO8D0/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/pW_abEFO8D0/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/pW_abEFO8D0/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-09-01T00:52:21+00:00"
   }
 ]
