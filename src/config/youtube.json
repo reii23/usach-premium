@@ -1,5 +1,55 @@
 [
   {
+    "title": "📘 Ayudantía de Cálculo Avanzado – Parte 2 | Trinidad P",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "zIQhIoNz5Uc",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/zIQhIoNz5Uc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/zIQhIoNz5Uc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/zIQhIoNz5Uc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-09-27T20:45:21+00:00"
+  },
+  {
+    "title": "📘 Ayudantía de Cálculo Avanzado – Parte 1 | Trinidad P",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "Dabe1As3OSI",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Dabe1As3OSI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Dabe1As3OSI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Dabe1As3OSI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-09-27T20:45:20+00:00"
+  },
+  {
     "title": "📊 Fundamentos de Economía – Ayudantía 3 | Benjamín Sepúlveda",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2025-09-03T02:49:39+00:00"
-  },
-  {
-    "title": "Álgebra 1 - Ayudantia 1: Lógica [Maxito Rodríguez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "46sHkvDJSs8",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/46sHkvDJSs8/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/46sHkvDJSs8/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/46sHkvDJSs8/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-09-03T01:32:02+00:00"
-  },
-  {
-    "title": "Fisica 2  - Ayudantía 1: Movimiento Parabólico [Fernando Sarmiento]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "iBK7QstQT8g",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/iBK7QstQT8g/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/iBK7QstQT8g/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/iBK7QstQT8g/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-09-02T01:39:30+00:00"
   }
 ]
