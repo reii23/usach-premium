@@ -1,5 +1,30 @@
 [
   {
+    "title": "Cálculo 2 - Ayudantía 2: Preparando la Evaluación [Isaac M]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "djpmTf1aL9Y",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/djpmTf1aL9Y/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/djpmTf1aL9Y/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/djpmTf1aL9Y/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-09-29T01:13:53+00:00"
+  },
+  {
     "title": "📘 Ayudantía de Cálculo Avanzado – Parte 2 | Trinidad P",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-09-03T02:52:15+00:00"
-  },
-  {
-    "title": "Física 2 - Ayudantía 2: Lanzamiento de Proyectiles Parte 1 [Aisaac Mamani]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "LVsqKW1BfQE",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/LVsqKW1BfQE/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/LVsqKW1BfQE/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/LVsqKW1BfQE/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-09-03T02:49:39+00:00"
   }
 ]
