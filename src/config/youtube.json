@@ -1,5 +1,30 @@
 [
   {
+    "title": "Electromagnetismo - Ayudantía [1] Preparando la Pep [Aisaac M]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "twsjbiJch4E",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/twsjbiJch4E/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/twsjbiJch4E/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/twsjbiJch4E/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-09-30T03:22:11+00:00"
+  },
+  {
     "title": "Cálculo 2 - Ayudantía 2: Preparando la Evaluación [Isaac M]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-09-03T02:52:17+00:00"
-  },
-  {
-    "title": "Física 2 - Ayudantía 2: Lanzamiento de Proyectiles Parte 2 [Aisaac Mamani]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "acXVG9eg9Ko",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/acXVG9eg9Ko/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/acXVG9eg9Ko/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/acXVG9eg9Ko/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-09-03T02:52:15+00:00"
   }
 ]
