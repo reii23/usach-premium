@@ -1,5 +1,105 @@
 [
   {
+    "title": "Cálculo 2 - Intensivo PEP 1 (Día 1) [Aisaac Mamani]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "YvKfLAijBSA",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/YvKfLAijBSA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/YvKfLAijBSA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/YvKfLAijBSA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-10-08T01:16:06+00:00"
+  },
+  {
+    "title": "Física 2 - Intensivo PEP 1 (Día 1) [Aisaac Mamani]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "JMyXZ_v7R-0",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/JMyXZ_v7R-0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/JMyXZ_v7R-0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/JMyXZ_v7R-0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-10-08T01:16:03+00:00"
+  },
+  {
+    "title": "Física 1 - Intensivo PEP 1 (Día 1) [Fernando Sarmiento]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "zKpILb9OrJw",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/zKpILb9OrJw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/zKpILb9OrJw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/zKpILb9OrJw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-10-08T01:15:59+00:00"
+  },
+  {
+    "title": "Python para Ingeniería - Intensivo PEP 1 (Día 1) [Rodrigo Olea]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "pgrPuKZQ3LE",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/pgrPuKZQ3LE/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/pgrPuKZQ3LE/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/pgrPuKZQ3LE/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-10-08T01:15:56+00:00"
+  },
+  {
     "title": "Electromagnetismo - Ayudantía 1: Preparando la PEP [Aisaac Mamani]",
     "description": "",
     "channelId": "UsachPremium",
@@ -273,105 +373,5 @@
       }
     },
     "publishedAt": "2025-09-22T11:00:50+00:00"
-  },
-  {
-    "title": "Python para Ingeniería - Ayudantía 2: Ciclos y Condicionales [Rodrigo Olea]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "ToXbHnjVrR8",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/ToXbHnjVrR8/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/ToXbHnjVrR8/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/ToXbHnjVrR8/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-09-07T01:57:22+00:00"
-  },
-  {
-    "title": "Química - Ayudantía 1 [Leonard Sanchez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "XgKT9_KfvME",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/XgKT9_KfvME/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/XgKT9_KfvME/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/XgKT9_KfvME/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-09-05T23:59:11+00:00"
-  },
-  {
-    "title": "Fundamentos de Economía - Ayudantía 1 [Benjamín Sepúlveda]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "QJgD5uEWCB4",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/QJgD5uEWCB4/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/QJgD5uEWCB4/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/QJgD5uEWCB4/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-09-04T03:00:23+00:00"
-  },
-  {
-    "title": "Física 2 - Ayudantía 2: Lanzamiento de Proyectiles Parte 3 [Aisaac Mamani]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "_YlmLzx14uU",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/_YlmLzx14uU/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/_YlmLzx14uU/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/_YlmLzx14uU/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-09-03T02:52:17+00:00"
   }
 ]
