@@ -1,6 +1,106 @@
 [
   {
-    "title": "Física 2 - Intensivo PEP 1 (Día 2) [Aisaac Mamani]",
+    "title": "Python para Ingeniería - Intensivo #YoNoPAROdeEstudiar (Día 3) [Byron Caices]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "IqenfYLgOnQ",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/IqenfYLgOnQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/IqenfYLgOnQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/IqenfYLgOnQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-10-09T23:02:23+00:00"
+  },
+  {
+    "title": "Física 2 - Intensivo #YoNoPAROdeEstudiar (Día 3) [Aisaac Mamani]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "QHUnWwHnpTk",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/QHUnWwHnpTk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/QHUnWwHnpTk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/QHUnWwHnpTk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-10-09T23:02:10+00:00"
+  },
+  {
+    "title": "Álgebra 1 - Intensivo #YoNoPAROdeEstudiar (Día 3) [Maxito Rodríguez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "cF4IZgvkgy4",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/cF4IZgvkgy4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/cF4IZgvkgy4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/cF4IZgvkgy4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-10-09T23:02:07+00:00"
+  },
+  {
+    "title": "Física 2 - Intensivo #YoNoPAROdeEstudiar (Día 3) [Fernando Sarmiento]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "vBaEqGCWTn0",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/vBaEqGCWTn0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/vBaEqGCWTn0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/vBaEqGCWTn0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-10-09T23:02:01+00:00"
+  },
+  {
+    "title": "Física 2 - Intensivo #YoNoPAROdeEstudiar (Día 2) [Aisaac Mamani]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -25,7 +125,7 @@
     "publishedAt": "2025-10-09T04:02:49+00:00"
   },
   {
-    "title": "Cálculo 1 - Intensivo PEP 1 (Día 2) [Mohamed Al-Marzuk]",
+    "title": "Cálculo 1 - Intensivo #YoNoPAROdeEstudiar (Día 2) [Mohamed Al-Marzuk]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -50,7 +150,7 @@
     "publishedAt": "2025-10-09T04:02:44+00:00"
   },
   {
-    "title": "Química - Intensivo PEP 1 (Día 2) [Leonard Sanchez]",
+    "title": "Química - Intensivo #YoNoPAROdeEstudiar (Día 2) [Leonard Sanchez]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -75,7 +175,7 @@
     "publishedAt": "2025-10-09T04:02:41+00:00"
   },
   {
-    "title": "Álgebra 2 - Intensivo PEP 1 | Parte 2 (Día 2) [Trinidad Palma]",
+    "title": "Álgebra 2 - Intensivo #YoNoPAROdeEstudiar | Parte 2 (Día 2) [Trinidad Palma]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -100,7 +200,7 @@
     "publishedAt": "2025-10-09T04:02:29+00:00"
   },
   {
-    "title": "Álgebra 2 - Intensivo PEP 1 | Parte 1 (Día 2) [Trinidad Palma]",
+    "title": "Álgebra 2 - Intensivo #YoNoPAROdeEstudiar | Parte 1 (Día 2) [Trinidad Palma]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -125,7 +225,7 @@
     "publishedAt": "2025-10-09T04:02:22+00:00"
   },
   {
-    "title": "Cálculo 2 - Intensivo PEP 1 (Día 1) [Aisaac Mamani]",
+    "title": "Cálculo 2 - Intensivo #YoNoPAROdeEstudiar (Día 1) [Aisaac Mamani]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -150,7 +250,7 @@
     "publishedAt": "2025-10-08T01:16:06+00:00"
   },
   {
-    "title": "Física 2 - Intensivo PEP 1 (Día 1) [Aisaac Mamani]",
+    "title": "Física 2 - Intensivo #YoNoPAROdeEstudiar (Día 1) [Aisaac Mamani]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -175,7 +275,7 @@
     "publishedAt": "2025-10-08T01:16:03+00:00"
   },
   {
-    "title": "Física 1 - Intensivo PEP 1 (Día 1) [Fernando Sarmiento]",
+    "title": "Física 1 - Intensivo #YoNoPAROdeEstudiar (Día 1) [Fernando Sarmiento]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -200,7 +300,7 @@
     "publishedAt": "2025-10-08T01:15:59+00:00"
   },
   {
-    "title": "Python para Ingeniería - Intensivo PEP 1 (Día 1) [Rodrigo Olea]",
+    "title": "Python para Ingeniería - Intensivo #YoNoPAROdeEstudiar (Día 1) [Rodrigo Olea]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -273,105 +373,5 @@
       }
     },
     "publishedAt": "2025-09-29T01:13:53+00:00"
-  },
-  {
-    "title": "Cálculo Avanzado - Parte 2 [Trinidad Palma]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "zIQhIoNz5Uc",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/zIQhIoNz5Uc/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/zIQhIoNz5Uc/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/zIQhIoNz5Uc/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-09-27T20:45:21+00:00"
-  },
-  {
-    "title": "Cálculo Avanzado - Parte 1 [Trinidad Palma]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "Dabe1As3OSI",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Dabe1As3OSI/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Dabe1As3OSI/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Dabe1As3OSI/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-09-27T20:45:20+00:00"
-  },
-  {
-    "title": "Fundamentos de Economía - Ayudantía 3 [Benjamín Sepúlveda]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "Lv-p1ufseNw",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Lv-p1ufseNw/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Lv-p1ufseNw/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Lv-p1ufseNw/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-09-25T19:08:37+00:00"
-  },
-  {
-    "title": "Álgebra 2 - Ayudantía 1: Parte 1 [Trinidad Palma]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "Dd3wBVu9cs0",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Dd3wBVu9cs0/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Dd3wBVu9cs0/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Dd3wBVu9cs0/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-09-24T19:25:26+00:00"
   }
 ]
