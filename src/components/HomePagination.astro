@@ -2,12 +2,14 @@
 import RightArrowIcon from "@components/icons/RightArrowIcon.astro";
 ---
 
-<div class="m-auto text-right mt-12">
+<div class="m-auto text-center mt-16">
   <a
-    class="inline-block rounded border border-orange-600 dark:border-green-400 dark:hover:border-green-600 px-12 py-3 text-sm font-medium text-green-600 dark:text-green-400 dark:hover:text-white hover:bg-green-600 hover:text-white focus:outline-none focus:ring active:bg-green-500 transition-all"
+    class="group inline-flex items-center gap-3 rounded-2xl bg-gradient-to-r from-orange-500 via-orange-600 to-orange-500 dark:from-orange-600 dark:via-orange-500 dark:to-orange-600 px-10 py-4 text-base font-bold text-white hover:shadow-2xl hover:shadow-orange-500/50 focus:outline-none focus:ring-4 focus:ring-orange-300 dark:focus:ring-orange-800 active:scale-95 transition-all duration-300 hover:-translate-y-1"
     href="/blog"
   >
-    Todos los post
-    <RightArrowIcon />
+    <span>Ver todos los posts</span>
+    <span class="transition-transform duration-300 group-hover:translate-x-2">
+      <RightArrowIcon />
+    </span>
   </a>
 </div>

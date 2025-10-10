@@ -61,182 +61,183 @@ const Codecove = {
 
 
 <div
-  class="mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+  class="mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-12 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:gap-x-8"
 >
   {/* Luego renderizamos la página de Buscador de Salas */}
-  <article class="flex w-full flex-col items-start">
-    <div class="rounded-lg block overflow-hidden mb-4 relative">
+  <article class="group flex w-full flex-col bg-white dark:bg-zinc-800/50 rounded-2xl overflow-hidden shadow-md hover:shadow-2xl hover:shadow-orange-500/20 transition-all duration-300 hover:-translate-y-2 border border-zinc-100 dark:border-zinc-700/50">
+    <div class="relative overflow-hidden aspect-[4/3] bg-zinc-100 dark:bg-zinc-900">
       {ExploradorCampus.data.heroImage && (
-        <a href={`/ExploradorCampus`}>
-          <figure class="w-auto h-auto md:h-[150px] object-cover mt-[-10px]">
-            <Image
-              class="transition duration-300 ease-in-out hover:scale-110"
-              src={ExploradorCampus.data.heroImage}
-              alt={ExploradorCampus.data.title}
-              width={960}
-              height={480}
-              decoding="async"
-              loading="lazy"
-            />
-          </figure>
+        <a href={`/ExploradorCampus`} class="block h-full">
+          <Image
+            class="w-full h-full object-cover transition duration-500 ease-in-out group-hover:scale-110 group-hover:brightness-105"
+            src={ExploradorCampus.data.heroImage}
+            alt={ExploradorCampus.data.title}
+            width={960}
+            height={480}
+            decoding="async"
+            loading="lazy"
+          />
         </a>
       )}
     </div>
-    <div class="flex items-center gap-x-4 text-xs text-zinc-900 dark:text-white">
-      <FormattedDate date={ExploradorCampus.data.pubDate} />
-      {ExploradorCampus.data.categories.map((item) => (
-        <a
-          href={`/categories/${slugify(item)}`}
-          class="capitalize text-md relative z-10 rounded-full bg-zinc-50 px-3 py-1.5 font-medium text-zinc-600 hover:bg-zinc-50 dark:bg-zinc-900 dark:text-zinc-400"
-        >
-          {item}
-        </a>
-      ))}
-    </div>
-    <div class="relative">
-      <h2 class="mt-3 text-xl font-semibold leading-6 text-zinc-900 dark:text-white group-hover:text-zinc-600">
-        <a href={`/ExploradorCampus`}>
-          <span class="absolute inset-0" />
-          {ExploradorCampus.data.title}
-        </a>
-      </h2>
-      <p class="mt-5 line-clamp-3 text-sm leading-6 text-zinc-900 dark:text-zinc-100">
-        {ExploradorCampus.data.description}
-      </p>
+    <div class="flex flex-col flex-1 p-6">
+      <div class="flex items-center gap-3 mb-4 flex-wrap">
+        <time class="text-xs font-medium text-zinc-500 dark:text-zinc-400 tracking-wide">
+          <FormattedDate date={ExploradorCampus.data.pubDate} />
+        </time>
+        {ExploradorCampus.data.categories.map((item) => (
+          <a
+            href={`/categories/${slugify(item)}`}
+            class="inline-flex items-center text-xs font-semibold px-3 py-1 rounded-full bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 shadow-sm"
+          >
+            {item}
+          </a>
+        ))}
+      </div>
+      <div class="flex-1">
+        <h2 class="text-xl font-bold leading-snug text-zinc-900 dark:text-white group-hover:text-orange-600 dark:group-hover:text-orange-400 mb-3">
+          <a href={`/ExploradorCampus`} class="hover:underline decoration-2 underline-offset-4">
+            {ExploradorCampus.data.title}
+          </a>
+        </h2>
+        <p class="text-sm leading-relaxed text-zinc-600 dark:text-zinc-300 line-clamp-3">
+          {ExploradorCampus.data.description}
+        </p>
+      </div>
     </div>
   </article>
 
   {/* Tarjeta para Codecove */}
-  <article class="flex w-full flex-col items-start">
-    <div class="rounded-lg block overflow-hidden mb-4 relative">
+  <article class="group flex w-full flex-col bg-white dark:bg-zinc-800/50 rounded-2xl overflow-hidden shadow-md hover:shadow-2xl hover:shadow-orange-500/20 transition-all duration-300 hover:-translate-y-2 border border-zinc-100 dark:border-zinc-700/50">
+    <div class="relative overflow-hidden aspect-[4/3] bg-zinc-100 dark:bg-zinc-900">
       {Codecove.data.heroImage && (
-        <a href={`/Codecove`}>
-          <figure class="w-auto h-auto md:h-[150px] object-cover mt-[-10px]">
-            <Image
-              class="transition duration-300 ease-in-out hover:scale-110"
-              src={Codecove.data.heroImage}
-              alt={Codecove.data.title}
-              width={960}
-              height={480}
-              decoding="async"
-              loading="lazy"
-            />
-          </figure>
+        <a href={`/Codecove`} class="block h-full">
+          <Image
+            class="w-full h-full object-cover transition duration-500 ease-in-out group-hover:scale-110 group-hover:brightness-105"
+            src={Codecove.data.heroImage}
+            alt={Codecove.data.title}
+            width={960}
+            height={480}
+            decoding="async"
+            loading="lazy"
+          />
         </a>
       )}
     </div>
-    <div class="flex items-center gap-x-4 text-xs text-zinc-900 dark:text-white">
-      <FormattedDate date={Codecove.data.pubDate} />
-      {Codecove.data.categories.map((item) => (
-        <a
-          href={`/categories/${slugify(item)}`}
-          class="capitalize text-md relative z-10 rounded-full bg-zinc-50 px-3 py-1.5 font-medium text-zinc-600 hover:bg-zinc-50 dark:bg-zinc-900 dark:text-zinc-400"
-        >
-          {item}
-        </a>
-      ))}
-    </div>
-    <div class="relative">
-      <h2 class="mt-3 text-xl font-semibold leading-6 text-zinc-900 dark:text-white group-hover:text-zinc-600">
-        <a href={`/Codecove`}>
-          <span class="absolute inset-0" />
-          {Codecove.data.title}
-        </a>
-      </h2>
-      <p class="mt-5 line-clamp-3 text-sm leading-6 text-zinc-900 dark:text-zinc-100">
-        {Codecove.data.description}
-      </p>
+    <div class="flex flex-col flex-1 p-6">
+      <div class="flex items-center gap-3 mb-4 flex-wrap">
+        <time class="text-xs font-medium text-zinc-500 dark:text-zinc-400 tracking-wide">
+          <FormattedDate date={Codecove.data.pubDate} />
+        </time>
+        {Codecove.data.categories.map((item) => (
+          <a
+            href={`/categories/${slugify(item)}`}
+            class="inline-flex items-center text-xs font-semibold px-3 py-1 rounded-full bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 shadow-sm"
+          >
+            {item}
+          </a>
+        ))}
+      </div>
+      <div class="flex-1">
+        <h2 class="text-xl font-bold leading-snug text-zinc-900 dark:text-white group-hover:text-orange-600 dark:group-hover:text-orange-400 mb-3">
+          <a href={`/Codecove`} class="hover:underline decoration-2 underline-offset-4">
+            {Codecove.data.title}
+          </a>
+        </h2>
+        <p class="text-sm leading-relaxed text-zinc-600 dark:text-zinc-300 line-clamp-3">
+          {Codecove.data.description}
+        </p>
+      </div>
     </div>
   </article>
 
   {/* Primero renderizamos la página de Totems */}
-  <article class="flex w-full flex-col items-start">
-    <div class="rounded-lg block overflow-hidden mb-4 relative">
+  <article class="group flex w-full flex-col bg-white dark:bg-zinc-800/50 rounded-2xl overflow-hidden shadow-md hover:shadow-2xl hover:shadow-orange-500/20 transition-all duration-300 hover:-translate-y-2 border border-zinc-100 dark:border-zinc-700/50">
+    <div class="relative overflow-hidden aspect-[4/3] bg-zinc-100 dark:bg-zinc-900">
       {totemPage.data.heroImage && (
-        <a href={`/Totems/`}>
-          <figure class="w-auto h-auto md:h-[150px] object-cover mt-[-10px]">
-            <Image
-              class="transition duration-300 ease-in-out hover:scale-110"
-              src={totemPage.data.heroImage}
-              alt={totemPage.data.title}
-              width={960}
-              height={480}
-              decoding="async"
-              loading="lazy"
-            />
-          </figure>
+        <a href={`/Totems/`} class="block h-full">
+          <Image
+            class="w-full h-full object-cover transition duration-500 ease-in-out group-hover:scale-110 group-hover:brightness-105"
+            src={totemPage.data.heroImage}
+            alt={totemPage.data.title}
+            width={960}
+            height={480}
+            decoding="async"
+            loading="lazy"
+          />
         </a>
       )}
     </div>
-    
-    
-    
-    <div class="flex items-center gap-x-4 text-xs text-zinc-900 dark:text-white">
-      <FormattedDate date={totemPage.data.pubDate} />
-      {totemPage.data.categories.map((item) => (
-        <a
-          href={`/categories/${slugify(item)}`}
-          class="capitalize text-md relative z-10 rounded-full bg-zinc-50 px-3 py-1.5 font-medium text-zinc-600 hover:bg-zinc-50 dark:bg-zinc-900 dark:text-zinc-400"
-        >
-          {item}
-        </a>
-      ))}
-    </div>
-    <div class="relative">
-      <h2 class="mt-3 text-xl font-semibold leading-6 text-zinc-900 dark:text-white group-hover:text-zinc-600">
-        <a href={`/totems/`}>
-          <span class="absolute inset-0" />
-          {totemPage.data.title}
-        </a>
-      </h2>
-      <p class="mt-5 line-clamp-3 text-sm leading-6 text-zinc-900 dark:text-zinc-100">
-        {totemPage.data.description}
-      </p>
+    <div class="flex flex-col flex-1 p-6">
+      <div class="flex items-center gap-3 mb-4 flex-wrap">
+        <time class="text-xs font-medium text-zinc-500 dark:text-zinc-400 tracking-wide">
+          <FormattedDate date={totemPage.data.pubDate} />
+        </time>
+        {totemPage.data.categories.map((item) => (
+          <a
+            href={`/categories/${slugify(item)}`}
+            class="inline-flex items-center text-xs font-semibold px-3 py-1 rounded-full bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 shadow-sm"
+          >
+            {item}
+          </a>
+        ))}
+      </div>
+      <div class="flex-1">
+        <h2 class="text-xl font-bold leading-snug text-zinc-900 dark:text-white group-hover:text-orange-600 dark:group-hover:text-orange-400 mb-3">
+          <a href={`/totems/`} class="hover:underline decoration-2 underline-offset-4">
+            {totemPage.data.title}
+          </a>
+        </h2>
+        <p class="text-sm leading-relaxed text-zinc-600 dark:text-zinc-300 line-clamp-3">
+          {totemPage.data.description}
+        </p>
+      </div>
     </div>
   </article>
 
   {/* Luego renderizamos los posts normales */}
   {
     posts?.map((post: PostType) => (
-      <article class="flex w-full flex-col items-start">
-        <div class="rounded-lg block overflow-hidden mb-4">
+      <article class="group flex w-full flex-col bg-white dark:bg-zinc-800/50 rounded-2xl overflow-hidden shadow-md hover:shadow-2xl hover:shadow-orange-500/20 transition-all duration-300 hover:-translate-y-2 border border-zinc-100 dark:border-zinc-700/50">
+        <div class="relative overflow-hidden aspect-[4/3] bg-zinc-100 dark:bg-zinc-900">
           {post.data.heroImage && (
-            <a href={`/blog/${post.slug}/`}>
-              <figure class="w-auto h-auto md:h-[150px] object-cover">
-                <Image
-                  class="transition duration-300 ease-in-out hover:scale-110"
-                  src={post.data.heroImage}
-                  alt={post.data.title}
-                  width={1800}
-                  height={800}
-                  decoding="async"
-                  loading="lazy"
-                />
-              </figure>
+            <a href={`/blog/${post.slug}/`} class="block h-full">
+              <Image
+                class="w-full h-full object-cover transition duration-500 ease-in-out group-hover:scale-110 group-hover:brightness-105"
+                src={post.data.heroImage}
+                alt={post.data.title}
+                width={1800}
+                height={800}
+                decoding="async"
+                loading="lazy"
+              />
             </a>
           )}
         </div>
-        <div class="flex items-center gap-x-4 text-xs text-zinc-900 dark:text-white">
-          <FormattedDate date={post.data.pubDate} />
-          {post.data.categories.slice(0, 2).map((item) => (
-            <a
-              href={`/categories/${slugify(item)}`}
-              class="capitalize text-md relative z-10 rounded-full bg-zinc-50 px-3 py-1.5 font-medium text-zinc-600 hover:bg-zinc-50 dark:bg-zinc-900 dark:text-zinc-400"
-            >
-              {item}
-            </a>
-          ))}
-        </div>
-        <div class="relative">
-          <h2 class="mt-3 text-xl font-semibold leading-6 text-zinc-900 dark:text-white group-hover:text-zinc-600">
-            <a href={`/blog/${post.slug}/`}>
-              <span class="absolute inset-0" />
-              {post.data.title}
-            </a>
-          </h2>
-          <p class="mt-5 line-clamp-3 text-sm leading-6 text-zinc-900 dark:text-zinc-100">
-            {post.data.description}
-          </p>
+        <div class="flex flex-col flex-1 p-6">
+          <div class="flex items-center gap-3 mb-4 flex-wrap">
+            <time class="text-xs font-medium text-zinc-500 dark:text-zinc-400 tracking-wide">
+              <FormattedDate date={post.data.pubDate} />
+            </time>
+            {post.data.categories.slice(0, 2).map((item) => (
+              <a
+                href={`/categories/${slugify(item)}`}
+                class="inline-flex items-center text-xs font-semibold px-3 py-1 rounded-full bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 shadow-sm"
+              >
+                {item}
+              </a>
+            ))}
+          </div>
+          <div class="flex-1">
+            <h2 class="text-xl font-bold leading-snug text-zinc-900 dark:text-white group-hover:text-orange-600 dark:group-hover:text-orange-400 mb-3">
+              <a href={`/blog/${post.slug}/`} class="hover:underline decoration-2 underline-offset-4">
+                {post.data.title}
+              </a>
+            </h2>
+            <p class="text-sm leading-relaxed text-zinc-600 dark:text-zinc-300 line-clamp-3">
+              {post.data.description}
+            </p>
+          </div>
         </div>
       </article>
     ))

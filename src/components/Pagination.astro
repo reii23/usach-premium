@@ -13,7 +13,7 @@ const paginationList = Array.from({ length }, (_, i) => i + 1);
         <li>
           <a
             href={prevUrl}
-            class="inline-flex h-8 w-8 items-center justify-center rounded border border-gray-100  text-zinc-900 rtl:rotate-180 dark:text-white"
+            class="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-orange-200 dark:border-orange-800 bg-white dark:bg-zinc-800 text-orange-600 dark:text-orange-400 rtl:rotate-180 hover:bg-orange-50 dark:hover:bg-orange-900/20 transition-all duration-300 hover:scale-110 shadow-sm hover:shadow-md"
           >
             <span class="sr-only">Prev Page</span>
             <PrevIcon />
@@ -26,8 +26,10 @@ const paginationList = Array.from({ length }, (_, i) => i + 1);
         <li>
           <a
             href={`${firstUrl}${num == 1 ? '' : '' + num}`}
-            class={`block h-8 w-8 rounded border text-center leading-8 text-zinc-900 dark:text-white ${
-              currentPage == num ? 'border-orange-600 bg-orange-500 !text-white' : ''
+            class={`block h-10 w-10 rounded-lg border text-center leading-10 transition-all duration-300 hover:scale-110 shadow-sm hover:shadow-md ${
+              currentPage == num 
+                ? 'border-orange-600 bg-gradient-to-br from-orange-500 to-orange-600 !text-white font-semibold shadow-lg shadow-orange-500/30' 
+                : 'border-orange-200 dark:border-orange-800 bg-white dark:bg-zinc-800 text-zinc-900 dark:text-white hover:bg-orange-50 dark:hover:bg-orange-900/20 hover:text-orange-600 dark:hover:text-orange-400'
             }`}
           >
             {num}
@@ -40,7 +42,7 @@ const paginationList = Array.from({ length }, (_, i) => i + 1);
         <li>
           <a
             href={nextUrl}
-            class="inline-flex h-8 w-8 items-center justify-center rounded border border-gray-100 text-zinc-900 rtl:rotate-180 dark:text-white"
+            class="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-orange-200 dark:border-orange-800 bg-white dark:bg-zinc-800 text-orange-600 dark:text-orange-400 rtl:rotate-180 hover:bg-orange-50 dark:hover:bg-orange-900/20 transition-all duration-300 hover:scale-110 shadow-sm hover:shadow-md"
           >
             <span class="sr-only">Next Page</span>
             <NextIcon />

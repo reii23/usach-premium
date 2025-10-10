@@ -32,6 +32,9 @@ const ogImage = createOgImage({
 <!doctype html>
 <html lang={config.site.lang}>
   <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    
     <!-- favicon -->
     <link rel="shortcut icon" href={config.site.favicon} />
     
@@ -107,12 +110,14 @@ const ogImage = createOgImage({
     <ViewTransitions />
   </head>
   
-  <body class="bg-white dark:bg-zinc-900/95">
-    <Header />
+  <body class="bg-white dark:bg-zinc-900 min-h-screen font-['Nunito_Sans',sans-serif]">
+    <!-- Contenedor unificado para Header y Hero -->
+    <div class="bg-gradient-to-br from-orange-50 via-white to-zinc-50 dark:from-zinc-900 dark:via-zinc-900 dark:to-orange-950/30">
+      <Header />
+      {!blogpost && <Hero />}
+    </div>
     
-    {!blogpost && <Hero />}
-    
-    <main class="mx-auto max-w-screen-lg px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+    <main class="mx-auto max-w-screen-lg px-4 py-6 sm:px-6 sm:py-8 lg:px-8 lg:py-10 animate-fade-in-up">
       <slot />
     </main>
     
