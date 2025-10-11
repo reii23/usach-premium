@@ -1,5 +1,105 @@
 [
   {
+    "title": "Cálculo 3 - Intensivo #YoNoPAROdeEstudiar (Día 4) [Aisaac Mamani]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "YzbqIuJbM54",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/YzbqIuJbM54/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/YzbqIuJbM54/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/YzbqIuJbM54/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-10-11T02:30:22+00:00"
+  },
+  {
+    "title": "Física 2 - Intensivo #YoNoPAROdeEstudiar (Día 4) [Aisaac Mamani]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "oPmAeUf9duA",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/oPmAeUf9duA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/oPmAeUf9duA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/oPmAeUf9duA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-10-11T02:23:57+00:00"
+  },
+  {
+    "title": "Álgebra 2 - Intensivo #YoNoPAROdeEstudiar (Día 4) [Trinidad Palma]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "9Oe-J7v1UoM",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/9Oe-J7v1UoM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/9Oe-J7v1UoM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/9Oe-J7v1UoM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-10-11T02:23:54+00:00"
+  },
+  {
+    "title": "Física 1 - Intensivo #YoNoPAROdeEstudiar (Día 4) [Daniela Castro]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "w7rtLJtWak0",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/w7rtLJtWak0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/w7rtLJtWak0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/w7rtLJtWak0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-10-11T02:23:51+00:00"
+  },
+  {
     "title": "Python para Ingeniería - Intensivo #YoNoPAROdeEstudiar (Día 3) [Byron Caices]",
     "description": "",
     "channelId": "UsachPremium",
@@ -273,105 +373,5 @@
       }
     },
     "publishedAt": "2025-10-08T01:16:03+00:00"
-  },
-  {
-    "title": "Física 1 - Intensivo #YoNoPAROdeEstudiar (Día 1) [Fernando Sarmiento]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "zKpILb9OrJw",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/zKpILb9OrJw/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/zKpILb9OrJw/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/zKpILb9OrJw/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-10-08T01:15:59+00:00"
-  },
-  {
-    "title": "Python para Ingeniería - Intensivo #YoNoPAROdeEstudiar (Día 1) [Rodrigo Olea]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "pgrPuKZQ3LE",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/pgrPuKZQ3LE/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/pgrPuKZQ3LE/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/pgrPuKZQ3LE/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-10-08T01:15:56+00:00"
-  },
-  {
-    "title": "Electromagnetismo - Ayudantía 1: Preparando la PEP [Aisaac Mamani]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "twsjbiJch4E",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/twsjbiJch4E/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/twsjbiJch4E/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/twsjbiJch4E/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-09-30T03:22:11+00:00"
-  },
-  {
-    "title": "Cálculo 2 - Ayudantía 2: Preparando la Evaluación [Aisaac Mamani]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "djpmTf1aL9Y",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/djpmTf1aL9Y/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/djpmTf1aL9Y/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/djpmTf1aL9Y/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-09-29T01:13:53+00:00"
   }
 ]
