@@ -1,5 +1,55 @@
 [
   {
+    "title": "Fundamentos de Economía - Ayudantía 4 [Benjamín Sepulveda]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "mUQtmJa6yAw",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/mUQtmJa6yAw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/mUQtmJa6yAw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/mUQtmJa6yAw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-11-28T02:45:05+00:00"
+  },
+  {
+    "title": "Química - Ayudantía 2 [Leonard Sanchez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "1jlHGR8mnPQ",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/1jlHGR8mnPQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/1jlHGR8mnPQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/1jlHGR8mnPQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-11-28T02:45:01+00:00"
+  },
+  {
     "title": "Cálculo 3 - Intensivo #YoNoPAROdeEstudiar (Día 4) [Aisaac Mamani]",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2025-10-09T04:02:22+00:00"
-  },
-  {
-    "title": "Cálculo 2 - Intensivo #YoNoPAROdeEstudiar (Día 1) [Aisaac Mamani]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "YvKfLAijBSA",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/YvKfLAijBSA/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/YvKfLAijBSA/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/YvKfLAijBSA/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-10-08T01:16:06+00:00"
-  },
-  {
-    "title": "Física 2 - Intensivo #YoNoPAROdeEstudiar (Día 1) [Aisaac Mamani]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "JMyXZ_v7R-0",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/JMyXZ_v7R-0/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/JMyXZ_v7R-0/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/JMyXZ_v7R-0/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-10-08T01:16:03+00:00"
   }
 ]
