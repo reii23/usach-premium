@@ -1,5 +1,80 @@
 [
   {
+    "title": "Ayudantía Física 1 - Preparación PEP 1 - Isaac M.",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "vjgoNxP7d28",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/vjgoNxP7d28/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/vjgoNxP7d28/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/vjgoNxP7d28/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-12-01T00:34:29+00:00"
+  },
+  {
+    "title": "Ayudantía Fisica 2 - Preparando la PEP 1 - Isaac M.",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "AIyTWLVgFc8",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/AIyTWLVgFc8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/AIyTWLVgFc8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/AIyTWLVgFc8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-11-30T23:03:26+00:00"
+  },
+  {
+    "title": "Álgebra I - Ayudantía 4 [Maxito Rodríguez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "bz48NaVvb-c",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/bz48NaVvb-c/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/bz48NaVvb-c/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/bz48NaVvb-c/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-11-30T22:54:15+00:00"
+  },
+  {
     "title": "Ayudantía Fundamentos de Progra - Preparación PEP1 [Rodrigo]",
     "description": "",
     "channelId": "UsachPremium",
@@ -298,80 +373,5 @@
       }
     },
     "publishedAt": "2025-10-09T04:02:49+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Intensivo #YoNoPAROdeEstudiar (Día 2) [Mohamed Al-Marzuk]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "KeXcQfF3Nfw",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/KeXcQfF3Nfw/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/KeXcQfF3Nfw/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/KeXcQfF3Nfw/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-10-09T04:02:44+00:00"
-  },
-  {
-    "title": "Química - Intensivo #YoNoPAROdeEstudiar (Día 2) [Leonard Sanchez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "fkGX0FAOVg4",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/fkGX0FAOVg4/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/fkGX0FAOVg4/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/fkGX0FAOVg4/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-10-09T04:02:41+00:00"
-  },
-  {
-    "title": "Álgebra 2 - Intensivo #YoNoPAROdeEstudiar | Parte 2 (Día 2) [Trinidad Palma]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "UGfegHIREik",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/UGfegHIREik/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/UGfegHIREik/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/UGfegHIREik/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-10-09T04:02:29+00:00"
   }
 ]
