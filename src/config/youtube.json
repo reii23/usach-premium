@@ -1,5 +1,30 @@
 [
   {
+    "title": "Electromagnetismo - Ayudantía 2: Preparando la PEP [Luis Vasquez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "tl2iN11EqVU",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/tl2iN11EqVU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/tl2iN11EqVU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/tl2iN11EqVU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-12-02T15:55:15+00:00"
+  },
+  {
     "title": "Cálculo 1 - Ayudantía 4: Repaso PEP 1 [Mohamed Al-Marzuk]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-10-09T23:02:10+00:00"
-  },
-  {
-    "title": "Álgebra 1 - Intensivo #YoNoPAROdeEstudiar (Día 3) [Maxito Rodríguez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "cF4IZgvkgy4",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/cF4IZgvkgy4/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/cF4IZgvkgy4/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/cF4IZgvkgy4/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-10-09T23:02:07+00:00"
   }
 ]
