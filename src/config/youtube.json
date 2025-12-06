@@ -1,5 +1,55 @@
 [
   {
+    "title": "Fundamentos de Programación:  Preparación PEP1 [Byron Caices] pt.2",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "ul5rHChO5TQ",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ul5rHChO5TQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ul5rHChO5TQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ul5rHChO5TQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-12-06T03:35:01+00:00"
+  },
+  {
+    "title": "Fundamentos de Programación:  Preparación PEP1 [Byron Caices] pt.1",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "uIdRvVU1E0c",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/uIdRvVU1E0c/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/uIdRvVU1E0c/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/uIdRvVU1E0c/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-12-06T02:03:25+00:00"
+  },
+  {
     "title": "Electromagnetismo - Ayudantía 2: Preparando la PEP [Luis Vasquez]",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2025-10-11T02:23:51+00:00"
-  },
-  {
-    "title": "Python para Ingeniería - Intensivo #YoNoPAROdeEstudiar (Día 3) [Byron Caices]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "IqenfYLgOnQ",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/IqenfYLgOnQ/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/IqenfYLgOnQ/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/IqenfYLgOnQ/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-10-09T23:02:23+00:00"
-  },
-  {
-    "title": "Física 2 - Intensivo #YoNoPAROdeEstudiar (Día 3) [Aisaac Mamani]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "QHUnWwHnpTk",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/QHUnWwHnpTk/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/QHUnWwHnpTk/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/QHUnWwHnpTk/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-10-09T23:02:10+00:00"
   }
 ]
