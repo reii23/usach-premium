@@ -1,5 +1,30 @@
 [
   {
+    "title": "Álgebra I - Ayudantía 5 [Maxito Rodríguez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "hn-vEoQJe58",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/hn-vEoQJe58/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/hn-vEoQJe58/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/hn-vEoQJe58/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-12-11T02:26:36+00:00"
+  },
+  {
     "title": "Fundamentos de Programación:  Preparación PEP1 [Byron Caices] pt.2",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-10-11T02:23:54+00:00"
-  },
-  {
-    "title": "Física 1 - Intensivo #YoNoPAROdeEstudiar (Día 4) [Daniela Castro]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "w7rtLJtWak0",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/w7rtLJtWak0/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/w7rtLJtWak0/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/w7rtLJtWak0/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-10-11T02:23:51+00:00"
   }
 ]
