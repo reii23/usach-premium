@@ -1,5 +1,30 @@
 [
   {
+    "title": "Química - Ayudantía 3 [Leonard Sanchez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "OEIj4FaFd2k",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/OEIj4FaFd2k/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/OEIj4FaFd2k/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/OEIj4FaFd2k/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-12-12T02:19:25+00:00"
+  },
+  {
     "title": "Cálculo 3 - Preparando la PEP 1 [Trinidad Palma]",
     "description": "",
     "channelId": "UsachPremium",
@@ -25,7 +50,7 @@
     "publishedAt": "2025-12-11T21:51:30+00:00"
   },
   {
-    "title": "Álgebra I - Ayudantía 5 [Maxito Rodríguez]",
+    "title": "Álgebra 1 - Ayudantía 5 [Maxito Rodríguez]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -50,7 +75,7 @@
     "publishedAt": "2025-12-11T02:26:36+00:00"
   },
   {
-    "title": "Fundamentos de Programación:  Preparación PEP1 [Byron Caices] pt.2",
+    "title": "Fundamentos de Programación - Preparación PEP 1: Parte 2 [Byron Caices]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -75,7 +100,7 @@
     "publishedAt": "2025-12-06T03:35:01+00:00"
   },
   {
-    "title": "Fundamentos de Programación:  Preparación PEP1 [Byron Caices] pt.1",
+    "title": "Fundamentos de Programación - Preparación PEP 1: Parte 1 [Byron Caices]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -150,7 +175,7 @@
     "publishedAt": "2025-12-02T01:30:42+00:00"
   },
   {
-    "title": "Ayudantía Cálculo 2 - Preparando la PEP 1 - Isaac M.",
+    "title": "Cálculo 2 - Preparando la PEP 1 [Aisaac Mamani]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -175,7 +200,7 @@
     "publishedAt": "2025-12-01T23:38:23+00:00"
   },
   {
-    "title": "Ayudantía Física 1 - Preparación PEP 1 - Isaac M.",
+    "title": "Física 1 - Preparación PEP 1 [Aisaac Mamani]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -200,7 +225,7 @@
     "publishedAt": "2025-12-01T00:34:29+00:00"
   },
   {
-    "title": "Ayudantía Fisica 2 - Preparando la PEP 1 - Isaac M.",
+    "title": "Física 2 - Preparando la PEP 1 [Aisaac Mamani]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -225,7 +250,7 @@
     "publishedAt": "2025-11-30T23:03:26+00:00"
   },
   {
-    "title": "Álgebra I - Ayudantía 4 [Maxito Rodríguez]",
+    "title": "Álgebra 1 - Ayudantía 4 [Maxito Rodríguez]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-10-11T02:30:22+00:00"
-  },
-  {
-    "title": "Física 2 - Intensivo #YoNoPAROdeEstudiar (Día 4) [Aisaac Mamani]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "oPmAeUf9duA",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/oPmAeUf9duA/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/oPmAeUf9duA/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/oPmAeUf9duA/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-10-11T02:23:57+00:00"
   }
 ]
