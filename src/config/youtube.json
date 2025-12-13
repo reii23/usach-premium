@@ -1,5 +1,55 @@
 [
   {
+    "title": "Cálculo III: Preparación PEP 1 [Isaac Mamani]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "WOqduXCQeto",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/WOqduXCQeto/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/WOqduXCQeto/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/WOqduXCQeto/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-12-12T15:27:11+00:00"
+  },
+  {
+    "title": "Fundamentos de Programacion: Introducción a Funciones Propias [Byron Caices] (Python)",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "Mg2PEYN9_qs",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Mg2PEYN9_qs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Mg2PEYN9_qs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Mg2PEYN9_qs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-12-12T12:44:37+00:00"
+  },
+  {
     "title": "Química - Ayudantía 3 [Leonard Sanchez]",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2025-11-28T02:45:05+00:00"
-  },
-  {
-    "title": "Química - Ayudantía 2 [Leonard Sanchez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "1jlHGR8mnPQ",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/1jlHGR8mnPQ/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/1jlHGR8mnPQ/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/1jlHGR8mnPQ/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-11-28T02:45:01+00:00"
-  },
-  {
-    "title": "Cálculo 3 - Intensivo #YoNoPAROdeEstudiar (Día 4) [Aisaac Mamani]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "YzbqIuJbM54",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/YzbqIuJbM54/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/YzbqIuJbM54/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/YzbqIuJbM54/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-10-11T02:30:22+00:00"
   }
 ]
