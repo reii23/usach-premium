@@ -1,5 +1,55 @@
 [
   {
+    "title": "Álgebra 2 - Preparando el Control [Trinidad Palma]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "_sETN4QVA_Q",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/_sETN4QVA_Q/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/_sETN4QVA_Q/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/_sETN4QVA_Q/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-12-15T05:00:45+00:00"
+  },
+  {
+    "title": "Ayudantía Cálculo 2 - Ayudantía [Aisaac M]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "MGqys4h2QYY",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/MGqys4h2QYY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/MGqys4h2QYY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/MGqys4h2QYY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-12-15T03:15:06+00:00"
+  },
+  {
     "title": "Fundamentos de Economía - Cápsula 1 [Benjamín Sepulveda]",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2025-11-30T23:03:26+00:00"
-  },
-  {
-    "title": "Álgebra 1 - Ayudantía 4 [Maxito Rodríguez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "bz48NaVvb-c",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/bz48NaVvb-c/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/bz48NaVvb-c/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/bz48NaVvb-c/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-11-30T22:54:15+00:00"
-  },
-  {
-    "title": "Fundamentos de Programación - Preparación PEP1 [Rodrigo Olea]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "5Vm4Xtn5f3c",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/5Vm4Xtn5f3c/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/5Vm4Xtn5f3c/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/5Vm4Xtn5f3c/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-11-29T20:55:36+00:00"
   }
 ]
