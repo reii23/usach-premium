@@ -1,5 +1,30 @@
 [
   {
+    "title": "Cálculo 1 - Preparando el Control [Mohamed Al-Marzuk]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "9DhgzG0amqI",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/9DhgzG0amqI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/9DhgzG0amqI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/9DhgzG0amqI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-12-17T02:15:01+00:00"
+  },
+  {
     "title": "Física 2 - Preparando el Control [Fernando Sarmiento]",
     "description": "",
     "channelId": "UsachPremium",
@@ -50,7 +75,7 @@
     "publishedAt": "2025-12-15T05:00:45+00:00"
   },
   {
-    "title": "Ayudantía Cálculo 2 - Ayudantía [Aisaac M]",
+    "title": "Cálculo 2 - Ayudantía 3 [Aisaac Mamani]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -75,7 +100,7 @@
     "publishedAt": "2025-12-15T03:15:06+00:00"
   },
   {
-    "title": "Fundamentos de Economía - Cápsula 1 [Benjamín Sepulveda]",
+    "title": "Fundamentos de Economía - Cápsula 1 [Benjamín Sepúlveda]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -150,7 +175,7 @@
     "publishedAt": "2025-12-12T12:44:37+00:00"
   },
   {
-    "title": "Química - Ayudantía 3 [Leonard Sanchez]",
+    "title": "Química - Ayudantía 3 [Leonard Sánchez]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-12-01T23:38:23+00:00"
-  },
-  {
-    "title": "Física 1 - Preparación PEP 1 [Aisaac Mamani]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "vjgoNxP7d28",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/vjgoNxP7d28/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/vjgoNxP7d28/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/vjgoNxP7d28/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-12-01T00:34:29+00:00"
   }
 ]
