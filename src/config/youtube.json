@@ -1,5 +1,30 @@
 [
   {
+    "title": "Electromagnetismo - Preparando la PEP [Luis Vasquez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "9n8apjW7ilA",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/9n8apjW7ilA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/9n8apjW7ilA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/9n8apjW7ilA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-12-23T15:48:41+00:00"
+  },
+  {
     "title": "Cálculo 3 - Preparando el Control 2 [Aisaac Mamani]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-12-06T02:03:25+00:00"
-  },
-  {
-    "title": "Electromagnetismo - Ayudantía 2: Preparando la PEP [Luis Vasquez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "tl2iN11EqVU",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/tl2iN11EqVU/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/tl2iN11EqVU/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/tl2iN11EqVU/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-12-02T15:55:15+00:00"
   }
 ]
