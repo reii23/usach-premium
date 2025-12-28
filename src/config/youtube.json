@@ -1,5 +1,55 @@
 [
   {
+    "title": "Ayudantía Cálculo 1 - Intensivo PEP 2 - Mohamed A.",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "CGr1FPlm498",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/CGr1FPlm498/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/CGr1FPlm498/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/CGr1FPlm498/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-12-28T01:17:31+00:00"
+  },
+  {
+    "title": "Ayudantía Cálculo 2 - INTENSIVO PEP2 - Isaac M.",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "qBsJD-hRONU",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/qBsJD-hRONU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/qBsJD-hRONU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/qBsJD-hRONU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-12-27T17:24:47+00:00"
+  },
+  {
     "title": "Electromagnetismo - Preparando la PEP [Luis Vasquez]",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2025-12-11T02:26:36+00:00"
-  },
-  {
-    "title": "Fundamentos de Programación - Preparación PEP 1: Parte 2 [Byron Caices]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "ul5rHChO5TQ",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/ul5rHChO5TQ/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/ul5rHChO5TQ/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/ul5rHChO5TQ/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-12-06T03:35:01+00:00"
-  },
-  {
-    "title": "Fundamentos de Programación - Preparación PEP 1: Parte 1 [Byron Caices]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "uIdRvVU1E0c",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/uIdRvVU1E0c/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/uIdRvVU1E0c/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/uIdRvVU1E0c/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-12-06T02:03:25+00:00"
   }
 ]
