@@ -1,6 +1,56 @@
 [
   {
-    "title": "Ayudantía Cálculo 1 - Intensivo PEP 2 - Mohamed A.",
+    "title": "Ayudantía Física 2 - INTENSIVO PEP 2 [Anderson Manani]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "MLX3019DlDQ",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/MLX3019DlDQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/MLX3019DlDQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/MLX3019DlDQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-12-28T16:57:03+00:00"
+  },
+  {
+    "title": "Ayudantía Cálculo 2 - INTENSIVO PEP 2 [Anderson Manani]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "T_Gkv4rKpfY",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/T_Gkv4rKpfY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/T_Gkv4rKpfY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/T_Gkv4rKpfY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-12-28T16:54:13+00:00"
+  },
+  {
+    "title": "Ayudantía Cálculo 1 - INTENSIVO PEP 2 - Mohamed A.",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2025-12-12T02:19:25+00:00"
-  },
-  {
-    "title": "Cálculo 3 - Preparando la PEP 1 [Trinidad Palma]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "QBQzrgNKOqI",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/QBQzrgNKOqI/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/QBQzrgNKOqI/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/QBQzrgNKOqI/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-12-11T21:51:30+00:00"
-  },
-  {
-    "title": "Álgebra 1 - Ayudantía 5 [Maxito Rodríguez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "hn-vEoQJe58",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/hn-vEoQJe58/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/hn-vEoQJe58/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/hn-vEoQJe58/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-12-11T02:26:36+00:00"
   }
 ]
