@@ -1,5 +1,55 @@
 [
   {
+    "title": "Álgebra 2 - Intensivo PEP 2 (Día 2) [Trinidad Palma]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "05vxKeSHXY8",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/05vxKeSHXY8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/05vxKeSHXY8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/05vxKeSHXY8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-12-30T01:34:04+00:00"
+  },
+  {
+    "title": "Física 1 - Intensivo PEP 2 (Día 2) [Fernando Sarmiento]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "C6bgu9eU98Y",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/C6bgu9eU98Y/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/C6bgu9eU98Y/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/C6bgu9eU98Y/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2025-12-30T01:31:13+00:00"
+  },
+  {
     "title": "Física 2 - Intensivo PEP 2 (Día 1) [Aisaac Mamani]",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2025-12-12T15:27:11+00:00"
-  },
-  {
-    "title": "Fundamentos de Programacion - Introducción a Funciones Propias (Python) [Byron Caices]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "Mg2PEYN9_qs",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Mg2PEYN9_qs/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Mg2PEYN9_qs/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Mg2PEYN9_qs/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-12-12T12:44:37+00:00"
-  },
-  {
-    "title": "Química - Ayudantía 3 [Leonard Sánchez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "OEIj4FaFd2k",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/OEIj4FaFd2k/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/OEIj4FaFd2k/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/OEIj4FaFd2k/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-12-12T02:19:25+00:00"
   }
 ]
