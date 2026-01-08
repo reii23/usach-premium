@@ -1,5 +1,30 @@
 [
   {
+    "title": "Electromagnetismo - Biot-Savart y Ley de Ampere [Luis Vasquez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "6YsWh_GGBBk",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/6YsWh_GGBBk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/6YsWh_GGBBk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/6YsWh_GGBBk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-01-08T01:19:39+00:00"
+  },
+  {
     "title": "Python para Ingeniería - Intensivo PEP 2 (Día 4) [Rodrigo Olea]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-12-28T16:54:13+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Intensivo PEP 2 (Día 1) [Mohamed Al-Marzuk]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "CGr1FPlm498",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/CGr1FPlm498/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/CGr1FPlm498/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/CGr1FPlm498/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-12-28T01:17:31+00:00"
   }
 ]
