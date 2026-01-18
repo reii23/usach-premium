@@ -1,5 +1,30 @@
 [
   {
+    "title": "Charla Convocatoria UP 2026",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "cimLu0hW8xk",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/cimLu0hW8xk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/cimLu0hW8xk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/cimLu0hW8xk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-01-18T01:19:37+00:00"
+  },
+  {
     "title": "Química - Preparando la pep II [Leonard Sánchez]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-12-30T01:31:13+00:00"
-  },
-  {
-    "title": "Física 2 - Intensivo PEP 2 (Día 1) [Aisaac Mamani]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "MLX3019DlDQ",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/MLX3019DlDQ/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/MLX3019DlDQ/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/MLX3019DlDQ/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-12-28T16:57:03+00:00"
   }
 ]
