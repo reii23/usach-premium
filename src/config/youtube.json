@@ -1,5 +1,30 @@
 [
   {
+    "title": "Cálculo 1 - Ayudantía 0: Productos Notables [Byron Caices]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "JSd8B6MJDNk",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/JSd8B6MJDNk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/JSd8B6MJDNk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/JSd8B6MJDNk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-04T14:14:53+00:00"
+  },
+  {
     "title": "Bienvenida USACH PREMIUM | Generación 2026 [Mini]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2025-12-30T16:05:23+00:00"
-  },
-  {
-    "title": "Fundamentos de Economía - Cápsula 2 [Benjamín Sepúlveda]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "qpGChDsS6Zk",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/qpGChDsS6Zk/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/qpGChDsS6Zk/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/qpGChDsS6Zk/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-12-30T15:06:58+00:00"
   }
 ]
