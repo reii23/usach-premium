@@ -1,6 +1,81 @@
 [
   {
-    "title": "Álgebra 1 - Ayudantía 0: Fracciones, raíces y potencias [Luis Vásquez]",
+    "title": "Química - Ayudantía 0: Nomenclatura [Leonard Sánchez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "pYn8hEbOjL0",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/pYn8hEbOjL0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/pYn8hEbOjL0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/pYn8hEbOjL0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-09T04:09:55+00:00"
+  },
+  {
+    "title": "Química - Cápsula 0: Conversión de unidades y masa molar [Marcos Montenegro]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "Vd2YXh9j8Ys",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Vd2YXh9j8Ys/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Vd2YXh9j8Ys/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Vd2YXh9j8Ys/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-09T03:54:44+00:00"
+  },
+  {
+    "title": "Álgebra 2 - Ayudantía 0: Operaciones elementales, teo. del rango y determinante [Maximo Pailahueque]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "4geY6Gi6l5c",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/4geY6Gi6l5c/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/4geY6Gi6l5c/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/4geY6Gi6l5c/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-09T03:16:08+00:00"
+  },
+  {
+    "title": "Álgebra 1 - Ayudantía 0: Fracciones, raíces y potencias [Luis Vasquez]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -25,7 +100,7 @@
     "publishedAt": "2026-04-06T01:51:21+00:00"
   },
   {
-    "title": "Cálculo 1 - Ayudantía 1: Productos Notables pt2 [Fernando S.]",
+    "title": "Cálculo 1 - Ayudantía 1: Productos Notables Pt. 2 [Fernando Sarmiento]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -125,7 +200,7 @@
     "publishedAt": "2026-01-19T01:38:41+00:00"
   },
   {
-    "title": "Cápsula Electromagnetismo - Ejercicio Circuito [Luis Vasquez]",
+    "title": "Electromagnetismo - Cápsula: Ejercicio Circuito [Luis Vasquez]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -175,7 +250,7 @@
     "publishedAt": "2026-01-18T03:39:14+00:00"
   },
   {
-    "title": "Química - Preparando la pep II [Leonard Sánchez]",
+    "title": "Química - Preparando la PEP II [Leonard Sánchez]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -298,80 +373,5 @@
       }
     },
     "publishedAt": "2025-12-31T00:23:15+00:00"
-  },
-  {
-    "title": "Cálculo 3 - Intensivo PEP 2 (Día 4) [Aisaac Mamani]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "1DeP-jsU3Qk",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/1DeP-jsU3Qk/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/1DeP-jsU3Qk/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/1DeP-jsU3Qk/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-12-31T00:13:18+00:00"
-  },
-  {
-    "title": "Química - Intensivo PEP 2 (Día 3) [Leonard Sánchez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "LRiH3g86dL4",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/LRiH3g86dL4/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/LRiH3g86dL4/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/LRiH3g86dL4/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-12-30T16:07:49+00:00"
-  },
-  {
-    "title": "Cálculo 3 - Intensivo PEP 2 (Día 3) [Aisaac Mamani]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "3hrTjM1J1Ns",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/3hrTjM1J1Ns/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/3hrTjM1J1Ns/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/3hrTjM1J1Ns/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2025-12-30T16:07:11+00:00"
   }
 ]
