@@ -1,5 +1,30 @@
 [
   {
+    "title": "Cálculo 3 - Ayudantía 0: Límites, continuidad y diferenciabilidad [Salvador Espinoza]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "TjZC0Yfaq_Y",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/TjZC0Yfaq_Y/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/TjZC0Yfaq_Y/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/TjZC0Yfaq_Y/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-11T03:05:37+00:00"
+  },
+  {
     "title": "Álgebra 2 - Cápsula 0: Sistema de Ecuaciones Lineales [Amiel Torres]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2026-01-08T03:00:32+00:00"
-  },
-  {
-    "title": "Electromagnetismo - Biot-Savart y Ley de Ampere [Luis Vasquez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "6YsWh_GGBBk",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/6YsWh_GGBBk/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/6YsWh_GGBBk/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/6YsWh_GGBBk/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-01-08T01:19:39+00:00"
   }
 ]
