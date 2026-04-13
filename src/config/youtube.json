@@ -1,5 +1,105 @@
 [
   {
+    "title": "Física 2 - Ayudantía 0: Preparando el Control 1 [Francisca Assen]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "GfLV6luxtJo",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/GfLV6luxtJo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/GfLV6luxtJo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/GfLV6luxtJo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-13T02:17:09+00:00"
+  },
+  {
+    "title": "Cálculo 1 - Ayudantía 3: Trigonometría para Taller 1 [Martina Copia]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "Tq1IAG9X6G0",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Tq1IAG9X6G0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Tq1IAG9X6G0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Tq1IAG9X6G0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-13T00:31:21+00:00"
+  },
+  {
+    "title": "Cálculo 2 - Ayudantía 0: Riemann e Integral Definida [Vicente Salas]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "Yx3W8kC-7Ok",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Yx3W8kC-7Ok/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Yx3W8kC-7Ok/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Yx3W8kC-7Ok/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-12T21:32:09+00:00"
+  },
+  {
+    "title": "Cálculo 1 - Ayudantía 2: Ecuaciones e Intro a la Trigonometría [Byron Caices]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "BEIB1LDiA9o",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/BEIB1LDiA9o/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/BEIB1LDiA9o/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/BEIB1LDiA9o/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-12T14:30:16+00:00"
+  },
+  {
     "title": "Cálculo 3 - Ayudantía 0: Límites, continuidad y diferenciabilidad [Salvador Espinoza]",
     "description": "",
     "channelId": "UsachPremium",
@@ -273,105 +373,5 @@
       }
     },
     "publishedAt": "2026-02-06T03:23:29+00:00"
-  },
-  {
-    "title": "Electromagnetismo - Preparando la POR [Luis Vasquez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "GFj75tagss8",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/GFj75tagss8/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/GFj75tagss8/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/GFj75tagss8/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-01-19T01:38:41+00:00"
-  },
-  {
-    "title": "Electromagnetismo - Cápsula: Ejercicio Circuito [Luis Vasquez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "0dLS9YvKTaM",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/0dLS9YvKTaM/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/0dLS9YvKTaM/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/0dLS9YvKTaM/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-01-19T01:37:15+00:00"
-  },
-  {
-    "title": "Física 2 - Preparando la POR [Aisaac Mamani]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "bkzx4LdH2H8",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/bkzx4LdH2H8/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/bkzx4LdH2H8/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/bkzx4LdH2H8/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-01-18T03:39:14+00:00"
-  },
-  {
-    "title": "Química - Preparando la PEP II [Leonard Sánchez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "JcijEKbKJ7s",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/JcijEKbKJ7s/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/JcijEKbKJ7s/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/JcijEKbKJ7s/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-01-08T03:00:32+00:00"
   }
 ]
