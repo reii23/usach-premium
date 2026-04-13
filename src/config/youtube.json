@@ -1,5 +1,80 @@
 [
   {
+    "title": "Álgebra 1 - Ayudantía 1: Sistemas de Ecuaciones [Trinidad Palma]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "ocXcBbG-CqI",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ocXcBbG-CqI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ocXcBbG-CqI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ocXcBbG-CqI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-13T12:15:06+00:00"
+  },
+  {
+    "title": "Cálculo 1 - Cápsula 0: Trigonometría [Marcos Montenegro]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "dtWSC2_pnD0",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/dtWSC2_pnD0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/dtWSC2_pnD0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/dtWSC2_pnD0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-13T04:55:09+00:00"
+  },
+  {
+    "title": "Cálculo 2 - Cápsula 0: Sumas de Riemann e Integral Definida [Fernanda Yevenes]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "6Odotohe5U4",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/6Odotohe5U4/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/6Odotohe5U4/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/6Odotohe5U4/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-13T03:15:20+00:00"
+  },
+  {
     "title": "Física 2 - Ayudantía 0: Preparando el Control 1 [Francisca Assen]",
     "description": "",
     "channelId": "UsachPremium",
@@ -298,80 +373,5 @@
       }
     },
     "publishedAt": "2026-04-06T01:51:21+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Ayudantía 1: Productos Notables Pt. 2 [Fernando Sarmiento]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "ayPEX7qtHHQ",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/ayPEX7qtHHQ/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/ayPEX7qtHHQ/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/ayPEX7qtHHQ/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-05T13:30:03+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Ayudantía 0: Productos Notables [Byron Caices]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "JSd8B6MJDNk",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/JSd8B6MJDNk/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/JSd8B6MJDNk/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/JSd8B6MJDNk/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-04T14:14:53+00:00"
-  },
-  {
-    "title": "Bienvenida USACH PREMIUM | Generación 2026 [Mini]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "5tHss4R-OkE",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/5tHss4R-OkE/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/5tHss4R-OkE/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/5tHss4R-OkE/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-02-06T03:23:29+00:00"
   }
 ]
