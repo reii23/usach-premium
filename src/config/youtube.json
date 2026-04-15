@@ -1,5 +1,80 @@
 [
   {
+    "title": "Fundamentos de Computación y Programación - Ayudantía 0: Introducción a Python [Rodrigo Olea]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "wIGkodEl7Vg",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/wIGkodEl7Vg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/wIGkodEl7Vg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/wIGkodEl7Vg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-15T02:22:53+00:00"
+  },
+  {
+    "title": "Electricidad, Magnetismo y Ondas - Ayudantía 1: Campo eléctrico [Luis Vásquez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "9yGjN3LGXBs",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/9yGjN3LGXBs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/9yGjN3LGXBs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/9yGjN3LGXBs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-14T20:06:17+00:00"
+  },
+  {
+    "title": "Química - Ayudantía 1: Concepto mol y masa molar [Rocío Varela]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "VDW0Ds9pSSM",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/VDW0Ds9pSSM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/VDW0Ds9pSSM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/VDW0Ds9pSSM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-14T13:29:47+00:00"
+  },
+  {
     "title": "Álgebra 1 - Ayudantía 1: Sistemas de Ecuaciones [Trinidad Palma]",
     "description": "",
     "channelId": "UsachPremium",
@@ -298,80 +373,5 @@
       }
     },
     "publishedAt": "2026-04-09T04:09:55+00:00"
-  },
-  {
-    "title": "Química - Cápsula 0: Conversión de unidades y masa molar [Marcos Montenegro]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "Vd2YXh9j8Ys",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Vd2YXh9j8Ys/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Vd2YXh9j8Ys/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Vd2YXh9j8Ys/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-09T03:54:44+00:00"
-  },
-  {
-    "title": "Álgebra 2 - Ayudantía 0: Operaciones elementales, teo. del rango y determinante [Maximo Pailahueque]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "4geY6Gi6l5c",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/4geY6Gi6l5c/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/4geY6Gi6l5c/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/4geY6Gi6l5c/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-09T03:16:08+00:00"
-  },
-  {
-    "title": "Álgebra 1 - Ayudantía 0: Fracciones, raíces y potencias [Luis Vasquez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "hPA6dpyejlc",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/hPA6dpyejlc/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/hPA6dpyejlc/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/hPA6dpyejlc/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-06T01:51:21+00:00"
   }
 ]
