@@ -1,5 +1,55 @@
 [
   {
+    "title": "Cálculo 2 - Ayudantía 1: TFC, Propiedades del Logaritmo [Fernanda Yévenes]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "QJCUV8wfSXA",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/QJCUV8wfSXA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/QJCUV8wfSXA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/QJCUV8wfSXA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-17T02:25:36+00:00"
+  },
+  {
+    "title": "Fundamentos de Economía - Ayudantía 2: Clases 4-7 [Benjamín Sepúlveda]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "nSae8qO8zpA",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/nSae8qO8zpA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/nSae8qO8zpA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/nSae8qO8zpA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-17T02:21:38+00:00"
+  },
+  {
     "title": "Álgebra 2 - Ayudantía 1: Preparación Control 1 [Trinidad Palma]",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2026-04-10T01:35:56+00:00"
-  },
-  {
-    "title": "Cálculo 3 - Cápsula 0: Desigualdades y Teorema del Sandwich [Benjamín de la Fuente]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "U5TsHrFBmDM",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/U5TsHrFBmDM/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/U5TsHrFBmDM/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/U5TsHrFBmDM/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-10T01:11:15+00:00"
-  },
-  {
-    "title": "Fundamentos de Economía - Ayudantía 1: Clases 1, 2 y 3 [Benjamín Sepúlveda]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "b1SNlrLskNY",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/b1SNlrLskNY/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/b1SNlrLskNY/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/b1SNlrLskNY/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-10T00:54:46+00:00"
   }
 ]
