@@ -1,5 +1,55 @@
 [
   {
+    "title": "Análisis Estadístico - Cápsula 0: Probabilidad Condicional, Total y Teorema de Bayes [Aldo Mendoza]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "YP-K9WhhiTo",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/YP-K9WhhiTo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/YP-K9WhhiTo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/YP-K9WhhiTo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-18T00:00:39+00:00"
+  },
+  {
+    "title": "Física 1 - Ayudantía 0: Análisis Dimensional [Vicente Pardo]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "pFnPdesFIxg",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/pFnPdesFIxg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/pFnPdesFIxg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/pFnPdesFIxg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-17T14:01:29+00:00"
+  },
+  {
     "title": "Cálculo 2 - Ayudantía 1: TFC, Propiedades del Logaritmo [Fernanda Yévenes]",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2026-04-12T14:30:16+00:00"
-  },
-  {
-    "title": "Cálculo 3 - Ayudantía 0: Límites, continuidad y diferenciabilidad [Salvador Espinoza]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "TjZC0Yfaq_Y",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/TjZC0Yfaq_Y/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/TjZC0Yfaq_Y/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/TjZC0Yfaq_Y/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-11T03:05:37+00:00"
-  },
-  {
-    "title": "Álgebra 2 - Cápsula 0: Sistema de Ecuaciones Lineales [Amiel Torres]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "pBSiBzzaQBU",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/pBSiBzzaQBU/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/pBSiBzzaQBU/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/pBSiBzzaQBU/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-10T01:35:56+00:00"
   }
 ]
