@@ -1,5 +1,55 @@
 [
   {
+    "title": "Analisis Estadistico - Ayudantia 1: Probabilidad Condicional, Total y Teo. de Bayes [Nicolás Gatica]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "eXxe6At7GKw",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/eXxe6At7GKw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/eXxe6At7GKw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/eXxe6At7GKw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-19T04:40:07+00:00"
+  },
+  {
+    "title": "Álgebra 1 - Ayudantía 2: Introducción a lógica y tablas de verdad [Samuel Elorza]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "On2CDqE9Ykc",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/On2CDqE9Ykc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/On2CDqE9Ykc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/On2CDqE9Ykc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-18T15:46:42+00:00"
+  },
+  {
     "title": "Análisis Estadístico - Cápsula 0: Probabilidad Condicional, Total y Teorema de Bayes [Aldo Mendoza]",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2026-04-13T00:31:21+00:00"
-  },
-  {
-    "title": "Cálculo 2 - Ayudantía 0: Riemann e Integral Definida [Vicente Salas]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "Yx3W8kC-7Ok",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Yx3W8kC-7Ok/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Yx3W8kC-7Ok/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Yx3W8kC-7Ok/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-12T21:32:09+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Ayudantía 2: Ecuaciones e Intro a la Trigonometría [Byron Caices]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "BEIB1LDiA9o",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/BEIB1LDiA9o/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/BEIB1LDiA9o/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/BEIB1LDiA9o/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-12T14:30:16+00:00"
   }
 ]
