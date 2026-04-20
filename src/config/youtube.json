@@ -1,5 +1,30 @@
 [
   {
+    "title": "Cálculo 3 - Ayudantía 1: Derivadas en calculo multivariable [Benjamín de la Fuente]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "GJB4X350OKU",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/GJB4X350OKU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/GJB4X350OKU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/GJB4X350OKU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-19T22:16:53+00:00"
+  },
+  {
     "title": "Analisis Estadistico - Ayudantia 1: Probabilidad Condicional, Total y Teo. de Bayes [Nicolás Gatica]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2026-04-13T02:17:09+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Ayudantía 3: Trigonometría para Taller 1 [Martina Copia]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "Tq1IAG9X6G0",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Tq1IAG9X6G0/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Tq1IAG9X6G0/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Tq1IAG9X6G0/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-13T00:31:21+00:00"
   }
 ]
