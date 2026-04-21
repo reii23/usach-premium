@@ -1,5 +1,55 @@
 [
   {
+    "title": "Física 1 - Ayudantía 1: Repaso Control 1 [Matías Atenas]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "gLIigxfWzFg",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/gLIigxfWzFg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/gLIigxfWzFg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/gLIigxfWzFg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-20T23:25:07+00:00"
+  },
+  {
+    "title": "Cálculo I - Ayudantía 4: Inecuaciones [Alejandro Reyes]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "HEmNuU_ffTQ",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/HEmNuU_ffTQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/HEmNuU_ffTQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/HEmNuU_ffTQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-20T16:49:59+00:00"
+  },
+  {
     "title": "Cálculo 3 - Ayudantía 1: Derivadas en calculo multivariable [Benjamín de la Fuente]",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2026-04-13T04:55:09+00:00"
-  },
-  {
-    "title": "Cálculo 2 - Cápsula 0: Sumas de Riemann e Integral Definida [Fernanda Yevenes]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "6Odotohe5U4",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/6Odotohe5U4/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/6Odotohe5U4/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/6Odotohe5U4/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-13T03:15:20+00:00"
-  },
-  {
-    "title": "Física 2 - Ayudantía 0: Preparando el Control 1 [Francisca Assen]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "GfLV6luxtJo",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/GfLV6luxtJo/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/GfLV6luxtJo/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/GfLV6luxtJo/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-13T02:17:09+00:00"
   }
 ]
