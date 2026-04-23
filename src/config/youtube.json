@@ -1,5 +1,55 @@
 [
   {
+    "title": "Capsula 1 - Álgebra 2: Matriz Inversa [Benjamín Lagos]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "YGE1fwkgQrc",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/YGE1fwkgQrc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/YGE1fwkgQrc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/YGE1fwkgQrc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-23T03:46:40+00:00"
+  },
+  {
+    "title": "Cálculo 3 - Ayudantía 2: Repaso Control 1 [Anderson Manani]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "EtO-chatbuM",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/EtO-chatbuM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/EtO-chatbuM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/EtO-chatbuM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-23T03:12:41+00:00"
+  },
+  {
     "title": "Física 1 - Ayudantía 1: Repaso Control 1 [Matías Atenas]",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2026-04-14T13:29:47+00:00"
-  },
-  {
-    "title": "Álgebra 1 - Ayudantía 1: Sistemas de Ecuaciones [Trinidad Palma]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "ocXcBbG-CqI",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/ocXcBbG-CqI/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/ocXcBbG-CqI/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/ocXcBbG-CqI/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-13T12:15:06+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Cápsula 0: Trigonometría [Marcos Montenegro]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "dtWSC2_pnD0",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/dtWSC2_pnD0/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/dtWSC2_pnD0/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/dtWSC2_pnD0/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-13T04:55:09+00:00"
   }
 ]
