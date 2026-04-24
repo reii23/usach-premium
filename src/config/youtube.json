@@ -1,6 +1,56 @@
 [
   {
-    "title": "Capsula 1 - Álgebra 2: Matriz Inversa [Benjamín Lagos]",
+    "title": "Física 1 - Cápsula 1: MRU [Martin Sepúlveda]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "9MvkfKA1DpQ",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/9MvkfKA1DpQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/9MvkfKA1DpQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/9MvkfKA1DpQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-23T19:52:30+00:00"
+  },
+  {
+    "title": "Fundamentos de Computación y Programación - Cápsula 1: Condicionales [Leandro Aguilera]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "aQMqj0PdNIw",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/aQMqj0PdNIw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/aQMqj0PdNIw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/aQMqj0PdNIw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-23T16:52:46+00:00"
+  },
+  {
+    "title": "Álgebra 2 - Cápsula 1: Matriz Inversa [Benjamín Lagos]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2026-04-15T02:22:53+00:00"
-  },
-  {
-    "title": "Electricidad, Magnetismo y Ondas - Ayudantía 1: Campo eléctrico [Luis Vásquez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "9yGjN3LGXBs",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/9yGjN3LGXBs/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/9yGjN3LGXBs/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/9yGjN3LGXBs/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-14T20:06:17+00:00"
-  },
-  {
-    "title": "Química - Ayudantía 1: Concepto mol y masa molar [Rocío Varela]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "VDW0Ds9pSSM",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/VDW0Ds9pSSM/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/VDW0Ds9pSSM/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/VDW0Ds9pSSM/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-14T13:29:47+00:00"
   }
 ]
