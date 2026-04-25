@@ -1,5 +1,30 @@
 [
   {
+    "title": "Cálculo 2 - Ayudantía 2: Primitiva, TCV y simetrias en integrales [Tomás Wood]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "Y49G5iVABBs",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Y49G5iVABBs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Y49G5iVABBs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Y49G5iVABBs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-25T01:48:39+00:00"
+  },
+  {
     "title": "Física 1 - Cápsula 1: MRU [Martin Sepúlveda]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2026-04-16T04:09:51+00:00"
-  },
-  {
-    "title": "Fundamentos de Computación y Programación - Ayudantía 0: Introducción a Python [Rodrigo Olea]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "wIGkodEl7Vg",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/wIGkodEl7Vg/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/wIGkodEl7Vg/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/wIGkodEl7Vg/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-15T02:22:53+00:00"
   }
 ]
