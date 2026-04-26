@@ -1,5 +1,30 @@
 [
   {
+    "title": "Cálculo I - Ayudantía 5: Inecuaciones [Luis Naranjo]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "a_ZEqDrN9qc",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/a_ZEqDrN9qc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/a_ZEqDrN9qc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/a_ZEqDrN9qc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-25T15:00:02+00:00"
+  },
+  {
     "title": "Cálculo 2 - Ayudantía 2: Primitiva, TCV y simetrias en integrales [Tomás Wood]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2026-04-17T02:21:38+00:00"
-  },
-  {
-    "title": "Álgebra 2 - Ayudantía 1: Preparación Control 1 [Trinidad Palma]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "hagoHU8Ul3M",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/hagoHU8Ul3M/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/hagoHU8Ul3M/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/hagoHU8Ul3M/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-16T04:09:51+00:00"
   }
 ]
