@@ -1,6 +1,56 @@
 [
   {
-    "title": "Cálculo I - Ayudantía 5: Inecuaciones [Luis Naranjo]",
+    "title": "Electricidad, Magnetismo y Ondas - Ayudantia 2: Potencial [Luis Vásquez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "rSdFhnFiabk",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/rSdFhnFiabk/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/rSdFhnFiabk/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/rSdFhnFiabk/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-27T02:00:42+00:00"
+  },
+  {
+    "title": "Cálculo 1 - Cápsula 1: Preparación Control 1 [Benjamin Montero]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "-I5W9SizSVQ",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/-I5W9SizSVQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/-I5W9SizSVQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/-I5W9SizSVQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-26T19:00:00+00:00"
+  },
+  {
+    "title": "Cálculo 1 - Ayudantía 5: Inecuaciones [Luis Naranjo]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -175,7 +225,7 @@
     "publishedAt": "2026-04-20T23:25:07+00:00"
   },
   {
-    "title": "Cálculo I - Ayudantía 4: Inecuaciones [Alejandro Reyes]",
+    "title": "Cálculo 1 - Ayudantía 4: Inecuaciones [Alejandro Reyes]",
     "description": "",
     "channelId": "UsachPremium",
     "channelTitle": "Usach Premium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2026-04-17T14:01:29+00:00"
-  },
-  {
-    "title": "Cálculo 2 - Ayudantía 1: TFC, Propiedades del Logaritmo [Fernanda Yévenes]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "QJCUV8wfSXA",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/QJCUV8wfSXA/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/QJCUV8wfSXA/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/QJCUV8wfSXA/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-17T02:25:36+00:00"
-  },
-  {
-    "title": "Fundamentos de Economía - Ayudantía 2: Clases 4-7 [Benjamín Sepúlveda]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "nSae8qO8zpA",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/nSae8qO8zpA/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/nSae8qO8zpA/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/nSae8qO8zpA/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-17T02:21:38+00:00"
   }
 ]
