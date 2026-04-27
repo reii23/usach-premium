@@ -1,5 +1,30 @@
 [
   {
+    "title": "Cálculo 1 - Ayudantía 6: Preparación Control 1 [Marco Torres]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "Q-nbDVGbGdM",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Q-nbDVGbGdM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Q-nbDVGbGdM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Q-nbDVGbGdM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-27T03:00:34+00:00"
+  },
+  {
     "title": "Electricidad, Magnetismo y Ondas - Ayudantia 2: Potencial [Luis Vásquez]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2026-04-18T00:00:39+00:00"
-  },
-  {
-    "title": "Física 1 - Ayudantía 0: Análisis Dimensional [Vicente Pardo]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "pFnPdesFIxg",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/pFnPdesFIxg/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/pFnPdesFIxg/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/pFnPdesFIxg/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-17T14:01:29+00:00"
   }
 ]
