@@ -1,5 +1,55 @@
 [
   {
+    "title": "Electricidad, Magnetismo y Ondas - Cápsula 0: Ley de gauss [Luis Vásquez]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "VMkTuY-X4pc",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/VMkTuY-X4pc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/VMkTuY-X4pc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/VMkTuY-X4pc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-28T01:08:39+00:00"
+  },
+  {
+    "title": "Química - Ayudantía 2: Preparando Control 1 [Martín Durán]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "qwjDdf5-Z0w",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/qwjDdf5-Z0w/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/qwjDdf5-Z0w/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/qwjDdf5-Z0w/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-27T14:18:28+00:00"
+  },
+  {
     "title": "Cálculo 1 - Ayudantía 6: Preparación Control 1 [Marco Torres]",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2026-04-19T04:40:07+00:00"
-  },
-  {
-    "title": "Álgebra 1 - Ayudantía 2: Introducción a lógica y tablas de verdad [Samuel Elorza]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "On2CDqE9Ykc",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/On2CDqE9Ykc/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/On2CDqE9Ykc/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/On2CDqE9Ykc/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-18T15:46:42+00:00"
-  },
-  {
-    "title": "Análisis Estadístico - Cápsula 0: Probabilidad Condicional, Total y Teorema de Bayes [Aldo Mendoza]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "YP-K9WhhiTo",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/YP-K9WhhiTo/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/YP-K9WhhiTo/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/YP-K9WhhiTo/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-18T00:00:39+00:00"
   }
 ]
