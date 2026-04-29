@@ -1,5 +1,30 @@
 [
   {
+    "title": "Cálculo 2 - Cápsula 1: Cambio de variable y área entre curvas [Fernanda Yévenes]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "2I7rhxwZ1ug",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/2I7rhxwZ1ug/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/2I7rhxwZ1ug/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/2I7rhxwZ1ug/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-28T22:34:08+00:00"
+  },
+  {
     "title": "Electricidad, Magnetismo y Ondas - Cápsula 0: Ley de gauss [Luis Vásquez]",
     "description": "",
     "channelId": "UsachPremium",
@@ -50,31 +75,6 @@
     "publishedAt": "2026-04-27T14:18:28+00:00"
   },
   {
-    "title": "Cálculo 1 - Ayudantía 6: Preparación Control 1 [Marco Torres]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "Q-nbDVGbGdM",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Q-nbDVGbGdM/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Q-nbDVGbGdM/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Q-nbDVGbGdM/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-27T03:00:34+00:00"
-  },
-  {
     "title": "Electricidad, Magnetismo y Ondas - Ayudantia 2: Potencial [Luis Vásquez]",
     "description": "",
     "channelId": "UsachPremium",
@@ -100,56 +100,6 @@
     "publishedAt": "2026-04-27T02:00:42+00:00"
   },
   {
-    "title": "Cálculo 1 - Cápsula 1: Preparación Control 1 [Benjamin Montero]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "-I5W9SizSVQ",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/-I5W9SizSVQ/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/-I5W9SizSVQ/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/-I5W9SizSVQ/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-26T19:00:00+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Ayudantía 5: Inecuaciones [Luis Naranjo]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "a_ZEqDrN9qc",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/a_ZEqDrN9qc/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/a_ZEqDrN9qc/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/a_ZEqDrN9qc/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-25T15:00:02+00:00"
-  },
-  {
     "title": "Cálculo 2 - Ayudantía 2: Primitiva, TCV y simetrias en integrales [Tomás Wood]",
     "description": "",
     "channelId": "UsachPremium",
@@ -173,31 +123,6 @@
       }
     },
     "publishedAt": "2026-04-25T01:48:39+00:00"
-  },
-  {
-    "title": "Física 1 - Cápsula 1: MRU [Martin Sepúlveda]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "9MvkfKA1DpQ",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/9MvkfKA1DpQ/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/9MvkfKA1DpQ/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/9MvkfKA1DpQ/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-23T19:52:30+00:00"
   },
   {
     "title": "Fundamentos de Computación y Programación - Cápsula 1: Condicionales [Leandro Aguilera]",
@@ -275,56 +200,6 @@
     "publishedAt": "2026-04-23T03:12:41+00:00"
   },
   {
-    "title": "Física 1 - Ayudantía 1: Repaso Control 1 [Matías Atenas]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "gLIigxfWzFg",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/gLIigxfWzFg/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/gLIigxfWzFg/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/gLIigxfWzFg/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-20T23:25:07+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Ayudantía 4: Inecuaciones [Alejandro Reyes]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "HEmNuU_ffTQ",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/HEmNuU_ffTQ/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/HEmNuU_ffTQ/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/HEmNuU_ffTQ/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-20T16:49:59+00:00"
-  },
-  {
     "title": "Cálculo 3 - Ayudantía 1: Derivadas en calculo multivariable [Benjamín de la Fuente]",
     "description": "",
     "channelId": "UsachPremium",
@@ -373,5 +248,130 @@
       }
     },
     "publishedAt": "2026-04-19T04:40:07+00:00"
+  },
+  {
+    "title": "Análisis Estadístico - Cápsula 0: Probabilidad Condicional, Total y Teorema de Bayes [Aldo Mendoza]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "YP-K9WhhiTo",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/YP-K9WhhiTo/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/YP-K9WhhiTo/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/YP-K9WhhiTo/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-18T00:00:39+00:00"
+  },
+  {
+    "title": "Cálculo 2 - Ayudantía 1: TFC, Propiedades del Logaritmo [Fernanda Yévenes]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "QJCUV8wfSXA",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/QJCUV8wfSXA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/QJCUV8wfSXA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/QJCUV8wfSXA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-17T02:25:36+00:00"
+  },
+  {
+    "title": "Fundamentos de Economía - Ayudantía 2: Clases 4-7 [Benjamín Sepúlveda]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "nSae8qO8zpA",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/nSae8qO8zpA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/nSae8qO8zpA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/nSae8qO8zpA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-17T02:21:38+00:00"
+  },
+  {
+    "title": "Álgebra 2 - Ayudantía 1: Preparación Control 1 [Trinidad Palma]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "hagoHU8Ul3M",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/hagoHU8Ul3M/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/hagoHU8Ul3M/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/hagoHU8Ul3M/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-16T04:09:51+00:00"
+  },
+  {
+    "title": "Fundamentos de Computación y Programación - Ayudantía 0: Introducción a Python [Rodrigo Olea]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "wIGkodEl7Vg",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/wIGkodEl7Vg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/wIGkodEl7Vg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/wIGkodEl7Vg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-04-15T02:22:53+00:00"
   }
 ]
