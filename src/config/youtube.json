@@ -1,5 +1,30 @@
 [
   {
+    "title": "Física 2 - Ayudantía 1: Preparando el Control 2 [Anibal Allende]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "8mI1m5EUR8Y",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/8mI1m5EUR8Y/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/8mI1m5EUR8Y/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/8mI1m5EUR8Y/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-05-03T03:50:03+00:00"
+  },
+  {
     "title": "Cálculo 2 - Ayudantía 4: Repaso Control 1 [Vicente Salas]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2026-04-27T03:00:34+00:00"
-  },
-  {
-    "title": "Electricidad, Magnetismo y Ondas - Ayudantia 2: Potencial [Luis Vásquez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "rSdFhnFiabk",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/rSdFhnFiabk/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/rSdFhnFiabk/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/rSdFhnFiabk/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-27T02:00:42+00:00"
   }
 ]
