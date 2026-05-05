@@ -1,5 +1,55 @@
 [
   {
+    "title": "Fundamentos de Economía - Ayudantía 3: Clases 10-12 [Benjamín Sepúlveda]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "7ex5qm95MMY",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/7ex5qm95MMY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/7ex5qm95MMY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/7ex5qm95MMY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-05-05T02:50:03+00:00"
+  },
+  {
+    "title": "Álgebra 1 - Ayudantía 4: Operatoria y propiedades de conjuntos [Valentina Limachi]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "UqxhTqzJkHM",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/UqxhTqzJkHM/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/UqxhTqzJkHM/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/UqxhTqzJkHM/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-05-05T02:49:40+00:00"
+  },
+  {
     "title": "Física 2 - Ayudantía 1: Preparando el Control 2 [Anibal Allende]",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2026-04-28T01:08:39+00:00"
-  },
-  {
-    "title": "Química - Ayudantía 2: Preparando Control 1 [Martín Durán]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "qwjDdf5-Z0w",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/qwjDdf5-Z0w/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/qwjDdf5-Z0w/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/qwjDdf5-Z0w/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-27T14:18:28+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Ayudantía 6: Preparación Control 1 [Marco Torres]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "Q-nbDVGbGdM",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Q-nbDVGbGdM/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Q-nbDVGbGdM/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Q-nbDVGbGdM/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-27T03:00:34+00:00"
   }
 ]
