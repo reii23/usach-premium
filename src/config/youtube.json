@@ -1,5 +1,55 @@
 [
   {
+    "title": "Fundamentos de Economía - Ayudantía 4: Clases 13-14 [Benjamín Sepúlveda]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "FlnRTUYiaVg",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/FlnRTUYiaVg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/FlnRTUYiaVg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/FlnRTUYiaVg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-05-07T02:35:59+00:00"
+  },
+  {
+    "title": "Cálculo 2 - Ayudantía 5: Sustitucion trigonometrica y Fracciones parciales [Tomás Wood]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "FsgfnGrNMR8",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/FsgfnGrNMR8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/FsgfnGrNMR8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/FsgfnGrNMR8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-05-07T02:35:30+00:00"
+  },
+  {
     "title": "Fundamentos de Economía - Ayudantía 3: Clases 10-12 [Benjamín Sepúlveda]",
     "description": "",
     "channelId": "UsachPremium",
@@ -323,55 +373,5 @@
       }
     },
     "publishedAt": "2026-04-28T22:34:30+00:00"
-  },
-  {
-    "title": "Cálculo 2 - Cápsula 1: Cambio de variable y área entre curvas [Fernanda Yévenes]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "2I7rhxwZ1ug",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/2I7rhxwZ1ug/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/2I7rhxwZ1ug/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/2I7rhxwZ1ug/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-28T22:34:08+00:00"
-  },
-  {
-    "title": "Electricidad, Magnetismo y Ondas - Cápsula 0: Ley de gauss [Luis Vásquez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "VMkTuY-X4pc",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/VMkTuY-X4pc/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/VMkTuY-X4pc/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/VMkTuY-X4pc/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-28T01:08:39+00:00"
   }
 ]
