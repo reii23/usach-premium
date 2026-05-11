@@ -1,5 +1,30 @@
 [
   {
+    "title": "Análisis Estadístico - Ayudantía 2: Modelos \"Probabilidad, discretos y continuos\" [Nicolás Gatica]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "glIEV3H1z4k",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/glIEV3H1z4k/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/glIEV3H1z4k/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/glIEV3H1z4k/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-05-11T05:00:41+00:00"
+  },
+  {
     "title": "Capsula 0: Fundamentos de Economía - Ejercicio Teoría del Consumidor [Benjamín Sepúlveda]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2026-05-02T21:16:06+00:00"
-  },
-  {
-    "title": "Fundamentos de Computación y Programación - Cápsula 2: Banderas [Bastián Vargas]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "B1GgpJ5v6b8",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/B1GgpJ5v6b8/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/B1GgpJ5v6b8/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/B1GgpJ5v6b8/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-05-01T20:02:25+00:00"
   }
 ]
