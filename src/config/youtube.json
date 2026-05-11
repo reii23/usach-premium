@@ -1,5 +1,105 @@
 [
   {
+    "title": "Capsula 0: Fundamentos de Economía - Ejercicio Teoría del Consumidor [Benjamín Sepúlveda]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "9TJHDcrtIFs",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/9TJHDcrtIFs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/9TJHDcrtIFs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/9TJHDcrtIFs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-05-10T23:20:34+00:00"
+  },
+  {
+    "title": "Álgebra 1 - Ayudantía 5: División de polinomios y Teorema del resto [Martín Durán]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "w2Wsg3PDi6Y",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/w2Wsg3PDi6Y/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/w2Wsg3PDi6Y/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/w2Wsg3PDi6Y/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-05-10T21:00:48+00:00"
+  },
+  {
+    "title": "Química - Ayudantía 3: ESTEQUIOMETRIA [Marcos Montenegro]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "--mP8d3NB6I",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/--mP8d3NB6I/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/--mP8d3NB6I/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/--mP8d3NB6I/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-05-10T21:00:00+00:00"
+  },
+  {
+    "title": "Física 1- Ayudantía 3: Movimiento Rectilíneo Uniforme [Carlos Rojas]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "dmaxr6hO4sA",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/dmaxr6hO4sA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/dmaxr6hO4sA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/dmaxr6hO4sA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-05-10T15:11:13+00:00"
+  },
+  {
     "title": "Fundamentos de Economía - Ayudantía 4: Clases 13-14 [Benjamín Sepúlveda]",
     "description": "",
     "channelId": "UsachPremium",
@@ -273,105 +373,5 @@
       }
     },
     "publishedAt": "2026-05-01T20:02:25+00:00"
-  },
-  {
-    "title": "Álgebra 1 - Ayudantía 3: Ejercicios de Lógica [William Lagos]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "ww3DY8L90wY",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/ww3DY8L90wY/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/ww3DY8L90wY/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/ww3DY8L90wY/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-05-01T19:35:36+00:00"
-  },
-  {
-    "title": "Cálculo 2 - Ayudantía 3: Técnicas de Integración Parte 1 [Fernanda Yévenes]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "TsUXqQoynao",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/TsUXqQoynao/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/TsUXqQoynao/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/TsUXqQoynao/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-05-01T03:17:05+00:00"
-  },
-  {
-    "title": "Fundamentos de Computación y Programación - Ayudantía 1: Ciclos while y for in [Pedro Padilla]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "BVq-GelAvDQ",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/BVq-GelAvDQ/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/BVq-GelAvDQ/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/BVq-GelAvDQ/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-30T17:40:05+00:00"
-  },
-  {
-    "title": "Cálculo 1 - Cápsula 2: Inecuaciones Raíz de Raíz [Benjamín Montero]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "G5CXrMA3KKo",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/G5CXrMA3KKo/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/G5CXrMA3KKo/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/G5CXrMA3KKo/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-04-28T22:34:30+00:00"
   }
 ]
