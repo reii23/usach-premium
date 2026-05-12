@@ -1,5 +1,130 @@
 [
   {
+    "title": "Análisis Estadístico - Cápsula 1: PEP 1 [Aldo Mendoza]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "m--QBTy913k",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/m--QBTy913k/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/m--QBTy913k/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/m--QBTy913k/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-05-11T22:00:51+00:00"
+  },
+  {
+    "title": "Algebra 2 - Cápsula 2: Rectas y planos [Benjamin Lagos]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "UtXpodiVbR8",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/UtXpodiVbR8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/UtXpodiVbR8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/UtXpodiVbR8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-05-11T21:33:27+00:00"
+  },
+  {
+    "title": "Fundamentos de Programación - Ayudantía 2: Listas y reforzamiento de Ciclos. [Fabián Cornejo]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "jiUiWYr0PKI",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/jiUiWYr0PKI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/jiUiWYr0PKI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/jiUiWYr0PKI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-05-11T21:21:15+00:00"
+  },
+  {
+    "title": "Cálculo 3 - Cápsula 1: Teorema de la función implícita en multivariable. [Benjamín de la Fuente]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "BANb17FGRBs",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/BANb17FGRBs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/BANb17FGRBs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/BANb17FGRBs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-05-11T21:21:00+00:00"
+  },
+  {
+    "title": "Física 1 - Cápsula 2: Gráficos [Martina copia]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "HxVBJjQY73Q",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/HxVBJjQY73Q/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/HxVBJjQY73Q/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/HxVBJjQY73Q/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-05-11T20:00:10+00:00"
+  },
+  {
     "title": "Análisis Estadístico - Ayudantía 2: Modelos \"Probabilidad, discretos y continuos\" [Nicolás Gatica]",
     "description": "",
     "channelId": "UsachPremium",
@@ -248,130 +373,5 @@
       }
     },
     "publishedAt": "2026-05-03T03:50:03+00:00"
-  },
-  {
-    "title": "Cálculo 2 - Ayudantía 4: Repaso Control 1 [Vicente Salas]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "2hD-tcMC_e8",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/2hD-tcMC_e8/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/2hD-tcMC_e8/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/2hD-tcMC_e8/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-05-03T00:31:56+00:00"
-  },
-  {
-    "title": "Algebra I - Cápsula 0: Ejercicios Lógica [William Lagos]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "sdFk4u2VIBE",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/sdFk4u2VIBE/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/sdFk4u2VIBE/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/sdFk4u2VIBE/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-05-03T00:01:14+00:00"
-  },
-  {
-    "title": "Electricidad, Magnetismo y Ondas - Ayudantía 3: Preparación PEP 1 [Luis Vásquez]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "mrKm_5Kzbgg",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/mrKm_5Kzbgg/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/mrKm_5Kzbgg/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/mrKm_5Kzbgg/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-05-02T23:02:30+00:00"
-  },
-  {
-    "title": "Cálculo 3 - Cápsula 2: Regla de la Cadena [Benjamín de la Fuente]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "dWF37-2mM9A",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/dWF37-2mM9A/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/dWF37-2mM9A/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/dWF37-2mM9A/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-05-02T21:18:22+00:00"
-  },
-  {
-    "title": "Cálculo 3 - Cápsula 1: Plano Tangente y Recta Normal [Benjamín de la Fuente]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "PNUFLzOVdaE",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/PNUFLzOVdaE/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/PNUFLzOVdaE/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/PNUFLzOVdaE/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-05-02T21:16:06+00:00"
   }
 ]
