@@ -1,5 +1,30 @@
 [
   {
+    "title": "Física 1 - Cápsula 3: Gráficos MRU/MRUA + Ejercicios [Byron Caices]",
+    "description": "",
+    "channelId": "UsachPremium",
+    "channelTitle": "Usach Premium",
+    "videoId": "vrrzPKsIjWA",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/vrrzPKsIjWA/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/vrrzPKsIjWA/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/vrrzPKsIjWA/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "publishedAt": "2026-05-14T00:01:01+00:00"
+  },
+  {
     "title": "Análisis Estadístico - Cápsula 1: PEP 1 [Aldo Mendoza]",
     "description": "",
     "channelId": "UsachPremium",
@@ -348,30 +373,5 @@
       }
     },
     "publishedAt": "2026-05-05T02:49:40+00:00"
-  },
-  {
-    "title": "Física 2 - Ayudantía 1: Preparando el Control 2 [Anibal Allende]",
-    "description": "",
-    "channelId": "UsachPremium",
-    "channelTitle": "Usach Premium",
-    "videoId": "8mI1m5EUR8Y",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/8mI1m5EUR8Y/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/8mI1m5EUR8Y/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/8mI1m5EUR8Y/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "publishedAt": "2026-05-03T03:50:03+00:00"
   }
 ]
